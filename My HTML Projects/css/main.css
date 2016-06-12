@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+.centered {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+}
+.lefted {
+	left: 5px;
+}
+.righted {
+	right: 5px;
+}
+.hide {
+	display:none;
+}
+@media screen and (max-width: 1024px) {
+	.fa-chevron-circle-left, .fa-chevron-circle-right {
+		font-size: 40px;
+	}
+}
