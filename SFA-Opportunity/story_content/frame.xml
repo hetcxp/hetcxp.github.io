@@ -14,7 +14,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Create an Opportunity in SFA" />
+              <option name="title_text" value="Getting started with SFA" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1213,77 +1213,50 @@
           <links>
             <slidelink slideid="_player.5jZR2r4cydp.6FZmBR5fJup" displaytext="Cover" expand="false" type="slide" />
             <slidelink slideid="_player.5jZR2r4cydp.6XB8SqWA2ZP" displaytext="Scenario" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.65mCYxqr3TV" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5VQqobtAl1R" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.66HsE3wMAzL" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5wL2nC0bd7B" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5zvpAPl54Td" displaytext="type" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6AYAoNwEnks" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6nmvK5cWFe2" displaytext="Type" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6oZZrlRgxID" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6dcRfIz30YW" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5W7l2YLW3aO" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5fbbPjbjWX2" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6VyDm4EZhcy" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5pUK32ycpaK" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6jYYhwlInp9" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6gJHDIJsebo" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5k2zDFYgNP4" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.60JkJ0W2olM" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.61rr7igCGdJ" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.61UiIKW3HyE" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6qEM2mZ8NWR" displaytext="type" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6PeGYgHgOYa" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6OneluqYGJm" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6Rl73PCAYCw" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5gPQC957hSF" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5nqk5VlSQY9" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6JVoiDZi5Tb" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5ulC5PXYozM" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5WneYRyhaqk" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.67MeOkNq0VU" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5njJJzwJpit" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6KCMddcgzER" displaytext="Type" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6oUMMUrlIjs" displaytext="Type" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6LA2jEnfpZG" displaytext="Type" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5qFnc01jMro" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6OINYbhqrQk" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5qqwmOzrFKG" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6CSvPYTL3O1" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5yuBAgR6aJk" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6kesSzQEZm5" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6nvyyjz7JwV" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6PY5DzYAXja" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6GfoKhBb5gJ" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6UldD6u02Ri" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5Vfjbl0j1av" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6px9y40wtrq" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6AqX3BOnCBs" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5k3pXs9oP3C" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6niXIl8vI9a" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6O3PN97Izc0" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.64XnNBVlScF" displaytext="Type" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6pXGeeExn8m" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5j46N8ZgjuT" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6BqtWKxiSPr" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5hGLKVgiNru" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.64yrxYlfi7h" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6BoXYvOs38u" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6MxrSdMSy6s" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5whIACq1hFk" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5cGJqn0zbCQ" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.66is1J6HQRh" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.68nT631tMP8" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5VTD3pXbpuh" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6iWdkhoohvi" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5mAsF8ZuKDC" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6DLSZuMsDAP" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6DWKC7uZIJp" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.6YZ2d1rnlfz" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5c8vPTtkphB" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.68ZsFFpOsvg" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.5wJgI1HZ1Wd" displaytext="Click" expand="false" type="slide" />
-            <slidelink slideid="_player.5jZR2r4cydp.65tx2g3VyJJ" displaytext="Click" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6AkYE5Whyiz" displaytext="001" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5wSYwo1SDc8" displaytext="001" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6kqfbV854bI" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5uVFry2S5ux" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5kUIgCjcwJg" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6KpK1C5uIN4" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6qF4eQwBC3X" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5s2nIwL8eLD" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5gAXhkjwO5f" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6Tor1qc6XJZ" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6b3OO4EJJvW" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6U6P72MBqY4" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6eeYYLBbZRM" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6a8vaLsblk9" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5l04DWy5gYb" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6KMtOj4b0pm" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5hzjeffV1cT" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5cH29XIYWFr" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6i8y1mbCQqk" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6lba0X6AfMl" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6nLcu4gTcSG" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6Djk2i0GSDA" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.67h7Rj2fAZK" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6TBqbyzIG4a" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6FiLQBq0Fb0" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6CXjbTYbc6Y" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6eIlGGoRzmw" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6TPRMH3fUBe" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5kWr99Tv50f" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5prqSqpqdeI" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6JQTd1c7zZc" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6EreVVpqJuy" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6Kf5am8JFiL" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5ypCDmmeqpP" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6Ndzd3qhmf8" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5y39QKGiO4v" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6dAZjiYiDJE" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6Cft7NaavAr" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5zl4oMTSgb7" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6NDyU7TxSrg" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5k3IJAwA4RO" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.6LFUySZbJC0" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5bSBBjohwLY" displaytext="002" expand="false" type="slide" />
+            <slidelink slideid="_player.5jZR2r4cydp.5Yb3rwBdHKL" displaytext="002" expand="false" type="slide" />
             <slidelink slideid="_player.5jZR2r4cydp.64UJICpIKVc" displaytext="Close" expand="false" type="slide" />
           </links>
         </slidelink>
