@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest identifier="_6Fwc3ulSvE0_course_id" version="1.3" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+<manifest identifier="_6L5YYYm7sgS_course_id" version="1.3" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
                               http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
                               http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
                               http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
@@ -13,7 +13,7 @@
   <organizations default="001_Mapas_Mentales_ORG">
     <organization identifier="001_Mapas_Mentales_ORG" adlseq:objectivesGlobalToSystem="false">
       <title>001 Mapas Mentales</title>
-      <item identifier="MapasMentales_SCO" identifierref="__6Fwc3ulSvE0_course_id_RES" isvisible="true">
+      <item identifier="MapasMentales_SCO" identifierref="__6L5YYYm7sgS_course_id_RES" isvisible="true">
         <title>001 Mapas Mentales</title>
         <imsss:sequencing>
           <imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="true" />
@@ -28,7 +28,7 @@
     </organization>
   </organizations>
   <resources>
-    <resource identifier="__6Fwc3ulSvE0_course_id_RES" type="webcontent" adlcp:scormType="sco" href="index_lms.html">
+    <resource identifier="__6L5YYYm7sgS_course_id_RES" type="webcontent" adlcp:scormType="sco" href="index_lms.html">
       <file href="story_content/thumbnail.jpg" />
       <file href="story_content/video_5sYY0ruievG_0_56_1920x1080.mp4" />
       <file href="mobile/poster_6LGedPZcvQ5_video_5sYY0ruievG_0_56_1920x1080.jpg" />
