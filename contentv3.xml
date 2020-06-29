@@ -69,7 +69,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="1"></bool>
+  <bool value="0"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -168,6 +168,8 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-layout-2-cols exe-layout-2-30-70 exe-clear&quot;&gt;
 &lt;div class=&quot;exe-col exe-col-1&quot;&gt;
@@ -201,7 +203,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="213"></int>
+                  <int value="214"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -215,7 +217,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="0_114_2.0"></unicode>
+                <unicode value="0_114_2.1"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -226,7 +228,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="DSCN0795.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmph7p8xu.eXe\\previews\\allyourbase\\DSCN0795.jpg"></string>
+                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpl8z_wf\\DSCN0795.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="dd5e18b1d40bf78b2845312b2c239aab"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -255,7 +257,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="1"></int>
+           <int value="2"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -358,6 +360,8 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Soy un educador con más de 10 años de experiencia en todas las etapas del proceso formativo tanto en ámbitos organizacionales como de educación superior.&lt;/p&gt;
 &lt;p&gt;He trabajado desde la detección de necesidades de aprendizaje, hasta el diseño, desarrollo, implementación y valoración del impacto de acciones de formación virtuales y presenciales. He entrenado personas tanto en habilidades blandas como técnicas en distintas ciudades del mundo incluyendo:&lt;/p&gt;
@@ -390,7 +394,7 @@
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
-           <none></none>
+           <reference key="4"></reference>
           </dictionary>
          </instance>
         </list>
@@ -514,6 +518,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-fx exe-timeline&quot;&gt;
 &lt;h2&gt;Feb. 2016 a Feb. 2020&lt;/h2&gt;
@@ -569,7 +575,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="10"></reference>
              </dictionary>
             </instance>
            </list>
@@ -695,6 +701,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h3&gt;Magister Scientiarium (MSc) en Gestión de Investigación y Desarrollo Universidad&lt;/h3&gt;
 &lt;p style=&quot;padding-left: 30px;&quot;&gt;Central de Venezuela (2010-2014)&lt;/p&gt;
@@ -725,7 +733,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="13"></reference>
              </dictionary>
             </instance>
            </list>
@@ -824,6 +832,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h3&gt;Locutor número 49.536 (2015)&lt;/h3&gt;
 &lt;p style=&quot;padding-left: 30px;&quot;&gt;Certificado por la Universidad Central de Venezuela&lt;/p&gt;
@@ -855,7 +865,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="13"></reference>
              </dictionary>
             </instance>
            </list>
@@ -954,6 +964,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;strong&gt;Taller&lt;/strong&gt; Retorno de la Inversión (ROI) en la Capacitación de Personal (16:00h)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Taller&lt;/strong&gt; Liderazgo e Inteligencia Emocional con Daniel Gil’Adi (24:00h)&lt;/p&gt;
@@ -989,7 +1001,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="13"></reference>
              </dictionary>
             </instance>
            </list>
@@ -1115,74 +1127,46 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-layout-3-cols exe-clear&quot;&gt;
-&lt;div class=&quot;exe-col exe-col-1&quot;&gt;
-&lt;h3&gt;Gameboard&lt;/h3&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-fx exe-carousel&quot;&gt;
+&lt;h2&gt;Gameboard&lt;/h2&gt;
 &lt;p&gt;Mokup de juego interactivo producido en Storyline 360&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/ktRpXAk&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-col exe-col-2&quot;&gt;
 &lt;h2&gt;Elearning corporativo vs. Elearning académico&lt;/h2&gt;
 &lt;p&gt;Podcast Producido con Audacity&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/se8CjB7&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-col exe-col-3&quot;&gt;
 &lt;h2&gt;Agregar firma a correos en Outlook&lt;/h2&gt;
 &lt;p&gt;Simulador interactivo producido en Storyline 360&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/MtRp8tO&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-layout-3-cols exe-clear&quot;&gt;
-&lt;div class=&quot;exe-col exe-col-1&quot;&gt;
 &lt;h2&gt;Costos de la formación&lt;/h2&gt;
 &lt;p&gt;Curso virtual producido en Articulate Storyline&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/6e8CksJ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-col exe-col-2&quot;&gt;
 &lt;h2&gt;7 pasos para un plan de mercadeo&lt;/h2&gt;
 &lt;p&gt;eBook interactivo&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/he8CkKB&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo&lt;/a&gt; en Storyline - &lt;a href=&quot;https://cutt.ly/qtGmbV0&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo&lt;/a&gt; en Rise&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-col exe-col-3&quot;&gt;
 &lt;h2&gt;Acceso a la bolsa de Trabajo egresados IESA&lt;/h2&gt;
 &lt;p&gt;Video tutorial producido en Camtasia studio&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/0e8ClvR&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-layout-3-cols exe-clear&quot;&gt;
-&lt;div class=&quot;exe-col exe-col-1&quot;&gt;
 &lt;h2&gt;Casos Docentes&lt;/h2&gt;
 &lt;p&gt;Infografía dinámica producida en html5 con Twitter Bootstrap&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/jtp84Bj&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-col exe-col-2&quot;&gt;
 &lt;h2&gt;Infografía dinámica: ACP Aprendizaje Centrado en el participante&lt;/h2&gt;
 &lt;p&gt;Infografía dinámica producida en html5 con Twitter Bootstrap&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/jtp84Bj&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-col exe-col-3&quot;&gt;
 &lt;h2&gt;Manual básico de uso de Moodle para Profesores&lt;/h2&gt;
 &lt;p&gt;Producido en Google slides&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/Qe8Cz1h&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-layout-3-cols exe-clear&quot;&gt;
-&lt;div class=&quot;exe-col exe-col-1&quot;&gt;
 &lt;h2&gt;Manual de Uso de Pl@tUM&lt;/h2&gt;
 &lt;p&gt;Producido en html5 con Twitter Bootstrap&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/ke8Ccvv&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-col exe-col-2&quot;&gt;
 &lt;h2&gt;Uso de Google Sites&lt;/h2&gt;
 &lt;p&gt;Producido en HTML&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/le8Cv9l&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;exe-col exe-col-3&quot;&gt;
 &lt;h2&gt;Diseño de Formularios en Google Docs&lt;/h2&gt;
 &lt;p&gt;Producido en HTML&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/Ye8CbsN&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;/div&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
@@ -1206,7 +1190,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="20"></reference>
              </dictionary>
             </instance>
            </list>
@@ -1332,6 +1316,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Durante mi formación académica y varios años después asistí a una buena cantidad de eventos de actualización y participé con investigaciones publicadas tal como se puede ver a continuación.&lt;/p&gt;
 &lt;div class=&quot;exe-fx exe-tabs&quot;&gt;
@@ -1392,7 +1378,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="23"></reference>
              </dictionary>
             </instance>
            </list>
