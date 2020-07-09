@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="BID-educacion-remota" />
+              <option name="title_text" value="RuedaDeLaFortuna" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -35,7 +35,7 @@
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="elapsed" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -81,9 +81,9 @@
       </optiongroup>
       <optiongroup name="buttonoptions">
         <options>
-          <option name="next" value="icontext" />
-          <option name="previous" value="icontext" />
-          <option name="submit" value="icontext" />
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
         </options>
       </optiongroup>
     </optiongroups>
@@ -1286,21 +1286,13 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6XbwikR53Rl" displaytext="Escena sin título" expand="true" type="slide">
+        <slidelink slideid="_player.5v5JbSQmryU" displaytext="Escena sin título" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6XbwikR53Rl.5yPt7XZTjeS" displaytext="Portada" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.69fD4NGDf49" displaytext="Introducción" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.5v3HkssWZwg" displaytext="El Modelo" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.5ep7lSdNCRD" displaytext="Conclusiones" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.65MYiWcH4P5" displaytext="Cierre" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.5nEyf0ir8k5" displaytext="Comparaciones" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.5pa8HrfKsJ7" displaytext="Reflexión-Intención" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.6fumviCPWwY" displaytext="Reflexión-Comunicación" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.5gUEmdwTbyi" displaytext="La Intención" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.5gCTHheBkUw" displaytext="Lo esencial" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.6nWINYljr4n" displaytext="La comunicación" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.5ZH1e4YcJ8d" displaytext="El entorno" expand="false" type="slide" />
-            <slidelink slideid="_player.6XbwikR53Rl.6NEJLw6PWkH" displaytext="El conocimiento" expand="false" type="slide" />
+            <slidelink slideid="_player.5v5JbSQmryU.6P5zoswvUtR" displaytext="Rueda" expand="false" type="slide" />
+            <slidelink slideid="_player.5v5JbSQmryU.6E61nZBhE5B" displaytext="Q1" expand="false" type="slide" />
+            <slidelink slideid="_player.5v5JbSQmryU.6EVltLkBNe4" displaytext="Q2" expand="false" type="slide" />
+            <slidelink slideid="_player.5v5JbSQmryU.6MbRWqUZp9w" displaytext="Q3" expand="false" type="slide" />
+            <slidelink slideid="_player.5v5JbSQmryU.6aNH9vZRGvV" displaytext="Q4" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
