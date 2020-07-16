@@ -203,7 +203,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="214"></int>
+                  <int value="215"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -217,7 +217,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="0_114_2.1"></unicode>
+                <unicode value="0_114_2.2"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -228,7 +228,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="DSCN0795.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpl8z_wf\\DSCN0795.jpg"></string>
+                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpocjvdr\\DSCN0795.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="dd5e18b1d40bf78b2845312b2c239aab"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -257,7 +257,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="2"></int>
+           <int value="3"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -1131,18 +1131,27 @@
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-fx exe-carousel&quot;&gt;
+&lt;h2&gt;Rueda de la fortona&lt;/h2&gt;
+&lt;p&gt;Muckup de juego desarrollado en Storyline 360&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https;//hetcxp.github.io/rueda-fortuna/story.html&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Quién quiere ser millonario&lt;/h2&gt;
+&lt;p&gt;Juego desarrollado en Storyline 360&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/millonario/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Simulación de cobranzas&lt;/h2&gt;
+&lt;p&gt;Simulador de conversación vía chat creado en Storyline 360&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/cobranza/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Gameboard&lt;/h2&gt;
 &lt;p&gt;Mokup de juego interactivo producido en Storyline 360&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/ktRpXAk&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/GameBoard/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Elearning corporativo vs. Elearning académico&lt;/h2&gt;
 &lt;p&gt;Podcast Producido con Audacity&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/se8CjB7&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Agregar firma a correos en Outlook&lt;/h2&gt;
 &lt;p&gt;Simulador interactivo producido en Storyline 360&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/MtRp8tO&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/FirmaOutlookGuided/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Costos de la formación&lt;/h2&gt;
 &lt;p&gt;Curso virtual producido en Articulate Storyline&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/6e8CksJ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/CostesFormacion/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;7 pasos para un plan de mercadeo&lt;/h2&gt;
 &lt;p&gt;eBook interactivo&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/he8CkKB&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo&lt;/a&gt; en Storyline - &lt;a href=&quot;https://cutt.ly/qtGmbV0&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo&lt;/a&gt; en Rise&lt;/p&gt;
@@ -1448,7 +1457,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="4"></reference>
+  <reference key="20"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
