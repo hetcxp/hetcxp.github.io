@@ -93,4 +93,4 @@ body{/*bodyBGColor*/background-color:#ffffff;}
 .pagination{border-color:#dddddd;}
 #bottomPagination{background-color:#ffffff;}
 /* eXeLearning Style Designer (custom CSS) */
-.pagination .prev .next .toggle-idevice .print-page {display:none};
+.pagination .print-page {display:none;}
