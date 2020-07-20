@@ -191,8 +191,8 @@ background-color:#ffffff;border:1px solid /*headerBorderColor*/
 #dddddd;
 }
 #headerContent{
-/*headerTitleTopMargin*/
-padding-top:70px;
+/*hideProjectTitle*/
+position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);
 }
 #siteFooter{
 border:1px solid /*footerBorderColor*/
