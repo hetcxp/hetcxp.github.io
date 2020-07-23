@@ -84,12 +84,12 @@ li{list-style-position:outside}
 /* eXeLearning Style Designer */
 .iDevice_header{
 /*emTitleBGColor*/
-background-color:#ffd969;border-color:#ffffff;
+background-color:#ffd969;border-color:#ffd969;
 }
 .iDevice_inner{
 /*emBGColor*/
-background-color:#fce5a3;border-color:/*emBorderColor*/
-#ffffff;
+background-color:#ffffff;border-color:/*emBorderColor*/
+#ffd969;
 }
 .iDevice_header .toggle-idevice a{
 /*emIconColor*/
