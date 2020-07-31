@@ -571,7 +571,7 @@
   <string role="key" value="isLoading"></string>
   <bool value="0"></bool>
   <string role="key" value="license"></string>
-  <unicode value="creative commons: attribution - non derived work - non commercial 4.0"></unicode>
+  <unicode value="creative commons: attribution - share alike 4.0"></unicode>
   <string role="key" value="lom"></string>
   <instance class="exe.engine.lom.lomsubs.lomSub">
    <dictionary>
@@ -1737,7 +1737,7 @@
           <string role="key" value="value"></string>
           <none></none>
           <string role="key" value="valueOf_"></string>
-          <string value="creative commons: attribution - non derived work - non commercial"></string>
+          <string value="creative commons: attribution - share alike"></string>
          </dictionary>
         </instance>
        </dictionary>
