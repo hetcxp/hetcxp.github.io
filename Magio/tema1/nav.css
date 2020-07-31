@@ -86,11 +86,9 @@ body{padding:0;text-align:center}
 @media all and (max-width: 400px){.pagination .page-counter{overflow:hidden;clip:rect(0,0,0,0);height:0;}
 }
 body{/*bodyBGColor*/background-color:#ffffff;}
-/*hideNavigation*/#siteNav,#nav-toggler{display:none;}
-#main{padding-left:20px;padding-right:20px}
-@media all and (max-width: 1015px){#main,.no-nav #main{padding-top:20px;}
-}
 .pagination{border-color:#dddddd;}
 #bottomPagination{background-color:#ffffff;}
 /* eXeLearning Style Designer (custom CSS) */
-.pagination .print-page {display:none;}
+#nav-toggler {display:none;}
+.print-page {display:none;}
+.pagination {display:none;}
