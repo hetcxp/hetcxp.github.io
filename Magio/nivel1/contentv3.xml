@@ -19,7 +19,7 @@
   <string role="key" value="_contextPlace"></string>
   <unicode value="classroom"></unicode>
   <string role="key" value="_description"></string>
-  <unicode value="."></unicode>
+  <unicode value="Evaluación de la reacción de los participantes"></unicode>
   <string role="key" value="_docType"></string>
   <unicode value="HTML5"></unicode>
   <string role="key" value="_exportElp"></string>
@@ -69,7 +69,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -1634,9 +1634,9 @@
    <reference key="28"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
-  <unicode value="."></unicode>
+  <unicode value=""></unicode>
   <string role="key" value="_preknowledge"></string>
-  <unicode value="."></unicode>
+  <unicode value=""></unicode>
   <string role="key" value="_templateFile"></string>
   <string value="Base"></string>
   <string role="key" value="backgroundImgTile"></string>
@@ -1655,7 +1655,7 @@
     <string role="key" value="date"></string>
     <unicode value=""></unicode>
     <string role="key" value="description"></string>
-    <unicode value="."></unicode>
+    <unicode value="Evaluación de la reacción de los participantes"></unicode>
     <string role="key" value="format"></string>
     <unicode value=""></unicode>
     <string role="key" value="identifier"></string>
@@ -1779,42 +1779,7 @@
         </instance>
        </list>
        <string role="key" value="description"></string>
-       <list>
-        <instance class="exe.engine.lom.lomsubs.descriptionSub">
-         <dictionary>
-          <string role="key" value="extensiontype_"></string>
-          <none></none>
-          <string role="key" value="string"></string>
-          <list>
-           <instance class="exe.engine.lom.lomsubs.LangStringSub">
-            <dictionary>
-             <string role="key" value="language"></string>
-             <string value="es"></string>
-             <string role="key" value="valueOf_"></string>
-             <unicode value="CONOCIMIENTO PREVIO: ."></unicode>
-            </dictionary>
-           </instance>
-          </list>
-         </dictionary>
-        </instance>
-        <instance class="exe.engine.lom.lomsubs.descriptionSub">
-         <dictionary>
-          <string role="key" value="extensiontype_"></string>
-          <none></none>
-          <string role="key" value="string"></string>
-          <list>
-           <instance class="exe.engine.lom.lomsubs.LangStringSub">
-            <dictionary>
-             <string role="key" value="language"></string>
-             <string value="es"></string>
-             <string role="key" value="valueOf_"></string>
-             <unicode value="OBJETIVOS: ."></unicode>
-            </dictionary>
-           </instance>
-          </list>
-         </dictionary>
-        </instance>
-       </list>
+       <list></list>
        <string role="key" value="difficulty"></string>
        <none></none>
        <string role="key" value="intendedEndUserRole"></string>
@@ -1935,7 +1900,7 @@
             <string role="key" value="language"></string>
             <string value="es"></string>
             <string role="key" value="valueOf_"></string>
-            <string value="."></string>
+            <string value="Evaluaci\xc3\xb3n de la reacci\xc3\xb3n de los participantes"></string>
            </dictionary>
           </instance>
          </list>
@@ -2321,42 +2286,7 @@
         </instance>
        </list>
        <string role="key" value="description"></string>
-       <list>
-        <instance class="exe.engine.lom.lomsubs.descriptionSub">
-         <dictionary>
-          <string role="key" value="extensiontype_"></string>
-          <none></none>
-          <string role="key" value="string"></string>
-          <list>
-           <instance class="exe.engine.lom.lomsubs.LangStringSub">
-            <dictionary>
-             <string role="key" value="language"></string>
-             <string value="es"></string>
-             <string role="key" value="valueOf_"></string>
-             <unicode value="CONOCIMIENTO PREVIO: ."></unicode>
-            </dictionary>
-           </instance>
-          </list>
-         </dictionary>
-        </instance>
-        <instance class="exe.engine.lom.lomsubs.descriptionSub">
-         <dictionary>
-          <string role="key" value="extensiontype_"></string>
-          <none></none>
-          <string role="key" value="string"></string>
-          <list>
-           <instance class="exe.engine.lom.lomsubs.LangStringSub">
-            <dictionary>
-             <string role="key" value="language"></string>
-             <string value="es"></string>
-             <string role="key" value="valueOf_"></string>
-             <unicode value="OBJETIVOS: ."></unicode>
-            </dictionary>
-           </instance>
-          </list>
-         </dictionary>
-        </instance>
-       </list>
+       <list></list>
        <string role="key" value="difficulty"></string>
        <none></none>
        <string role="key" value="intendedEndUserRole"></string>
@@ -2477,7 +2407,7 @@
             <string role="key" value="language"></string>
             <string value="es"></string>
             <string role="key" value="valueOf_"></string>
-            <string value="."></string>
+            <string value="Evaluaci\xc3\xb3n de la reacci\xc3\xb3n de los participantes"></string>
            </dictionary>
           </instance>
          </list>

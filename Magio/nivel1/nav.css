@@ -89,4 +89,6 @@ body{/*bodyBGColor*/background-color:#ffffff;}
 .pagination{border-color:#dddddd;}
 #bottomPagination{background-color:#ffffff;}
 /* eXeLearning Style Designer (custom CSS) */
-.pagination .print-page {display:none;}
+#nav-toggler {display:none;}
+.print-page {display:none;}
+.pagination {display:none;}
