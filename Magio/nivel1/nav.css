@@ -60,7 +60,7 @@ body{padding:0;text-align:center}
 	body #content{background:#FFF}
 	#headerContent{white-space:normal;text-overflow:normal;font-weight:bold}
 }
-/* eXeLearning Style Designer */#content{/*pageWidth*/width:80%;/*wrapperShadowColor*/box-shadow:0 0 15px 0 #dddddd;/*contentBGColor*/background-color:#ffffff;}
+/* eXeLearning Style Designer */#content{/*pageWidth*/width:100%;/*wrapperShadowColor*/box-shadow:0 0 15px 0 #dddddd;/*contentBGColor*/background-color:#ffffff;}
 /*useNavigationIcons*//*defaultNavigationIcons*/.pagination a span{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0;}
 .pagination a,.pagination a:hover,.pagination a:focus{display:block;position:absolute;right:52px;width:32px;height:32px;padding:0;background:url(_style_icons.png) no-repeat 0 0;}
 .pagination .next,.pagination .next:hover,.pagination .next:focus{right:0;background-position:-50px 0;}
