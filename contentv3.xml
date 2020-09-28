@@ -83,7 +83,7 @@
    <unicode value="Unidad"></unicode>
   </list>
   <string role="key" value="_name"></string>
-  <unicode value="curriculo"></unicode>
+  <unicode value="curriculo-hteran"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
   <int value="9"></int>
   <string role="key" value="_nextNodeId"></string>
@@ -203,7 +203,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="215"></int>
+                  <int value="216"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -217,7 +217,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="0_114_2.2"></unicode>
+                <unicode value="0_114_2.3"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -228,7 +228,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="DSCN0795.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpocjvdr\\DSCN0795.jpg"></string>
+                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpicntk9\\DSCN0795.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="dd5e18b1d40bf78b2845312b2c239aab"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -257,7 +257,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="3"></int>
+           <int value="4"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -1133,7 +1133,7 @@
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-fx exe-carousel&quot;&gt;
 &lt;h2&gt;Rueda de la fortona&lt;/h2&gt;
 &lt;p&gt;Muckup de juego desarrollado en Storyline 360&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https;//hetcxp.github.io/rueda-fortuna/story.html&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/rueda-fortuna/story.html&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Quién quiere ser millonario&lt;/h2&gt;
 &lt;p&gt;Juego desarrollado en Storyline 360&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/millonario/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
