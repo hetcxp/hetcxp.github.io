@@ -203,7 +203,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="216"></int>
+                  <int value="218"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -217,7 +217,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="0_114_2.3"></unicode>
+                <unicode value="0_114_2.5"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -228,7 +228,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="DSCN0795.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpicntk9\\DSCN0795.jpg"></string>
+                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpsf2hnj\\DSCN0795.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="dd5e18b1d40bf78b2845312b2c239aab"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -257,7 +257,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="4"></int>
+           <int value="6"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -1148,7 +1148,7 @@
 &lt;p&gt;&lt;a href=&quot;https://cutt.ly/se8CjB7&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Agregar firma a correos en Outlook&lt;/h2&gt;
 &lt;p&gt;Simulador interactivo producido en Storyline 360&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/FirmaOutlookGuided/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/Outlook365Signature/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Costos de la formación&lt;/h2&gt;
 &lt;p&gt;Curso virtual producido en Articulate Storyline&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/CostesFormacion/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
