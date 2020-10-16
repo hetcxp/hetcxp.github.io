@@ -2,8 +2,8 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8">
-  <!-- Created using Storyline 360 - http://www.articulate.com  -->
-  <!-- version: 3.43.22859.0 -->
+  <!-- Created using Storyline 3 - http://www.articulate.com  -->
+  <!-- version: 3.10.22406.0 -->
   <title>H&amp;S</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no, minimal-ui" />
@@ -12,7 +12,21 @@
     html, body { height: 100%; padding: 0; margin: 0 }
     #app { height: 100%; width: 100%; }
   </style>
-  <script src="lms/scormdriver.js" charset="utf-8"></script>
+  <script src="lms/APIConstants.js" charset="utf-8"></script>
+        <script src="lms/Configuration.js" charset="utf-8"></script>
+        <script src="lms/UtilityFunctions.js" charset="utf-8"></script>
+        <script src="lms/SCORM2004Functions.js" charset="utf-8"></script>
+        <script src="lms/SCORMFunctions.js" charset="utf-8"></script>
+        <script src="lms/AICCFunctions.js" charset="utf-8"></script>
+        <script src="lms/NONEFunctions.js" charset="utf-8"></script>
+        <script src="lms/LMSAPI.js" charset="utf-8"></script>
+        <script src="lms/API.js" charset="utf-8"></script>
+
+        <script>
+          strContentLocation = "story.html";
+          window.scormdriver_content = window;
+          function LoadContent(){}
+        </script>
   <script>window.THREE = { };</script>
 </head>
 <body style="background: #FFFFFF" class="cs-HTML theme-classic">
@@ -25,7 +39,7 @@
     window.isMobile.any = window.isMobile.any || window.isMobile.apple.tablet;
   </script>
 
-  <div id="focus-sink" aria-hidden="true" tabIndex="-1"></div>
+  <div id="focus-sink" aria-hidden="true" tabIndex=-1"></div>
 
   <div id="preso"></div>
   <script>
@@ -47,11 +61,11 @@
       themeName: 'classic',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
-      productChannel: 'stable',
+      productChannel: 'perpetual',
       publishSource: 'storyline',
-      aid: 'aid|74fa3ce3-edb8-4004-94f8-ba76094bfe72',
+      aid: '',
       cid: 'd2d52769-cdae-440e-87d6-2967c700137e',
-      playerVersion: '3.43.22859.0',
+      playerVersion: '3.10.22406.0',
       maxIosVideoElements: 5,
 
       
@@ -130,7 +144,9 @@
     }
   </script>
 
-  
+  <iframe name="AICCComm" src="lms/AICCComm.html" style="display:none;"></iframe>
+        <iframe name="rusticisoftware_aicc_results" src="lms/blank.html" style="display:none;"></iframe>
+        <iframe name="NothingFrame" src="lms/blank.html" style="display:none;"></iframe>
 
   <link rel="stylesheet" href="html5/data/css/output.min.css" data-noprefix />
 </body>

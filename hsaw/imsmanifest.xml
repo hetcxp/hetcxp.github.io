@@ -111,10 +111,19 @@
       <file href="story.html" />
       <file href="index_lms.html" />
       <file href="lms/AICCComm.html" />
+      <file href="lms/AICCFunctions.js" />
+      <file href="lms/API.js" />
+      <file href="lms/APIConstants.js" />
       <file href="lms/blank.html" />
       <file href="lms/browsersniff.js" />
+      <file href="lms/Configuration.js" />
       <file href="lms/goodbye.html" />
-      <file href="lms/scormdriver.js" />
+      <file href="lms/lms.js" />
+      <file href="lms/LMSAPI.js" />
+      <file href="lms/NONEFunctions.js" />
+      <file href="lms/SCORM2004Functions.js" />
+      <file href="lms/SCORMFunctions.js" />
+      <file href="lms/UtilityFunctions.js" />
     </resource>
   </resources>
 </manifest>
