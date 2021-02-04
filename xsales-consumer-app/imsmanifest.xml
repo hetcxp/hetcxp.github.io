@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_6ctiXbVlk23_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">consumer app - crear orden</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="consumer_app_-_crear_orden_ORG">
+    <organization identifier="consumer_app_-_crear_orden_ORG">
+      <title>consumer app - crear orden</title>
+      <item identifier="consumer_app_-_crear_orden_SCO" isvisible="true" identifierref="__6ctiXbVlk23_course_id_RES">
+        <title>consumer app - crear orden</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__6ctiXbVlk23_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="mobile/5fzLlpFlqHM_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/5efAqE4hHc2_DX240_DY240_CX180_CY180.png" />
+      <file href="mobile/5aTxEVVGVZd_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/60JaqKtcAGE_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/61VtG0L2JeF_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6H9T1bV13iJ_P_0_1349_720_120_DX2938_DY2938_CX720_CY120.png" />
+      <file href="mobile/6g8JHn15zbp_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6jWDlhwzD9a_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6YvMlFuhapq_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/5f8c9UDm0EY_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6N29kC0ofoa_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/5Xnb5TKNdtz_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/5mZsCSHwXj9_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6qsulmJY2Rt_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6OTp0JcZtUe_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/5tOAqYjBy1Y_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/5d4GJWBt0t2_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6qWAR4D6u95_P_0_809_720_214_DX2938_DY2938_CX720_CY214.png" />
+      <file href="mobile/5mSiPa8UVZJ_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6o1DkvHvjtb_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6qWAR4D6u95_B-60_P_611_809_109_214_DX2938_DY2938_CX109_CY214.png" />
+      <file href="mobile/6S5pOPsyB6X_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6qWAR4D6u95_B-53_P_611_809_109_214_DX2938_DY2938_CX109_CY214.png" />
+      <file href="mobile/5Zoa3LsqxgG_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/5oyVjSM6e83_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/5VEwQl6E23G_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6pmWTg4j2lh_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6UyAMChNgQX_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6Vnv9TW8mfS_DX2938_DY2938_CX720_CY1469.png" />
+      <file href="mobile/6YdSzrhnyDw_P_0_565_720_90_DX2938_DY2938_CX720_CY90.png" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5bI9TtuUVbl.js" />
+      <file href="html5/data/js/5cxkp9GdFuf.js" />
+      <file href="html5/data/js/5kTrj855TnL.js" />
+      <file href="html5/data/js/5pWHZAqF4b3.js" />
+      <file href="html5/data/js/5sywd3rRWj2.js" />
+      <file href="html5/data/js/5V4xx5UKUL2.js" />
+      <file href="html5/data/js/5Ya1jVmhzVV.js" />
+      <file href="html5/data/js/5yiMhrjSNP9.js" />
+      <file href="html5/data/js/6bGatODjRO6.js" />
+      <file href="html5/data/js/6cAqjcWfYwc.js" />
+      <file href="html5/data/js/6DHNcYvTAuZ.js" />
+      <file href="html5/data/js/6GXHrCZ97oQ.js" />
+      <file href="html5/data/js/6iScFvyi3hy.js" />
+      <file href="html5/data/js/6ncbq88HS4s.js" />
+      <file href="html5/data/js/6pj0aWeBqwV.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/bootstrapper.min.js" />
+      <file href="html5/lib/scripts/frame.desktop.min.js" />
+      <file href="html5/lib/scripts/frame.mobile.min.js" />
+      <file href="html5/lib/scripts/slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>
