@@ -69,7 +69,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value=""></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="1"></bool>
+  <bool value="0"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -85,7 +85,7 @@
   <string role="key" value="_name"></string>
   <unicode value="modelos_de_diseo_instruccional"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="31"></int>
+  <int value="32"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="12"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -168,6 +168,8 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Hay tantas teorías, técnicas y modelos de diseño instruccional como diseñadores instruccionales. Este capítulo describe los más populares.&lt;/p&gt;
 &lt;p&gt;A medida que leas, ten en cuenta que los mejores diseñadores instruccionales no se adhieren a ningún enfoque, sino que eligen la técnica que mejor se adapte a las características específicas de la audiencia y el contenido de un curso.&lt;/p&gt;
@@ -274,25 +276,12 @@
                     <string value=""></string>
                     <string role="key" value="anchor_names"></string>
                     <list></list>
+                    <string role="key" value="anchors_linked_from_fields"></string>
+                    <dictionary></dictionary>
                     <string role="key" value="content_w_resourcePaths"></string>
-                    <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;ADDIE es el modelo clásico. Todos los demás modelos de diseño instruccional se basan en el modelo ADDIE. Si bien los críticos del modelo afirman que el diseño es demasiado lineal, sigue siendo el modelo más popular entre los diseñadores instruccionales. ADDIE son las siglas de:&lt;/p&gt;
-&lt;div class=&quot;exe-fx exe-tabs&quot;&gt;
-&lt;h2&gt;Análisis&lt;/h2&gt;
-&lt;p&gt;En la fase de análisis, usted aclara problemas, define metas y objetivos y recopila los datos necesarios. También define las características de la audiencia, el contenido que se incluirá, el entorno de aprendizaje y los requisitos técnicos. Por ejemplo, puede encontrar que la capacitación no es la mejor solución para los problemas que se le ha pedido que resuelva; o que la capacitación basada en computadora será más adecuada para su audiencia que la capacitación basada en la web. Es posible que sus hallazgos no cumplan las expectativas de sus partes interesadas, por lo que es importante capturar los detalles de su investigación y respaldar sus sugerencias de capacitación con datos sólidos.&lt;/p&gt;
-&lt;p&gt;Aprende más sobre esta fase aquí: &lt;a href=&quot;https://hterantac.blogspot.com/2016/01/conociendo-addie-analisis.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://hterantac.blogspot.com/2016/01/conociendo-addie-analisis.html&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Diseño&lt;/h2&gt;
-&lt;p&gt;En la fase de diseño, escribe los objetivos y elabora la estructura y secuencia del curso. También crea un plan de gestión de proyectos con fechas límite, hitos, detalles de implementación y posiblemente un presupuesto. Cuando haya terminado, tendrá un plano para su curso y sus métodos de entrega.&lt;/p&gt;
-&lt;p&gt;Aprende más sobre esta fase aquí: &lt;a href=&quot;https://hterantac.blogspot.com/2016/01/conociendo-addie-diseno.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://hterantac.blogspot.com/2016/01/conociendo-addie-diseno.html&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Desarrollo&lt;/h2&gt;
-&lt;p&gt;En la fase de desarrollo, le da vida a su diseño mediante el uso de texto, guiones gráficos, gráficos, audio y / o video, y reuniendo todos estos elementos en un curso atractivo.&lt;/p&gt;
-&lt;p&gt;Aprende más sobre esta fase aquí: &lt;a href=&quot;https://hterantac.blogspot.com/2016/01/conociendo-addie-desarrollo.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://hterantac.blogspot.com/2016/01/conociendo-addie-desarrollo.html&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Implementación&lt;/h2&gt;
-&lt;p&gt;En la fase de implementación, su curso se entrega a su audiencia.&lt;/p&gt;
-&lt;p&gt;Aprende más sobre esta fase aquí: &lt;a href=&quot;https://hterantac.blogspot.com/2016/01/conociendo-addie-implementacion.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://hterantac.blogspot.com/2016/01/conociendo-addie-implementacion.html&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Evaluación&lt;/h2&gt;
-&lt;p&gt;En la fase de evaluación, la eficacia de su curso se evalúa midiendo el nivel de aprendizaje y retención de su audiencia, así como también qué tan bien se han cumplido los objetivos de su proyecto. Aunque esta es la etapa final del modelo ADDIE, en realidad debería realizar la evaluación durante todo el proceso de diseño.&lt;/p&gt;
-&lt;p&gt;Aprende más sobre esta fase aquí: &lt;a href=&quot;https://hterantac.blogspot.com/2016/01/conociendo-addie-evaluacion.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://hterantac.blogspot.com/2016/01/conociendo-addie-evaluacion.html&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;"></unicode>
+                    <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;ADDIE es el modelo clásico. Todos los demás modelos de diseño instruccional se basan en el modelo ADDIE. Si bien los críticos del modelo afirman que el diseño es demasiado lineal, sigue siendo el modelo más popular entre los diseñadores instruccionales. ADDIE son las siglas de cada una de sus fases, es decir: &lt;strong&gt;A&lt;/strong&gt;nálisis, &lt;strong&gt;D&lt;/strong&gt;iseño, &lt;strong&gt;D&lt;/strong&gt;esarrollo, &lt;strong&gt;I&lt;/strong&gt;mplementación, &lt;strong&gt;E&lt;/strong&gt;valuación.&lt;/p&gt;
+&lt;p&gt;Vamos a estudiar este modelo no desde lo meramente instruccional pero desde una visión mas moderna, la visión de la innovación que ofrece el modelo de &lt;strong&gt;D&lt;/strong&gt;esign &lt;strong&gt;T&lt;/strong&gt;hinking y cómo se pueden vincular estos dos modelos.&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;960&quot; height=&quot;569&quot; src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQfX_cCm-FCBE64byF8412PXGOXjnk_i0oDkkUltqtln_mJB1GS7zC8wc_ij8S6SQ/embed?start=false&amp;amp;loop=false&amp;amp;delayms=60000&quot; allowfullscreen=&quot;allowfullscreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; webkitallowfullscreen=&quot;webkitallowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                     <int value="4"></int>
                     <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -315,7 +304,7 @@
                     <string role="key" value="nextImageId"></string>
                     <int value="0"></int>
                     <string role="key" value="parentNode"></string>
-                    <none></none>
+                    <reference key="5"></reference>
                    </dictionary>
                   </instance>
                  </list>
@@ -444,6 +433,8 @@
                     <string value=""></string>
                     <string role="key" value="anchor_names"></string>
                     <list></list>
+                    <string role="key" value="anchors_linked_from_fields"></string>
+                    <dictionary></dictionary>
                     <string role="key" value="content_w_resourcePaths"></string>
                     <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Hoy en día, los diseñadores instruccionales buscan formas de crear sus cursos de forma rápida y eficaz. Al mismo tiempo, quieren que el aprendizaje sea atractivo e interactivo. El modelo de diseño instruccional rápido de aprendizaje acelerado (RID), creado por David Meier, es ideal para quienes trabajan con plazos ajustados, un presupuesto limitado y contenido en constante cambio.&lt;/p&gt;
 &lt;p&gt;Este modelo tiene que ver con estrategias y atajos de diseño de aprendizaje acelerado. Meier cree que los modelos ISD tradicionales consumen demasiado tiempo y controlan demasiado. También cree que estos modelos se basan en presentaciones más que en actividades. Según RID, las personas aprenden más de la aplicación con comentarios que de presentaciones. Reemplaza los cursos de medios con cursos basados en actividades. Aunque el modelo RID hace que los cursos sean más interactivos y atractivos, no incorpora fases de análisis y evaluación, que son cruciales en el desarrollo de un curso de eLearning.&lt;/p&gt;
@@ -480,7 +471,7 @@
                     <string role="key" value="nextImageId"></string>
                     <int value="0"></int>
                     <string role="key" value="parentNode"></string>
-                    <none></none>
+                    <reference key="10"></reference>
                    </dictionary>
                   </instance>
                  </list>
@@ -606,6 +597,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;La eficiencia y la rentabilidad son dos de los aspectos más importantes del mundo empresarial actual. Teniendo en cuenta estos parámetros, es seguro asumir que las corporaciones en estos días están participando activamente y empleando técnicas en todos los aspectos de su empresa para mejorar la productividad.&lt;/p&gt;
 &lt;p&gt;Es bastante fácil saber que la fuerza laboral de una empresa contribuye en última instancia al desarrollo de una empresa y, por lo tanto, el desarrollo de habilidades es importante a mayor escala. El aprendizaje rápido es uno de esos métodos de aprendizaje electrónico o desarrollo de habilidades que fomenta técnicas de aprendizaje rentables y, al mismo tiempo, garantiza que se pierda menos tiempo durante todo el proceso.&lt;/p&gt;&lt;/div&gt;"></unicode>
@@ -631,7 +624,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="13"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -730,6 +723,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;El aprendizaje rápido beneficia tanto a los diseñadores como a los estudiantes. El aprendizaje rápido, en su verdadera naturaleza, no es muy diferente de otras técnicas de aprendizaje electrónico. Pero es una forma de aprendizaje que ha evolucionado a partir de un aumento en la demanda de técnicas de aprendizaje sólidas. Esto funciona mejor para las tres partes interesadas involucradas en eLearning: empresa, diseñadores de software y estudiantes.&lt;/p&gt;
 &lt;p&gt;El aprendizaje rápido, por lo tanto, proporciona un nuevo canal de soluciones de aprendizaje electrónico que no solo reducen las horas de trabajo, sino que también optimizan el desempeño de la empresa y de los estudiantes en general.&lt;/p&gt;&lt;/div&gt;"></unicode>
@@ -755,7 +750,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="13"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -854,6 +849,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Las soluciones de aprendizaje electrónico rápido tienen como objetivo capitalizar el ahorro de tiempo y dinero para los alumnos. A largo plazo, ayuda a reducir la redundancia en el sistema de aprendizaje al simplificarlo y permitir un margen para la innovación y la creatividad que conduce a contenido interesante y atractivo para el aprendizaje.&lt;/p&gt;
 &lt;p&gt;El proceso de desarrollo rápido del eLearning es comparativamente mucho más fácil de formular ya que involucra información cualitativa al reducir el volumen de información.&lt;/p&gt;&lt;/div&gt;"></unicode>
@@ -879,7 +876,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="13"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -978,6 +975,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Como se mencionó anteriormente, el aprendizaje rápido beneficia tanto a los diseñadores como a los estudiantes corporativos, ya que los involucra a ambos (un rol de dar y recibir, respectivamente).&lt;/p&gt;
 &lt;p&gt;Algunos de los beneficios del aprendizaje electrónico rápido son:&lt;/p&gt;
@@ -1025,7 +1024,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="13"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -1124,6 +1123,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Traducción libre del artículo: Rapid Learning: A Wonder Tool For Corporate Learners publicado por Satyabrata Das el 1 de enero de 2020 en &lt;a href=&quot;https://elearningindustry.com/rapid-learning-tool-corporate-learners&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://elearningindustry.com/rapid-learning-tool-corporate-learners&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -1148,7 +1149,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="13"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -1274,6 +1275,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Cuando sienta la necesidad de velocidad, solo hay una cosa a la que recurrir: ¡su herramienta de aprendizaje electrónico rápida favorita, por supuesto! Las herramientas de aprendizaje electrónico rápido pueden ser un salvavidas absoluto cuando tiene poco tiempo, pero aún desea producir una presentación de calidad. Consulte esta descripción general del aprendizaje electrónico rápido, además de algunas prácticas recomendadas que debe tener en cuenta a medida que desarrolla el aprendizaje electrónico rápido.&lt;/p&gt;&lt;/div&gt;"></unicode>
                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -1298,7 +1301,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="24"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -1397,6 +1400,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;ul&gt;
 &lt;li&gt;Contenido que cambia rápidamente&lt;/li&gt;
@@ -1427,7 +1432,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="24"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -1526,6 +1531,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-fx exe-paginated&quot;&gt;
 &lt;h2&gt;1. Encuentre su experto en la materia&lt;/h2&gt;
@@ -1561,7 +1568,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="24"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -1660,6 +1667,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Traducción libre del artículo: 5 Rapid e-Learning Best Practices publicado por Stephanie Ivec el 19 de diciembre de 2013 en &lt;a href=&quot;https://elearningindustry.com/rapid-learning-tool-corporate-learners&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://elearningindustry.com/5-rapid-e-learning-best-practices&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -1684,7 +1693,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="24"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -1810,6 +1819,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Las 4 R de las conversiones de eLearning de Flash a HTML5 son bien conocidas. ¿Qué tal las 4 R para un rápido desarrollo del eLearning? ¿Por qué no? Explore lo que le espera con las 4 estrategias &quot;R&quot; para un rápido desarrollo del aprendizaje electrónico.&lt;/p&gt;
 &lt;p&gt;Nuestras cuatro R de la conversión de Flash eLearning a HTML5 (registrar, republicar, reconstruir y rediseñar) han sido un gran éxito desde sus inicios. De hecho, estas estrategias se han utilizado con éxito para convertir miles de cursos Flash heredados a HTML5. Con o sin archivos fuente, las 4 R lo respaldan y pueden ocuparse de todas sus necesidades de conversión.&lt;/p&gt;
@@ -1840,7 +1851,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="33"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -1939,6 +1950,8 @@
                        <string value=""></string>
                        <string role="key" value="anchor_names"></string>
                        <list></list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary></dictionary>
                        <string role="key" value="content_w_resourcePaths"></string>
                        <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;traducción libre del artículo Rapid eLearning Development And The 4 Rs publicado por Dr. RK Prasad el 14 de diciembre de 2020 en &lt;a href=&quot;https://elearningindustry.com/rapid-elearning-development-and-4-rs&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://elearningindustry.com/rapid-elearning-development-and-4-rs&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -1963,7 +1976,7 @@
                        <string role="key" value="nextImageId"></string>
                        <int value="0"></int>
                        <string role="key" value="parentNode"></string>
-                       <none></none>
+                       <reference key="33"></reference>
                       </dictionary>
                      </instance>
                     </list>
@@ -2087,6 +2100,8 @@
                           <string value=""></string>
                           <string role="key" value="anchor_names"></string>
                           <list></list>
+                          <string role="key" value="anchors_linked_from_fields"></string>
+                          <dictionary></dictionary>
                           <string role="key" value="content_w_resourcePaths"></string>
                           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;¿Cuál cree que es uno de los mayores obstáculos para el desarrollo &quot;rápido&quot; del aprendizaje electrónico? ¿No disponibilidad del experto en la materia (SME)?&lt;/p&gt;
 &lt;p&gt;¡Sí, te escuchamos! Esto se debe a que sus PYME son profesionales altamente competentes que realizan malabarismos con muchas tareas cruciales, siempre contrarreloj. Su trabajo principal no es la capacitación, y revisar guiones gráficos o cursos es la menor de sus prioridades. Sin embargo, son los expertos en su propio campo, lo que hace que su contribución sea fundamental para el desarrollo del aprendizaje electrónico de alto impacto. Pero, ¿cómo aprovechar al máximo su tiempo limitado?&lt;/p&gt;
@@ -2126,7 +2141,7 @@
                           <string role="key" value="nextImageId"></string>
                           <int value="0"></int>
                           <string role="key" value="parentNode"></string>
-                          <none></none>
+                          <reference key="38"></reference>
                          </dictionary>
                         </instance>
                        </list>
@@ -2252,6 +2267,8 @@
                           <string value=""></string>
                           <string role="key" value="anchor_names"></string>
                           <list></list>
+                          <string role="key" value="anchors_linked_from_fields"></string>
+                          <dictionary></dictionary>
                           <string role="key" value="content_w_resourcePaths"></string>
                           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Si su organización ha estado utilizando eLearning durante algún tiempo, tiene un desafío adicional (además de la necesidad de una nueva capacitación): una biblioteca llena de cursos heredados que no son compatibles con dispositivos móviles. Es posible que se hayan desarrollado utilizando versiones obsoletas de software (Flash) o versiones anteriores de herramientas de creación. También es posible que desee renovar o actualizar los cursos, por contenido e instrucción.&lt;/p&gt;
 &lt;p&gt;Si sus cursos existentes tienen mucho texto, pocas interactividades o visualmente poco atractivos, es hora de volver a publicarlos. ¿Quizás una infografía interactiva podría reemplazar el contenido voluminoso para ayudar a los alumnos a comprender y retener mejor la información? Utilizando la estrategia de republicar de desarrollo rápido de eLearning, podemos renovar sus cursos heredados (desarrollados con software obsoleto o versiones anteriores de herramientas de autoría) utilizando las herramientas de autoría de eLearning rápidas modernas.&lt;/p&gt;
@@ -2296,7 +2313,7 @@
                           <string role="key" value="nextImageId"></string>
                           <int value="0"></int>
                           <string role="key" value="parentNode"></string>
-                          <none></none>
+                          <reference key="41"></reference>
                          </dictionary>
                         </instance>
                        </list>
@@ -2422,6 +2439,8 @@
                           <string value=""></string>
                           <string role="key" value="anchor_names"></string>
                           <list></list>
+                          <string role="key" value="anchors_linked_from_fields"></string>
+                          <dictionary></dictionary>
                           <string role="key" value="content_w_resourcePaths"></string>
                           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;¿Recuerdas esas espantosas sesiones de entrenamiento que duraban horas sin descanso? ¿O los monótonos cursos convencionales de eLearning en los que solía perder interés a la mitad? Bueno, esos cursos de eLearning dolorosamente largos deben relegarse a la historia porque con la disminución de la capacidad de atención y las múltiples responsabilidades con las que hacer malabares, la fuerza laboral moderna necesita un aprendizaje que sea entretenido: corto, relevante, inmersivo y accesible.&lt;/p&gt;
 &lt;p&gt;Con la estrategia de reconstrucción de rápido desarrollo de eLearning, desglosamos los extensos cursos o currículos de eLearning en pildoras de microaprendizaje, fragmentos de información fácilmente consumibles. El proceso implica deconstruir el curso / plan de estudios de forma lógica en bloques de información más pequeños que se pueden personalizar de acuerdo con las necesidades de los alumnos.&lt;/p&gt;
@@ -2460,7 +2479,7 @@
                           <string role="key" value="nextImageId"></string>
                           <int value="0"></int>
                           <string role="key" value="parentNode"></string>
-                          <none></none>
+                          <reference key="44"></reference>
                          </dictionary>
                         </instance>
                        </list>
@@ -2586,6 +2605,8 @@
                           <string value=""></string>
                           <string role="key" value="anchor_names"></string>
                           <list></list>
+                          <string role="key" value="anchors_linked_from_fields"></string>
+                          <dictionary></dictionary>
                           <string role="key" value="content_w_resourcePaths"></string>
                           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Si su organización ha estado utilizando la capacitación dirigida por instructores (ILT) en el aula, será consciente de sus muchos desafíos: alto costo logístico (viajes, capacitadores, lugar, etc.), no disponibilidad de capacitadores, la difícil tarea de reunir estudiantes e instructores en un lugar a la hora programada, etc. Y si usted es una organización de rápido crecimiento con una fuerza laboral cada vez más dispersa, los costos solo aumentarán cada año.&lt;/p&gt;
 &lt;p&gt;Además, con las incertidumbres en torno a COVID-19, la capacitación en el aula no parece ser una opción a prueba de futuro. No hace falta decir que la migración de la formación presencial a la formación online le garantizaría llegar a una audiencia más amplia con una menor inversión en infraestructura de formación. Pero, ¿cómo se migra?&lt;/p&gt;
@@ -2673,7 +2694,7 @@
                           <string role="key" value="nextImageId"></string>
                           <int value="0"></int>
                           <string role="key" value="parentNode"></string>
-                          <none></none>
+                          <reference key="47"></reference>
                          </dictionary>
                         </instance>
                        </list>
@@ -2806,6 +2827,8 @@
                     <string value=""></string>
                     <string role="key" value="anchor_names"></string>
                     <list></list>
+                    <string role="key" value="anchors_linked_from_fields"></string>
+                    <dictionary></dictionary>
                     <string role="key" value="content_w_resourcePaths"></string>
                     <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;El modelo de aproximación sucesiva (SAM) es un modelo de diseño instruccional ágil creado por Michael Allen, un pionero y líder reconocido en el diseño de herramientas y aplicaciones de aprendizaje multimedia interactivas.&lt;/p&gt;
 &lt;p&gt;El modelo enfatiza la colaboración, la eficiencia y la repetición. Según Allen, no existe un proyecto perfecto; por lo tanto, para crear el mejor resultado posible, los diseñadores instruccionales deben concentrarse en producir productos utilizables lo más rápido posible.&lt;/p&gt;
@@ -2833,7 +2856,7 @@
                     <string role="key" value="nextImageId"></string>
                     <int value="0"></int>
                     <string role="key" value="parentNode"></string>
-                    <none></none>
+                    <reference key="50"></reference>
                    </dictionary>
                   </instance>
                  </list>
@@ -2932,6 +2955,8 @@
                     <string value=""></string>
                     <string role="key" value="anchor_names"></string>
                     <list></list>
+                    <string role="key" value="anchors_linked_from_fields"></string>
+                    <dictionary></dictionary>
                     <string role="key" value="content_w_resourcePaths"></string>
                     <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Es para proyectos pequeños y simples que no requieren un desarrollo extenso o habilidades especializadas como programación o diseño gráfico. El proceso pasa por tres iteraciones, modificando y probando prototipos en el camino. Debido a que las ideas se evalúan con frecuencia, los diseñadores instruccionales pueden crear cursos utilizables con relativa rapidez y eficacia, evitando errores costosos. Este modelo se compone de los siguientes tres pasos:&lt;/p&gt;
 &lt;ul&gt;
@@ -2961,7 +2986,7 @@
                     <string role="key" value="nextImageId"></string>
                     <int value="0"></int>
                     <string role="key" value="parentNode"></string>
-                    <none></none>
+                    <reference key="50"></reference>
                    </dictionary>
                   </instance>
                  </list>
@@ -3060,6 +3085,8 @@
                     <string value=""></string>
                     <string role="key" value="anchor_names"></string>
                     <list></list>
+                    <string role="key" value="anchors_linked_from_fields"></string>
+                    <dictionary></dictionary>
                     <string role="key" value="content_w_resourcePaths"></string>
                     <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Es para proyectos grandes que requieren habilidades de desarrollo avanzadas. Este modelo se divide en las siguientes tres fases:&lt;/p&gt;
 &lt;div class=&quot;exe-fx exe-paginated&quot;&gt;
@@ -3102,7 +3129,7 @@
                     <string role="key" value="nextImageId"></string>
                     <int value="0"></int>
                     <string role="key" value="parentNode"></string>
-                    <none></none>
+                    <reference key="50"></reference>
                    </dictionary>
                   </instance>
                  </list>
@@ -3157,7 +3184,7 @@
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
-           <none></none>
+           <reference key="7"></reference>
           </dictionary>
          </instance>
         </list>
@@ -3246,7 +3273,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="7"></reference>
+  <reference key="5"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
