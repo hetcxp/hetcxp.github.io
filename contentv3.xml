@@ -178,7 +178,7 @@
 &lt;div class=&quot;exe-col exe-col-2&quot;&gt;
 &lt;p&gt;&lt;span style=&quot;font-family: georgia, palatino, serif;&quot;&gt;&lt;strong&gt;Dirección de habitación:&lt;/strong&gt; Ciudad Autónoma de Buenos Aires&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-family: georgia, palatino, serif;&quot;&gt;&lt;strong&gt;Correo:&lt;/strong&gt; &lt;a href=&quot;mailto:hetcxp@gmail.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;hetcxp@gmail.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: georgia, palatino, serif;&quot;&gt;&lt;strong&gt;Teléfono / WhatsApp:&lt;/strong&gt; &lt;a href=&quot;tel:+5491121900334&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;+54 9 11 2190 0334&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: georgia, palatino, serif;&quot;&gt;&lt;strong&gt;Teléfono / WhatsApp:&lt;/strong&gt; &lt;a href=&quot;https://wa.me/5491121900334&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;+54 9 11 2190 0334&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-family: georgia, palatino, serif;&quot;&gt;&lt;strong&gt;Twitter:&lt;/strong&gt; &lt;a href=&quot;https://twitter.com/hetcxp&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@hetcxp&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-family: georgia, palatino, serif;&quot;&gt;&lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a href=&quot;https://ve.linkedin.com/in/heteran&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;heteran&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-family: georgia, palatino, serif;&quot;&gt;&lt;img src=&quot;resources/CertiProf-Badge-LLL.png&quot; alt=&quot;Life Long Learning Continuous Learner&quot; width=&quot;100&quot; height=&quot;100&quot; /&gt;&lt;img src=&quot;resources/Remote-Worker-and-Virtual-Collaborator-Professional-Certificate-RWVCPC.png&quot; alt=&quot;Remote Work and Virtual collaboration Professional Certificate&quot; width=&quot;100&quot; height=&quot;100&quot; /&gt;&lt;img src=&quot;resources/certiprof-sfpc-2021.jpg&quot; alt=&quot;Scrum Foundation Professional Certificate&quot; width=&quot;100&quot; height=&quot;100&quot; /&gt;&lt;img src=&quot;resources/2021-Awards-Judge-Logo.png&quot; alt=&quot;HCM Excellence Awards 2021 Judge&quot; width=&quot;137&quot; height=&quot;100&quot; /&gt;&lt;img src=&quot;resources/2020-Awards-Judge-Logo.png&quot; alt=&quot;HCM Excellence Awards 2020 Judge&quot; width=&quot;137&quot; height=&quot;100&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
@@ -203,7 +203,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="224"></int>
+                  <int value="230"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -217,7 +217,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="0_114_2.11"></unicode>
+                <unicode value="0_114_2.17"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -228,7 +228,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="2020-Awards-Judge-Logo.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpm9rs5c\\2020-Awards-Judge-Logo.png"></string>
+                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpxt39h2\\2020-Awards-Judge-Logo.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="5b052850c0505752f2a98707ace6b443"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -255,7 +255,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="225"></int>
+                  <int value="231"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -269,7 +269,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="0_114_2.12"></unicode>
+                <unicode value="0_114_2.18"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="6">
                  <dictionary>
@@ -280,7 +280,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="2021-Awards-Judge-Logo.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpm9rs5c\\2021-Awards-Judge-Logo.png"></string>
+                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpxt39h2\\2021-Awards-Judge-Logo.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="d26494b29b1ec1243f121c02620bbe2f"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -307,7 +307,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="226"></int>
+                  <int value="232"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -321,7 +321,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="0_114_2.13"></unicode>
+                <unicode value="0_114_2.19"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="7">
                  <dictionary>
@@ -330,113 +330,9 @@
                   <string role="key" value="_package"></string>
                   <reference key="2"></reference>
                   <string role="key" value="_storageName"></string>
-                  <string value="certiprof-sfpc-2021.jpg"></string>
-                  <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpm9rs5c\\certiprof-sfpc-2021.jpg"></string>
-                  <string role="key" value="checksum"></string>
-                  <string value="365cc730702035ffa47e19458ac5dcbd"></string>
-                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-                  <int value="2"></int>
-                  <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-                  <int value="2"></int>
-                  <string role="key" value="warningMsg"></string>
-                  <string value=""></string>
-                 </dictionary>
-                </instance>
-                <string role="key" value="_parent"></string>
-                <reference key="3"></reference>
-                <string role="key" value="_thumbnailResource"></string>
-                <none></none>
-                <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="makeThumbnail"></string>
-                <bool value="0"></bool>
-               </dictionary>
-              </instance>
-              <instance class="exe.engine.galleryidevice.GalleryImage">
-               <dictionary>
-                <string role="key" value="_caption"></string>
-                <instance class="exe.engine.field.TextField">
-                 <dictionary>
-                  <string role="key" value="_id"></string>
-                  <int value="227"></int>
-                  <string role="key" value="_idevice"></string>
-                  <none></none>
-                  <string role="key" value="_instruc"></string>
-                  <string value=""></string>
-                  <string role="key" value="_name"></string>
-                  <string value=""></string>
-                  <string role="key" value="content"></string>
-                  <string value=""></string>
-                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                  <int value="4"></int>
-                 </dictionary>
-                </instance>
-                <string role="key" value="_id"></string>
-                <unicode value="0_114_2.14"></unicode>
-                <string role="key" value="_imageResource"></string>
-                <instance class="exe.engine.resource.Resource" reference="8">
-                 <dictionary>
-                  <string role="key" value="_idevice"></string>
-                  <reference key="1"></reference>
-                  <string role="key" value="_package"></string>
-                  <reference key="2"></reference>
-                  <string role="key" value="_storageName"></string>
-                  <string value="DSCN0795.jpg"></string>
-                  <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpm9rs5c\\DSCN0795.jpg"></string>
-                  <string role="key" value="checksum"></string>
-                  <string value="dd5e18b1d40bf78b2845312b2c239aab"></string>
-                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-                  <int value="2"></int>
-                  <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-                  <int value="2"></int>
-                  <string role="key" value="warningMsg"></string>
-                  <string value=""></string>
-                 </dictionary>
-                </instance>
-                <string role="key" value="_parent"></string>
-                <reference key="3"></reference>
-                <string role="key" value="_thumbnailResource"></string>
-                <none></none>
-                <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="makeThumbnail"></string>
-                <bool value="0"></bool>
-               </dictionary>
-              </instance>
-              <instance class="exe.engine.galleryidevice.GalleryImage">
-               <dictionary>
-                <string role="key" value="_caption"></string>
-                <instance class="exe.engine.field.TextField">
-                 <dictionary>
-                  <string role="key" value="_id"></string>
-                  <int value="228"></int>
-                  <string role="key" value="_idevice"></string>
-                  <none></none>
-                  <string role="key" value="_instruc"></string>
-                  <string value=""></string>
-                  <string role="key" value="_name"></string>
-                  <string value=""></string>
-                  <string role="key" value="content"></string>
-                  <string value=""></string>
-                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                  <int value="4"></int>
-                 </dictionary>
-                </instance>
-                <string role="key" value="_id"></string>
-                <unicode value="0_114_2.15"></unicode>
-                <string role="key" value="_imageResource"></string>
-                <instance class="exe.engine.resource.Resource" reference="9">
-                 <dictionary>
-                  <string role="key" value="_idevice"></string>
-                  <reference key="1"></reference>
-                  <string role="key" value="_package"></string>
-                  <reference key="2"></reference>
-                  <string role="key" value="_storageName"></string>
                   <string value="CertiProf-Badge-LLL.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpkjsbfb.eXe\\previews\\allyourbase\\CertiProf-Badge-LLL.png"></string>
+                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpxt39h2\\CertiProf-Badge-LLL.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="08f172f2919372b1a36f192c1e17dcb7"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -463,7 +359,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="229"></int>
+                  <int value="233"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -477,7 +373,111 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="0_114_2.16"></unicode>
+                <unicode value="0_114_2.20"></unicode>
+                <string role="key" value="_imageResource"></string>
+                <instance class="exe.engine.resource.Resource" reference="8">
+                 <dictionary>
+                  <string role="key" value="_idevice"></string>
+                  <reference key="1"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="2"></reference>
+                  <string role="key" value="_storageName"></string>
+                  <string value="certiprof-sfpc-2021.jpg"></string>
+                  <string role="key" value="_userName"></string>
+                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpxt39h2\\certiprof-sfpc-2021.jpg"></string>
+                  <string role="key" value="checksum"></string>
+                  <string value="365cc730702035ffa47e19458ac5dcbd"></string>
+                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="warningMsg"></string>
+                  <string value=""></string>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_parent"></string>
+                <reference key="3"></reference>
+                <string role="key" value="_thumbnailResource"></string>
+                <none></none>
+                <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="makeThumbnail"></string>
+                <bool value="0"></bool>
+               </dictionary>
+              </instance>
+              <instance class="exe.engine.galleryidevice.GalleryImage">
+               <dictionary>
+                <string role="key" value="_caption"></string>
+                <instance class="exe.engine.field.TextField">
+                 <dictionary>
+                  <string role="key" value="_id"></string>
+                  <int value="234"></int>
+                  <string role="key" value="_idevice"></string>
+                  <none></none>
+                  <string role="key" value="_instruc"></string>
+                  <string value=""></string>
+                  <string role="key" value="_name"></string>
+                  <string value=""></string>
+                  <string role="key" value="content"></string>
+                  <string value=""></string>
+                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                  <int value="4"></int>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_id"></string>
+                <unicode value="0_114_2.21"></unicode>
+                <string role="key" value="_imageResource"></string>
+                <instance class="exe.engine.resource.Resource" reference="9">
+                 <dictionary>
+                  <string role="key" value="_idevice"></string>
+                  <reference key="1"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="2"></reference>
+                  <string role="key" value="_storageName"></string>
+                  <string value="DSCN0795.jpg"></string>
+                  <string role="key" value="_userName"></string>
+                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpxt39h2\\DSCN0795.jpg"></string>
+                  <string role="key" value="checksum"></string>
+                  <string value="dd5e18b1d40bf78b2845312b2c239aab"></string>
+                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="warningMsg"></string>
+                  <string value=""></string>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_parent"></string>
+                <reference key="3"></reference>
+                <string role="key" value="_thumbnailResource"></string>
+                <none></none>
+                <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="makeThumbnail"></string>
+                <bool value="0"></bool>
+               </dictionary>
+              </instance>
+              <instance class="exe.engine.galleryidevice.GalleryImage">
+               <dictionary>
+                <string role="key" value="_caption"></string>
+                <instance class="exe.engine.field.TextField">
+                 <dictionary>
+                  <string role="key" value="_id"></string>
+                  <int value="235"></int>
+                  <string role="key" value="_idevice"></string>
+                  <none></none>
+                  <string role="key" value="_instruc"></string>
+                  <string value=""></string>
+                  <string role="key" value="_name"></string>
+                  <string value=""></string>
+                  <string role="key" value="content"></string>
+                  <string value=""></string>
+                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                  <int value="4"></int>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_id"></string>
+                <unicode value="0_114_2.22"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="10">
                  <dictionary>
@@ -488,7 +488,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="Remote-Worker-and-Virtual-Collaborator-Professional-Certificate-RWVCPC.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpkjsbfb.eXe\\previews\\allyourbase\\Remote-Worker-and-Virtual-Collaborator-Professional-Certificate-RWVCPC.png"></string>
+                  <string value="c:\\users\\hetcx\\appdata\\local\\temp\\tmpxt39h2\\Remote-Worker-and-Virtual-Collaborator-Professional-Certificate-RWVCPC.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="b7d4a9178cbf2b8adceb1109e3897285"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -517,7 +517,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="17"></int>
+           <int value="23"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -1115,8 +1115,12 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h3&gt;Scrum Foundation Professional Certificate (2021)&lt;/h3&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h3&gt;Remote Work and Virtual Collaboration (2022)&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;Certificado por CertiProf Professional Knwledge&lt;/p&gt;
+&lt;h3&gt;Scrum Foundation Professional Certificate (2021)&lt;/h3&gt;
 &lt;p style=&quot;padding-left: 30px;&quot;&gt;Certificado por CertiProf Professional Knowledge&lt;/p&gt;
+&lt;h3&gt;Experto Universitario en M-Learning (2020)&lt;/h3&gt;
+&lt;p&gt;Certificado por Net-Learning y la Universidad Católica de Salta&lt;/p&gt;
 &lt;h3&gt;Locutor número 49.536 (2015)&lt;/h3&gt;
 &lt;p style=&quot;padding-left: 30px;&quot;&gt;Certificado por la Universidad Central de Venezuela&lt;/p&gt;
 &lt;h3&gt;Inglés como lengua extranjera (2013)&lt;/h3&gt;
@@ -1249,7 +1253,9 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;strong&gt;Taller&lt;/strong&gt; Retorno de la Inversión (ROI) en la Capacitación de Personal (16:00h)&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;strong&gt;Curso &lt;/strong&gt;Gamificación y aprendizaje basado en juego. Herramientas lúdicas para el trabajo en equipos (60:00h)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Curso&lt;/b&gt; Intensivo sobre conferencias web para clases en vivo (30:00h)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Taller&lt;/strong&gt; Retorno de la Inversión (ROI) en la Capacitación de Personal (16:00h)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Taller&lt;/strong&gt; Liderazgo e Inteligencia Emocional con Daniel Gil’Adi (24:00h)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Taller&lt;/strong&gt; de diseño instruccional DIUM (16:00h)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Cursos&lt;/strong&gt; de Introducción a la programación niveles 1 y 2 (20:00h)&lt;/p&gt;
@@ -1412,52 +1418,41 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-fx exe-carousel&quot;&gt;
-&lt;h2&gt;Rueda de la fortona&lt;/h2&gt;
-&lt;p&gt;Muckup de juego desarrollado en Storyline 360&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/rueda-fortuna/story.html&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Quién quiere ser millonario&lt;/h2&gt;
-&lt;p&gt;Juego desarrollado en Storyline 360&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/millonario/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Simulación de cobranzas&lt;/h2&gt;
-&lt;p&gt;Simulador de conversación vía chat creado en Storyline 360&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/cobranza/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Gameboard&lt;/h2&gt;
-&lt;p&gt;Mokup de juego interactivo producido en Storyline 360&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/GameBoard/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Elearning corporativo vs. Elearning académico&lt;/h2&gt;
-&lt;p&gt;Podcast Producido con Audacity&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/se8CjB7&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Agregar firma a correos en Outlook&lt;/h2&gt;
-&lt;p&gt;Simulador interactivo producido en Storyline 360&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/Outlook365Signature/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Costos de la formación&lt;/h2&gt;
-&lt;p&gt;Curso virtual producido en Articulate Storyline&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://hetcxp.github.io/CostesFormacion/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;7 pasos para un plan de mercadeo&lt;/h2&gt;
-&lt;p&gt;eBook interactivo&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/he8CkKB&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo&lt;/a&gt; en Storyline - &lt;a href=&quot;https://cutt.ly/qtGmbV0&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo&lt;/a&gt; en Rise&lt;/p&gt;
-&lt;h2&gt;Acceso a la bolsa de Trabajo egresados IESA&lt;/h2&gt;
-&lt;p&gt;Video tutorial producido en Camtasia studio&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/0e8ClvR&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Casos Docentes&lt;/h2&gt;
-&lt;p&gt;Infografía dinámica producida en html5 con Twitter Bootstrap&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/jtp84Bj&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Infografía dinámica: ACP Aprendizaje Centrado en el participante&lt;/h2&gt;
-&lt;p&gt;Infografía dinámica producida en html5 con Twitter Bootstrap&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/jtp84Bj&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Manual básico de uso de Moodle para Profesores&lt;/h2&gt;
-&lt;p&gt;Producido en Google slides&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/Qe8Cz1h&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Manual de Uso de Pl@tUM&lt;/h2&gt;
-&lt;p&gt;Producido en html5 con Twitter Bootstrap&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/ke8Ccvv&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Uso de Google Sites&lt;/h2&gt;
-&lt;p&gt;Producido en HTML&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/le8Cv9l&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Diseño de Formularios en Google Docs&lt;/h2&gt;
-&lt;p&gt;Producido en HTML&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cutt.ly/Ye8CbsN&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-fx exe-timeline&quot;&gt;
+&lt;h2&gt;Interactivos&lt;/h2&gt;
+&lt;h3&gt;Articulate (storyline / Rise)&lt;/h3&gt;
+&lt;h4&gt;Rueda de la fortuna&lt;/h4&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 16.8px;&quot;&gt;Muckup de juego desarrollado en Storyline 360 &lt;/span&gt;&lt;a href=&quot;https://hetcxp.github.io/rueda-fortuna/story.html&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Quién quiere ser millonario&lt;/h4&gt;
+&lt;p&gt;Juego desarrollado en Storyline 360 &lt;a href=&quot;https://hetcxp.github.io/millonario/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Simulación de cobranzas&lt;/h4&gt;
+&lt;p&gt;Simulador de conversación vía chat creado en Storyline 360 &lt;a href=&quot;https://hetcxp.github.io/cobranza/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Gameboard&lt;/h4&gt;
+&lt;p&gt;Mokup de juego interactivo producido en Storyline 360 &lt;a href=&quot;https://hetcxp.github.io/GameBoard/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Agregar firma a correos en Outlook&lt;/h4&gt;
+&lt;p&gt;Simulador interactivo producido en Storyline 360 &lt;a href=&quot;https://hetcxp.github.io/Outlook365Signature/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Costos de la formación&lt;/h4&gt;
+&lt;p&gt;Curso virtual producido en Articulate Storyline &lt;a href=&quot;https://hetcxp.github.io/CostesFormacion/story.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;7 pasos para un plan de mercadeo&lt;/h4&gt;
+&lt;p&gt;eBook interactivo &lt;a href=&quot;https://cutt.ly/he8CkKB&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo&lt;/a&gt; en Storyline - &lt;a href=&quot;https://cutt.ly/qtGmbV0&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo&lt;/a&gt; en Rise&lt;/p&gt;
+&lt;h3&gt;HTML / BootStrap&lt;/h3&gt;
+&lt;h4&gt;Casos Docentes&lt;/h4&gt;
+&lt;p&gt;Infografía dinámica producida en html5 con Twitter Bootstrap &lt;a href=&quot;https://hetcxp.github.io/My HTML Projects/casos-docentes.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Infografía dinámica: ACP Aprendizaje Centrado en el participante&lt;/h4&gt;
+&lt;p&gt;Infografía dinámica producida en html5 con Twitter Bootstrap &lt;a href=&quot;https://hetcxp.github.io/My HTML Projects/acp-info.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Manual de Uso de Pl@tUM&lt;/h4&gt;
+&lt;p style=&quot;font-size: 16.8px;&quot;&gt;Producido en html5 con Twitter Bootstrap &lt;a href=&quot;https://cutt.ly/ke8Ccvv&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Uso de Google Sites&lt;/h4&gt;
+&lt;p&gt;Producido en HTML &lt;a href=&quot;https://cutt.ly/le8Cv9l&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Diseño de Formularios en Google Docs&lt;/h4&gt;
+&lt;p&gt;Producido en HTML &lt;a href=&quot;https://cutt.ly/Ye8CbsN&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Multimedia&lt;/h3&gt;
+&lt;h4&gt;Elearning corporativo vs. Elearning académico&lt;/h4&gt;
+&lt;p&gt;Podcast Producido con Audacity &lt;a href=&quot;https://cutt.ly/se8CjB7&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Acceso a la bolsa de Trabajo egresados IESA&lt;/h4&gt;
+&lt;p&gt;Video tutorial producido en Camtasia studio &lt;a href=&quot;https://cutt.ly/0e8ClvR&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Manual básico de uso de Moodle para Profesores&lt;/h4&gt;
+&lt;p&gt;Producido en Google slides &lt;a href=&quot;https://cutt.ly/Qe8Cz1h&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ver demo...&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
@@ -1611,40 +1606,54 @@
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Durante mi formación académica y varios años después asistí a una buena cantidad de eventos de actualización y participé con investigaciones publicadas tal como se puede ver a continuación.&lt;/p&gt;
-&lt;div class=&quot;exe-fx exe-tabs&quot;&gt;
+&lt;div class=&quot;exe-fx exe-timeline&quot;&gt;
 &lt;h2&gt;2014&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;IX Congreso de Investigación y Creación intelectual de la UNIMET&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;IX Congreso de Investigación y Creación intelectual de la UNIMET&lt;/strong&gt;&lt;/h3&gt;
 &lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Ponencia:&lt;/strong&gt; &lt;a href=&quot;https://goo.gl/7SXdbe&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Usos de TIC en docentes universitarios venezolanos&lt;/a&gt;. DOI: 10.13140/RG.2.1.3338.8002&lt;/p&gt;
 &lt;h2&gt;2013&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Novena Expedición. Eduweb 2013: TIC, Educación y Formación&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Novena Expedición. Eduweb 2013: TIC, Educación y Formación&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;2012&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Conferencia internacional AVED 2012&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Conferencia internacional AVED 2012&lt;/strong&gt;&lt;/h3&gt;
 &lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Ponencia:&lt;/strong&gt; &lt;a href=&quot;https://goo.gl/QQgeG4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Cotidianidad telemática en estudiantes del régimen anual de la Escuela de Educación de la Universidad Central de Venezuela&lt;/a&gt;. DOI: 10.13140/RG.2.1.2290.2246&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;VIII Congreso de Investigación y Creación intelectual de la UNIMET&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;VIII Congreso de Investigación y Creación intelectual de la UNIMET&lt;/strong&gt;&lt;/h3&gt;
 &lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Ponencia:&lt;/strong&gt; &lt;a href=&quot;https://goo.gl/XQA3os&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Uso de redes sociales e influencia percibida en la cotidianidad social y académica en jóvenes-adultos universitarios de la Universidad Metropolitana&lt;/a&gt;. DOI: 10.13140/RG.2.1.4387.3769&lt;/p&gt;
 &lt;h2&gt;2011&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Foro: Gerencia Exitosa hecha en Venezuela &lt;em&gt;(Organizador)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Séptima expedición. Eduweb 2011: Tic, Educación y Redes Sociales&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Foro: Gerencia Exitosa hecha en Venezuela&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Parte del equipo Organizador&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Séptima expedición. Eduweb 2011: Tic, Educación y Redes Sociales&lt;/strong&gt;&lt;/h3&gt;
 &lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Ponencia:&lt;/strong&gt; &lt;a href=&quot;https://goo.gl/fMHWaO&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Aproximación al uso de tecnologías telemáticas en estudiantes del régimen anual en la escuela de Educación de la UCV&lt;/a&gt;. DOI: 10.13140/RG.2.1.2814.5124&lt;/p&gt;
 &lt;h2&gt;2010&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Conversatorio: El rol del CONICIT en las Políticas Públicas del Estado Venezolano&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Foro Conversatorio: Paradigmas emergentes en la sociedad venezolana &lt;em&gt;(Relator)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;XII Jornadas de Investigación Educativa – III Congreso Internacional&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Conversatorio: El rol del CONICIT en las Políticas Públicas del Estado Venezolano&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Foro Conversatorio: Paradigmas emergentes en la sociedad venezolana&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Relator&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;XII Jornadas de Investigación Educativa – III Congreso Internacional&lt;/strong&gt;&lt;/h3&gt;
 &lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Facilitador del Taller&lt;/strong&gt;: Formación y desempeño de personas por competencias&lt;/p&gt;
 &lt;h2&gt;2008&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;I Jornada de Neurociencias en el Aula&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;VI Jornada de reflexión investigativa estudiantil (Ponente)&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;I Jornada de Neurociencias en el Aula&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;VI Jornada de reflexión investigativa estudiantil&lt;/strong&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Ponente&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;2007&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Quinta Expedición. Eduweb 2007: Estándar y Calidad de las TIC en Ambientes Educativos.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;XI Jornadas de investigación educativa y II Congreso internacional.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Quinta Expedición. Eduweb 2007: Estándar y Calidad de las TIC en Ambientes Educativos&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;XI Jornadas de investigación educativa y II Congreso internacional&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;2006&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Simposio: Educadores líderes en la formación del talento Humano.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Seminario: 7 Hábitos de las personas exitosas.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2da Jornada de informática educativa.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Simposio: Educadores líderes en la formación del talento Humano&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Seminario: 7 Hábitos de las personas exitosas&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;2da Jornada de informática educativa&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;2005&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;II congreso binacional de Educación (Mérida, Venezuela)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Cuarta Expedición. Eduweb 2005: Virtualizando la Educación&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Congreso Internacional de Educación&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;II congreso binacional de Educación (Mérida, Venezuela)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Cuarta Expedición. Eduweb 2005: Virtualizando la Educación&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Congreso Internacional de Educación&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Asistente&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -2875,11 +2884,11 @@
   <dictionary>
    <string role="key" value="08f172f2919372b1a36f192c1e17dcb7"></string>
    <list>
-    <reference key="9"></reference>
+    <reference key="7"></reference>
    </list>
    <string role="key" value="365cc730702035ffa47e19458ac5dcbd"></string>
    <list>
-    <reference key="7"></reference>
+    <reference key="8"></reference>
    </list>
    <string role="key" value="5b052850c0505752f2a98707ace6b443"></string>
    <list>
@@ -2895,7 +2904,7 @@
    </list>
    <string role="key" value="dd5e18b1d40bf78b2845312b2c239aab"></string>
    <list>
-    <reference key="8"></reference>
+    <reference key="9"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
