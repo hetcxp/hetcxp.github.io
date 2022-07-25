@@ -1,0 +1,859 @@
+[
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "62dc2192463cd5128452ff05",
+    "_parentId": "62dc20f7463cd5128452ff04",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/310cbaff95416be4990d2df142e02c0bf4e9dc46.jpg",
+      "small": "course/en/assets/310cbaff95416be4990d2df142e02c0bf4e9dc46.jpg",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p>En lo que respecta al aprendizaje en línea en la educación, el modelo ha sido bastante sencillo: hasta principios de la década de 2000, la educación se realizaba en un aula de estudiantes con un maestro que dirigía el proceso. La presencia física era una obviedad, y cualquier otro tipo de aprendizaje era cuestionable en el mejor de los casos. Luego sucedió Internet, y el resto es historia.</p>",
+    "_id": "62dc2207463cd5128452ff0b",
+    "_parentId": "62dc21f3463cd5128452ff0a",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p>Ahora que existen soluciones de aprendizaje electrónico asequibles tanto para computadoras como para Internet, solo se necesita una buena herramienta de aprendizaje electrónico para facilitar la educación desde prácticamente cualquier lugar. La tecnología ha avanzado tanto que la brecha geográfica se cierra con el uso de herramientas que te hacen sentir como si estuvieras dentro del aula.</p>",
+    "_id": "62dc2267463cd5128452ff0e",
+    "_parentId": "62dc21f3463cd5128452ff0a",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p>El e-learning ofrece la posibilidad de compartir material en todo tipo de formatos, como videos, presentaciones de diapositivas, documentos de Word y PDF. La realización de seminarios web (clases en línea en vivo) y la comunicación con los profesores a través de foros de chat y mensajes también es una opción disponible para los usuarios.</p>",
+    "_id": "62dc3cedb423131612ea399f",
+    "_parentId": "62dc3ce2b423131612ea399e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p>Existe una plétora de diferentes sistemas y métodos de aprendizaje en línea (también conocidos como sistemas de gestión de aprendizaje, o LMS, por sus siglas en inglés) y métodos que permiten la impartición de cursos. Con la herramienta adecuada, se pueden automatizar varios procesos, como un curso con materiales establecidos y pruebas marcadas automáticamente.</p>",
+    "_id": "62dc3f05b423131612ea39a1",
+    "_parentId": "62dc3efeb423131612ea39a0",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p><strong><em>El e-learning es una solución asequible (y a menudo gratuita) que brinda a los alumnos la capacidad de adaptar el aprendizaje a su estilo de vida, permitiendo de manera efectiva que incluso la persona más ocupada avance en una carrera y obtenga nuevas calificaciones.</em></strong></p>",
+    "_id": "62dc3f8db423131612ea39a2",
+    "_parentId": "62dc3efeb423131612ea39a0",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p>Algunos de los avances más importantes en educación se han producido desde el lanzamiento de Internet. En estos días, los estudiantes están bien versados en el uso de teléfonos inteligentes, mensajes de texto y uso de Internet, por lo que participar y ejecutar un curso en línea se ha convertido en un asunto simple. Los tableros de mensajes, las redes sociales y varios otros medios de comunicación en línea permiten a los estudiantes mantenerse en contacto y discutir asuntos relacionados con el curso, al tiempo que brindan un sentido de comunidad.</p><p>&nbsp;</p><p>En el acelerado mundo del e-learning, las tecnologías disponibles para hacer que un curso sea nuevo y emocionante siempre están cambiando, y el contenido del curso puede y debe actualizarse rápidamente para brindar a los estudiantes la información más reciente. Esto es especialmente importante si la formación e-learning se está impartiendo a los empleados de un sector en el que mantenerse actualizado sobre los desarrollos de la industria es de suma importancia. Esta es una de las razones por las que muchas empresas ahora ofrecen capacitación a través del aprendizaje electrónico; otras razones incluyen los bajos costos y la capacidad de los empleados para estudiar en su propio tiempo y lugar.</p>",
+    "_id": "62dc3fc5b423131612ea39a4",
+    "_parentId": "62dc3fbeb423131612ea39a3",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "pageNav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "62dc44beb423131612ea39a9",
+    "_parentId": "62dc40adb423131612ea39a7",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_loopStyle": "allPages",
+    "_shouldSkipOptionalPages": false,
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": true,
+        "text": "Next",
+        "ariaLabel": "Next Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "En educación tradicional",
+    "displayTitle": "En educación tradicional",
+    "body": "<p>En un esfuerzo por mejorar la credibilidad del material del curso, a menudo un profesor convocará a un especialista de campo para que dé una conferencia relevante al tema en cuestión. En el modelo tradicional de educación, el profesor tendría que extender una invitación a dicho experto e incurrir en los costos de su vuelo, estadía y capacitación.</p>",
+    "_id": "62dc4a06b423131612ea39b1",
+    "_parentId": "62dc49ffb423131612ea39b0",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Con e-learning",
+    "displayTitle": "Con e-learning",
+    "body": "<p>Con el e-learning, el profesor tiene la capacidad de organizar una conferencia como invitado sin tener que gastar mucho dinero. Se puede realizar de forma virtual, con cámaras tanto para el profesor como para los alumnos, y con el uso de micrófonos para facilitar el mismo nivel de interacción que sería posible si el profesor estuviera físicamente presente en la sala. El beneficio adicional surge cuando podemos reproducir la conferencia y sacarle aún más provecho. Los estudiantes que se perdieron pueden ver la grabación, o los estudiantes que asistieron pueden verla nuevamente para mejorar su comprensión.</p>",
+    "_id": "62dc4a43b423131612ea39b2",
+    "_parentId": "62dc49ffb423131612ea39b0",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "narrative",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Inquietudes que surgen con el e-learning",
+    "displayTitle": "",
+    "body": "",
+    "_id": "62dc520eb423131612ea39b7",
+    "_parentId": "62dc53beb423131612ea39bd",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Selecciona las principales inquietudes para saber más.",
+    "mobileInstruction": "",
+    "_isTextBelowImage": false,
+    "_isMobileTextBelowImage": false,
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Aislamiento",
+        "_ariaLevel": 0,
+        "body": "<p>Aunque el e-learning ofrece facilidad, flexibilidad y la capacidad de acceder de forma remota a un aula en el tiempo del alumno, los alumnos pueden sentir una sensación de aislamiento. Esto se debe a que, en su mayor parte, aprender en línea es un acto en solitario, lo que puede dar al alumno la sensación de que está actuando completamente solo. A medida que la tecnología avanza y el e-learning se beneficia de los avances realizados, los alumnos ahora pueden interactuar más activamente con profesores u otros estudiantes utilizando herramientas como videoconferencias, redes sociales y foros de discusión, entre otras.</p>",
+        "_graphic": {
+          "src": "course/en/assets/4209b374f5a66610ad78cdd7ede3b9bcbca552fa.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Aislamiento"
+      },
+      {
+        "title": "Salud",
+        "_ariaLevel": 0,
+        "body": "<p>El aprendizaje electrónico requiere el uso de una computadora y otros dispositivos similares; esto significa que la fatiga visual, la mala postura y otros problemas físicos pueden afectar al alumno. Al realizar un curso en línea, es una buena práctica enviar pautas sobre la postura correcta para sentarse, la altura del escritorio y recomendaciones para descansos regulares.</p>",
+        "_graphic": {
+          "src": "course/en/assets/4a764a5d04bfcf3f9799f1638bbb334268eb951d.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Salud"
+      }
+    ]
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Principales beneficios",
+    "displayTitle": "",
+    "body": "",
+    "_id": "62dc558fb423131612ea39c1",
+    "_parentId": "62dc558ab423131612ea39c0",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Sin límites, sin restricciones",
+        "body": "<p>Junto con las restricciones de ubicación, el tiempo es uno de los problemas que tanto los alumnos como los profesores deben afrontar en el aprendizaje. En el caso del aprendizaje presencial, la ubicación limita la asistencia a un grupo de estudiantes que tienen la capacidad de participar en el área, y en el caso del tiempo, limita la multitud a aquellos que pueden asistir en un horario específico. El e-learning, por otro lado, facilita el aprendizaje sin tener que organizar cuándo y dónde pueden estar presentes todos los interesados en un curso.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Más diversión",
+        "body": "<p>Diseñar un curso de una manera que lo haga interactivo y divertido mediante el uso de multimedia o los métodos de gamificación desarrollados más recientemente (discutidos en mayor detalle en capítulos posteriores) mejora no solo su factor de participación, sino también la vida relativa del material del curso en cuestión.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Económico",
+        "body": "<p>Esto está dirigido tanto a estudiantes como a profesores, pero es muy probable que, sea cual sea su función, haya tenido que pagar cantidades exorbitantes de dinero en algún momento para adquirir versiones actualizadas de libros de texto para la escuela o la universidad. Si bien los libros de texto a menudo se vuelven obsoletos después de un cierto período de tiempo, la necesidad de adquirir constantemente nuevas ediciones no está presente en el aprendizaje electrónico.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "¡Simplemente encaja!",
+        "body": "<p>A medida que las empresas y organizaciones adoptan tecnologías para mejorar la eficiencia de las operaciones diarias, el uso de Internet se convierte en una necesidad. A medida que las corporaciones multinacionales se expanden por todo el mundo, aumentan las posibilidades de trabajar con personas de otros países, y capacitar a todas esas partes juntas es un tema que el e-learning aborda con éxito. ¡Y esa es una gran ventaja del aprendizaje en línea!</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Mejores prácticas de formación online",
+    "displayTitle": "",
+    "body": "",
+    "_id": "62dc56e4b423131612ea39c4",
+    "_parentId": "62dc5685b423131612ea39c3",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/e2506dc27f708c56c4f375bfdb68fb7594d5412a.jpg",
+      "small": "course/en/assets/e2506dc27f708c56c4f375bfdb68fb7594d5412a.jpg",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    }
+  },
+  {
+    "_component": "narrative",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p>El aprendizaje en línea puede ofrecer una amplia gama de beneficios. Sin embargo, el conocimiento que un alumno es capaz de adquirir de esta manera depende no solo del material del curso que se le ofrece, sino también de las prácticas que se utilizan para brindarle esta información. Estas son solo algunas de las mejores prácticas de capacitación en línea que ayudan a facilitar mejor el proceso de aprendizaje electrónico.</p>",
+    "_id": "62dc5751b423131612ea39c9",
+    "_parentId": "62dc5730b423131612ea39c8",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Selecciona cada una de las siguientes prácticas para saber más",
+    "mobileInstruction": "",
+    "_isTextBelowImage": false,
+    "_isMobileTextBelowImage": false,
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Una comunidad solidaria",
+        "_ariaLevel": 0,
+        "body": "<p>Los profesores y los establecimientos de e-learning deben fomentar un fuerte sentido de comunidad entre sus estudiantes en línea.</p><p>Esto permitirá a los estudiantes interactuar entre sí y con los instructores, así como con los recursos proporcionados, ¡lo que hará que la experiencia educativa sea mejorada!</p>",
+        "_graphic": {
+          "src": "course/en/assets/4b396da6e6f4f457cc581c90b330cb79a5341712.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Una comunidad solidaria"
+      },
+      {
+        "title": "Expectativas claras",
+        "_ariaLevel": 0,
+        "body": "<p>Los estudiantes deben ser conscientes de lo que recibirán de la instrucción de la clase virtual y ambas partes deben conocer el método preferido de comunicación y entrega del plan de estudios básico.</p><p>Por ejemplo, un profesor puede preferir enviar las tareas por correo electrónico a los estudiantes, mientras que otro puede optar por entregarlas a través del sitio de aprendizaje electrónico. Además, es mejor tener expectativas claras sobre cuánto tiempo debe tomar completar cada elemento del curso.</p>",
+        "_graphic": {
+          "src": "course/en/assets/3fa39b103a9d663bca10a3ab9379bee021d75613.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Expectativas claras"
+      },
+      {
+        "title": "Actividades asincrónicas y sincrónicas",
+        "_ariaLevel": 0,
+        "body": "<p>Es importante incorporar actividades que sean más interactivas, así como aquellas que requieran que el alumno haga una lluvia de ideas e investigue un tema en profundidad.</p><p>Esto puede ser un diferenciador importante en la mentalidad de las mejores prácticas de e-learning de una empresa y, gracias a Internet, los estudiantes ahora pueden asistir a cursos virtuales en vivo, así como completar el trabajo del curso fuera de línea que les permite profundizar en un tema o conjunto de habilidades específicos.</p>",
+        "_graphic": {
+          "src": "course/en/assets/9d53837c19157b416565b67a0d1a80acf4f97c3b.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Actividades asincrónicas y sincrónicas"
+      },
+      {
+        "title": "Uso efectivo de los recursos disponibles",
+        "_ariaLevel": 0,
+        "body": "<p>Para aprovechar al máximo la experiencia de aprendizaje en línea, tanto el maestro como el estudiante deben aprovechar al máximo la gran cantidad de recursos disponibles en línea.</p><p>Hay literalmente cientos de servicios en línea que ofrecen acceso a información, y Wikipedia es un ejemplo destacado. Los instructores deben aprovechar la oportunidad para mejorar su contenido con material en línea o redirigir a los estudiantes a recursos web adicionales.</p>",
+        "_graphic": {
+          "src": "course/en/assets/a43196b8943eaf3d5029c2e2955e741f7cdc86e9.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Uso efectivo de los recursos disponibles"
+      }
+    ]
+  },
+  {
+    "_component": "pageNav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "62dc587db423131612ea39d4",
+    "_parentId": "62dc5877b423131612ea39d3",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_loopStyle": "none",
+    "_shouldSkipOptionalPages": false,
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": true,
+        "text": "Next",
+        "ariaLabel": "Next Page",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "accordionwithpopup",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "¿cuál es la diferencia?",
+    "displayTitle": "¿cuál es la diferencia?",
+    "body": "",
+    "_id": "62dc6c7bb423131612ea39d6",
+    "_parentId": "62dc377db423131612ea399b",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Veamos las características de cada uno y veamos qué hace que un entorno de aprendizaje electrónico funcione.",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Las características del aprendizaje",
+        "body": "<p>Como se mencionó anteriormente, el aprendizaje es el proceso de absorber información y retenerla con el objetivo de aumentar las habilidades y destrezas para lograr las metas, pero es más que eso.</p><p>El aprendizaje es lo que atravesamos cuando queremos estar equipados para situaciones inesperadas y no específicas y las dos no son mutuamente excluyentes. Si bien aprender a hacer algo específico, sin darse cuenta, también está equipado con el conocimiento y / o las habilidades para enfrentar desafíos futuros.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_popups": [],
+        "_classes": ""
+      },
+      {
+        "title": "Las características del entrenamiento",
+        "body": "<p>La formación, por otro lado, se centra más en el desarrollo de nuevas habilidades o conjuntos de habilidades que se utilizarán.</p><p>La formación es el proceso por el que pasa cada nuevo empleado al incorporarse a una empresa para aprender a realizar las operaciones del día a día, saber cómo funciona su departamento y cómo funcionan las herramientas específicas del puesto para cumplir con sus responsabilidades.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_popups": [],
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "En la formación",
+    "displayTitle": "",
+    "body": "<p>A través de la formación, no buscamos remodelar el comportamiento de un individuo, sino que el objetivo es enseñar al empleado o alumno cómo se hacen las cosas para que luego puedan llevar a cabo un proceso por sí mismos.</p>",
+    "_id": "62dc6e63b423131612ea39d8",
+    "_parentId": "62dc6e5cb423131612ea39d7",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "En el aprendizaje",
+    "displayTitle": "",
+    "body": "<p>Aprender se trata de equipar a una persona no solo para abordar los problemas de hoy, sino también de prepararla para encontrar formas creativas de abordar los problemas del mañana</p>",
+    "_id": "62dc6e68b423131612ea39d9",
+    "_parentId": "62dc6e5cb423131612ea39d7",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  }
+]

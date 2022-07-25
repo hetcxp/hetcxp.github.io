@@ -1,0 +1,227 @@
+[
+  {
+    "title": "Introducción",
+    "displayTitle": "Introducción",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "<p>El aprendizaje es una industria en rápido crecimiento, cuyos efectos se remontan a la década de 1980 e incluso mucho antes (en forma de educación a distancia y cursos televisados); estos se discutirán más adelante.</p>",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc20f7463cd5128452ff02",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": null,
+          "_backgroundSize": null,
+          "_backgroundPosition": null
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Beneficios, inquietudes y mejores prácticas",
+    "displayTitle": "Beneficios, inquietudes y mejores prácticas",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "<p>En general, el aprendizaje tradicional es caro, lleva mucho tiempo y los resultados pueden variar. La importancia del e-learning es ahora un hecho y puede ofrecer una alternativa mucho más rápida, más barata y potencialmente mejor.</p>",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc373eb423131612ea3995",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": null,
+          "_backgroundSize": null,
+          "_backgroundPosition": null
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Aprendizaje vs Formación",
+    "displayTitle": "Aprendizaje vs Formación",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "<p>Cualesquiera que sean los objetivos, la calidad del aprendizaje dependerá en gran medida de la calidad de la formación, por lo que el papel del formador es muy importante, ya que puede tener un efecto enorme en el resultado de un curso para el alumno.</p>",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc377cb423131612ea3999",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": null,
+          "_backgroundSize": null,
+          "_backgroundPosition": null
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  }
+]

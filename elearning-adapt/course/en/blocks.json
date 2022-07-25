@@ -1,0 +1,576 @@
+[
+  {
+    "title": "¿Qué es el eLearning?",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 1,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc20f7463cd5128452ff04",
+    "_parentId": "62dc20f7463cd5128452ff03",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "New Block Title",
+    "displayTitle": "",
+    "body": "<p>Es importante comprender la diferencia entre aprendizaje y capacitación. Por supuesto, están inextricablemente vinculados, pero son aspectos únicos de cualquier proceso educativo. La formación consiste en dar información y conocimientos a través del habla, la palabra escrita u otros métodos de demostración de una manera que instruya al alumno. El aprendizaje es el proceso de absorber esa información con el fin de aumentar las habilidades y habilidades y hacer uso de ella en una variedad de contextos.</p>",
+    "_classes": "",
+    "_trackingId": 2,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc377db423131612ea399b",
+    "_parentId": "62dc377cb423131612ea399a",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "Inquietudes que surgen con el e-learning",
+    "displayTitle": "Inquietudes que surgen con el e-learning",
+    "body": "<p>Incluso teniendo en cuenta todos los beneficios del e-learning, no se puede negar que existen algunos inconvenientes. Un buen ejemplo de una desventaja del aprendizaje en línea es que las habilidades prácticas son algo más difíciles de obtener de los recursos en línea. Por ejemplo, aunque la construcción de una mesa de madera es algo sobre lo que puede compartir información fácilmente, grabar videos y explicar, la experiencia práctica es esencial. La cerámica y la ingeniería de automóviles son ejemplos de habilidades que requieren experiencia práctica.</p>",
+    "_classes": "",
+    "_trackingId": 3,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc53beb423131612ea39bd",
+    "_parentId": "62dc53beb423131612ea39bc",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "Principales beneficios",
+    "displayTitle": "Principales beneficios",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 4,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc558ab423131612ea39c0",
+    "_parentId": "62dc373eb423131612ea3996",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "Mejores prácticas de formación online",
+    "displayTitle": "Mejores prácticas de formación online",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 5,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc5685b423131612ea39c3",
+    "_parentId": "62dc5685b423131612ea39c2",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "Intro",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 6,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc21f3463cd5128452ff0a",
+    "_parentId": "62dc20f7463cd5128452ff03",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "Combinemos todo eso y aplíquemoslo en un escenario de la vida real",
+    "displayTitle": "Combinemos todo eso y aplíquemoslo en un escenario de la vida real",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 7,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc49ffb423131612ea39b0",
+    "_parentId": "62dc373eb423131612ea3996",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "Mejores prácticas de formación online",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 8,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc5730b423131612ea39c8",
+    "_parentId": "62dc5685b423131612ea39c2",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "En esencia...",
+    "displayTitle": "En esencia...",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 9,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc6e5cb423131612ea39d7",
+    "_parentId": "62dc377cb423131612ea399a",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "New Block Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 10,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc3ce2b423131612ea399e",
+    "_parentId": "62dc20f7463cd5128452ff03",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Block Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 11,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc5877b423131612ea39d3",
+    "_parentId": "62dc5685b423131612ea39c2",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Block Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 12,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc3efeb423131612ea39a0",
+    "_parentId": "62dc20f7463cd5128452ff03",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Block Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 13,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc3fbeb423131612ea39a3",
+    "_parentId": "62dc20f7463cd5128452ff03",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_isDividerBlock": false
+    }
+  },
+  {
+    "title": "New Block Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 14,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "62dc40adb423131612ea39a7",
+    "_parentId": "62dc20f7463cd5128452ff03",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

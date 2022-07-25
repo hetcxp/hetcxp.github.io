@@ -1,0 +1,201 @@
+{
+  "title": "¿Qué es el eLearning y por qué es importante en la educación?",
+  "displayTitle": "¿Qué es el eLearning y por qué es importante en la educación?",
+  "body": "<p>El aprendizaje en línea es una industria en rápido crecimiento, cuyos efectos se remontan a la década de 1980 e incluso mucho antes (en forma de educación a distancia y cursos televisados); estos se discutirán más adelante.</p>",
+  "subtitle": "",
+  "description": "",
+  "instruction": "Revisa cada uno de los módulos a continuación para saber más",
+  "_htmlClasses": "",
+  "_latestTrackingId": 14,
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Show your answer",
+      "ariaLabel": "Show your answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_classes": "",
+  "_requireCompletionOf": -1,
+  "_lockType": "",
+  "_id": "course",
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [],
+    "_force": false,
+    "_isMenuDisabled": false
+  },
+  "_globals": {
+    "_accessibility": {
+      "skipNavigationText": "Skip navigation",
+      "_ariaLabels": {
+        "answeredIncorrectly": "You answered incorrectly",
+        "answeredCorrectly": "You answered correctly",
+        "selectedAnswer": "selected",
+        "unselectedAnswer": "not selected",
+        "skipNavigation": "Skip Navigation",
+        "previous": "Back",
+        "navigationDrawer": "Open course resources.",
+        "close": "Close",
+        "closeDrawer": "Close Drawer",
+        "closeResources": "Close resources",
+        "drawer": "Top of side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Completed",
+        "incomplete": "Incomplete",
+        "incorrect": "Incorrect",
+        "correct": "Correct",
+        "locked": "Locked",
+        "visited": "Visited"
+      }
+    },
+    "_components": {
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_narrative": {
+        "ariaRegion": "Slide show. Select the next button to progress.",
+        "previous": "{{#if title}}Back to {{{title}}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}}",
+        "next": "{{#if title}}Forward to {{{title}}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}}"
+      },
+      "_media": {
+        "ariaRegion": "Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.",
+        "skipToTranscript": "Skip to transcript",
+        "playText": "Play",
+        "pauseText": "Pause",
+        "stopText": "Stop",
+        "audioPlayerText": "Audio Player",
+        "videoPlayerText": "Video Player",
+        "tracksText": "Captions/Subtitles",
+        "timeSliderText": "Time Slider",
+        "muteText": "Mute Toggle",
+        "unmuteStatusText": "Unmute",
+        "muteStatusText": "Mute",
+        "volumeSliderText": "Volume Slider",
+        "fullscreenText": "Fullscreen",
+        "goFullscreenText": "Go Fullscreen",
+        "turnOffFullscreenText": "Turn off Fullscreen",
+        "noneText": "None",
+        "skipBackText": "Skip back %1 seconds",
+        "allyVolumeControlText": "Use Up/Down Arrow keys to increase or decrease volume.",
+        "progessHelpText": "Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds."
+      },
+      "_hotgraphic": {
+        "ariaRegion": "Image with selectable areas. Select each button to show more information.",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_accordion": {
+        "ariaRegion": "List of expandable sections. Select each button to expand the content."
+      },
+      "_graphic": {
+        "ariaRegion": ""
+      },
+      "_matching": {
+        "ariaRegion": "Matching. Select from lists and then submit.",
+        "ariaCorrectAnswer": "The correct answer for {{{itemText}}} is {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose for {{{itemText}}} was {{{userAnswer}}}"
+      },
+      "_textinput": {
+        "ariaRegion": "Text input. Type your answer and then submit."
+      },
+      "_mcq": {
+        "ariaRegion": "Multiple choice question",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_gmcq": {
+        "ariaRegion": "Multiple choice question",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_assessmentResults": {
+        "ariaRegion": "Assessment results."
+      },
+      "_slider": {
+        "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswerRange": "The correct answer is any value from {{{bottom}}} to {{{top}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "labelStart": "Start of the scale",
+        "labelEnd": "End of the scale"
+      },
+      "_accordionwithpopup": {
+        "ariaRegion": "List of expandable sections. Select each button to expand the content."
+      }
+    },
+    "_menu": {
+      "_boxMenu": {
+        "durationLabel": "Duration:"
+      }
+    },
+    "_extensions": {
+      "_pageLevelProgress": {
+        "pageLevelProgress": "Page sections",
+        "pageLevelProgressIndicatorBar": "Page progress. Use this to listen to the list of regions in this topic and whether they're completed. You can jump directly to any that are incomplete or which sound particularly interesting. {{percentageComplete}}%",
+        "pageLevelProgressMenuBar": "Page completion {{percentageComplete}}%",
+        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+        "optionalContent": "Optional content",
+        "_navOrder": 0
+      }
+    }
+  },
+  "_type": "course",
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": true,
+    "_isCompletionIndicatorEnabled": false,
+    "_isShownInNavigationBar": true
+  },
+  "_boxMenu": {
+    "_backgroundImage": {
+      "_large": "",
+      "_medium": "",
+      "_small": ""
+    },
+    "_backgroundStyles": {
+      "_backgroundRepeat": null,
+      "_backgroundSize": null,
+      "_backgroundPosition": null
+    },
+    "_menuHeader": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      }
+    }
+  }
+}
