@@ -3,7 +3,7 @@
 <instance xmlns="http://www.exelearning.org/content/v0.3" reference="35" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
-  <unicode value=""></unicode>
+  <unicode value="Fundamentos de SCRUM"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addPagination"></string>
@@ -70,7 +70,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="1"></bool>
+  <bool value="0"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -2119,7 +2119,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;card&quot;&gt;
 &lt;div class=&quot;card-body&quot;&gt;
-&lt;div class=&quot;card-title&quot;&gt;&lt;strong&gt;Respeto&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&quot;card-title&quot;&gt;&lt;strong&gt;Apertura&lt;/strong&gt;&lt;/div&gt;
 &lt;div class=&quot;card-body&quot;&gt;El SCRUM Team y sus interesados acuerdan estar abiertos a todo el trabajo y a los desafíos que se les presenten al realizar su trabajo.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2137,7 +2137,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;card&quot;&gt;
 &lt;div class=&quot;card-body&quot;&gt;
-&lt;div class=&quot;card-title&quot;&gt;&lt;strong&gt;Compromiso&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&quot;card-title&quot;&gt;&lt;strong&gt;Respeto&lt;/strong&gt;&lt;/div&gt;
 &lt;div class=&quot;card-body&quot;&gt;Los miembros del SCRUM Team se respetan entre sí para ser personas capaces e independientes.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2724,7 +2724,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="3"></reference>
+  <reference key="32"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -2755,7 +2755,7 @@
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value=""></unicode>
+    <unicode value="Fundamentos de SCRUM"></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
@@ -3012,7 +3012,25 @@
       <string role="key" value="structure"></string>
       <none></none>
       <string role="key" value="title"></string>
-      <none></none>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Fundamentos de SCRUM"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
       <string role="key" value="uniqueElementName"></string>
       <string value="general"></string>
      </dictionary>
@@ -3035,7 +3053,7 @@
              <string role="key" value="uniqueElementName"></string>
              <string value="dateTime"></string>
              <string role="key" value="valueOf_"></string>
-             <string value="2022-09-22T11:08:45.00-03:00"></string>
+             <string value="2022-10-13T14:23:50.00-03:00"></string>
             </dictionary>
            </instance>
            <string role="key" value="description"></string>
@@ -3435,7 +3453,25 @@
       <string role="key" value="structure"></string>
       <none></none>
       <string role="key" value="title"></string>
-      <none></none>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Fundamentos de SCRUM"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
       <string role="key" value="uniqueElementName"></string>
       <string value="general"></string>
      </dictionary>
@@ -3458,7 +3494,7 @@
              <string role="key" value="uniqueElementName"></string>
              <string value="dateTime"></string>
              <string role="key" value="valueOf_"></string>
-             <string value="2022-09-22T11:08:45.00-03:00"></string>
+             <string value="2022-10-13T14:23:50.00-03:00"></string>
             </dictionary>
            </instance>
            <string role="key" value="description"></string>
