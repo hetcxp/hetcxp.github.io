@@ -1,0 +1,35 @@
+/**
+ * germanData.js: Database of German words for the "El Catalejo Mágico" minigame.
+ */
+const germanWordList = [
+    { word: "Apfel", audio: "de_apfel", icon: "🍎" },
+    { word: "Auge", audio: "de_auge", icon: "👁️" },
+    { word: "Auto", audio: "de_auto", icon: "🚗" },
+    { word: "Ball", audio: "de_ball", icon: "⚽" },
+    { word: "Baum", audio: "de_baum", icon: "🌳" },
+    { word: "Bett", audio: "de_bett", icon: "🛏️" },
+    { word: "Blume", audio: "de_blume", icon: "🌸" },
+    { word: "Brot", audio: "de_brot", icon: "🍞" },
+    { word: "Buch", audio: "de_buch", icon: "📖" },
+    { word: "Feuer", audio: "de_feuer", icon: "🔥" },
+    { word: "Fisch", audio: "de_fisch", icon: "🐟" },
+    { word: "Fuß", audio: "de_fuß", icon: "🦶" },
+    { word: "Hand", audio: "de_hand", icon: "✋" },
+    { word: "Haus", audio: "de_haus", icon: "🏠" },
+    { word: "Hund", audio: "de_hund", icon: "🐶" },
+    { word: "Hut", audio: "de_hut", icon: "🎩" },
+    { word: "Katze", audio: "de_katze", icon: "🐱" },
+    { word: "Käse", audio: "de_käse", icon: "🧀" },
+    { word: "Milch", audio: "de_milch", icon: "🥛" },
+    { word: "Mond", audio: "de_mond", icon: "🌙" },
+    { word: "Mund", audio: "de_mund", icon: "👄" },
+    { word: "Schatz", audio: "de_schatz", icon: "💎" },
+    { word: "Schiff", audio: "de_schiff", icon: "🚢" },
+    { word: "Sonne", audio: "de_sonne", icon: "☀️" },
+    { word: "Stern", audio: "de_stern", icon: "⭐" },
+    { word: "Stuhl", audio: "de_stuhl", icon: "🪑" },
+    { word: "Tisch", audio: "de_tisch", icon: "🪵" },
+    { word: "Uhr", audio: "de_uhr", icon: "⌚" },
+    { word: "Vogel", audio: "de_vogel", icon: "🐦" },
+    { word: "Wasser", audio: "de_wasser", icon: "💧" }
+];

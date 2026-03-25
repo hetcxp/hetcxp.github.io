@@ -1,0 +1,55 @@
+📜 Antigravity Rules: Proyecto "Tesoro Pirata"
+1. Contexto del Proyecto y Usuario Final
+
+Objetivo: Web app tipo escape room educativo con temática pirata.
+
+Usuario: Niño de 6 años en terapias de fonoaudiología y ocupacional, iniciando primer grado bilingüe (alemán).
+
+UI/UX: Estética limpia tipo Mini Einsteins (2D, colorida, sin pixel art/8-bits). Textos en globos tipo cómic. Áreas de toque (touch targets) grandes y tolerantes a la imprecisión motriz. Optimizado estrictamente para iPad Mini en formato apaisado (landscape).
+
+2. Stack Tecnológico y Arquitectura
+
+Stack: Únicamente HTML5, CSS3 y Vanilla JavaScript. Prohibido el uso de frameworks (React, Vue, jQuery, etc.) o librerías externas que requieran instalación o compilación.
+
+Modelo SPA (Single Page Application): Un solo archivo index.html. La navegación entre pantallas (Mapa, Escenarios, Minijuegos) se gestionará exclusivamente añadiendo o quitando las clases CSS .active y .hidden.
+
+Almacenamiento: Uso exclusivo de localStorage para guardar el progreso (monedas y escenarios completados).
+
+3. Optimización de Tokens y Entrega de Código (Reglas Estrictas)
+
+Cero Base64: Está estrictamente prohibido generar o sugerir imágenes en formato base64. Usar siempre placeholders con rutas relativas (ej. src="assets/img/loro.png") o formas geométricas en CSS.
+
+Respuestas Modulares: Al solicitar modificaciones, el agente debe generar únicamente el bloque de código o la función solicitada, no el archivo completo, indicando claramente en qué archivo y línea debe insertarse.
+
+Estructura de Archivos: Respetar la separación de responsabilidades:
+
+index.html (DOM base).
+
+css/styles.css (Diseño y animaciones CSS).
+
+js/main.js (Lógica global, inicialización y estado).
+
+js/games.js (Lógica interna de los minijuegos).
+
+js/audio.js (Manejo de APIs de audio).
+
+4. Directrices de Desarrollo Lógico
+
+Datos Dinámicos (JSON): La configuración de cada escenario (palabras, operaciones matemáticas, audios en alemán) debe estructurarse en objetos JSON. Las funciones de renderizado deben ser genéricas e iterar sobre estos datos.
+
+Gestión de Permisos (Audio): Toda inicialización de la Web Audio API o la MediaRecorder API debe estar atada a una interacción explícita del usuario (ej. el botón "¡Zarpar!") para evitar bloqueos del navegador Safari.
+
+Mecánica de Voz ("Efecto Loro"): Para el minijuego de lectura/habla, no se evaluará la pronunciación con reconocimiento de voz. Se usará la MediaRecorder API para que el niño mantenga presionado un botón, grabe su intento, y el sistema lo reproduzca de vuelta como refuerzo positivo automático.
+
+Interacciones Táctiles: Priorizar el uso de eventos táctiles nativos de JS para las mecánicas de arrastrar y soltar (drag and drop) en el iPad.
+
+5. Safari/WebKit Priority
+All code, transitions, and logic must be optimized for Safari on iOS (iPad Mini).
+
+Prioritize Touch Events over Click Events.
+
+Ensure CSS animations use standard properties (and -webkit- prefixes if the agent detects compatibility issues).
+
+Assume a 1024x768 viewport (Landscape).
+
+Handle MediaRecorder and AudioContext following Apple’s strict user-interaction requirements (audio must be triggered by a direct touchstart).

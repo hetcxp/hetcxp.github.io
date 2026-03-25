@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- PWA Meta tags -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Tesoro Pirata">
+    
+    <title>¡El Tesoro Pirata!</title>
+    
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/img/nico_quieto.png">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+    <div id="game-container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <h1 class="game-title">¡El Tesoro Pirata!</h1>
+            <div id="nico-greet-zone" class="greet-zone">
+                <span class="greet-text">¡Presiona para saludar a Nico! 👋</span>
+            </div>
+            <button id="btn-start" class="btn-primary hidden">¡Zarpar!</button>
+        </div>
+
+        <!-- Map Screen -->
+        <div id="map-screen" class="screen hidden">
+            <header class="hud">
+                <div class="coin-counter">🪙 <span id="coin-count">0</span></div>
+                <button id="btn-reset-game" title="Reiniciar Todo el Progreso">🔄</button>
+            </header>
+            <div id="map-locations">
+                <!-- Locations will be injected dynamically -->
+            </div>
+        </div>
+
+        <!-- Island Menu Screen -->
+        <div id="island-screen" class="screen hidden">
+            <header class="game-header">
+                <button id="btn-back-to-map" class="btn-secondary">🔙 Mapa</button>
+            </header>
+            <h2 id="island-title" class="island-menu-title">Nombre de la Isla</h2>
+            <div id="station-locations" class="station-grid">
+                <!-- Station buttons will be injected dynamically -->
+            </div>
+        </div>
+
+        <!-- Minigame Screen -->
+        <div id="minigame-screen" class="screen hidden">
+            <header class="game-header">
+                <button id="btn-back" class="btn-secondary">🔙 Isla</button>
+                <div id="minigame-session-progress" class="station-progress session-dots"></div>
+            </header>
+            <div id="game-content">
+                <!-- Game logic will be injected here -->
+
+            </div>
+        </div>
+
+        <!-- Nico el Grumete Guide -->
+        <div id="nico-container">
+            <div id="dialog-container" class="speech-bubble" style="display: none; position: absolute; bottom: 110%; left: 50%; transform: translateX(-50%);">
+                <p id="nico-text"></p>
+            </div>
+            <img id="nico-sprite" src="assets/img/nico_quieto.png" alt="Nico el Grumete">
+        </div>
+        <div id="youtube-player" style="display:none"></div>
+        <button id="btn-mute" class="mute-btn" title="Silenciar Música">🔊</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/speech.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/germanData.js"></script>
+    <script src="js/games.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>

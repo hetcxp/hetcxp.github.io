@@ -1,0 +1,16 @@
+{
+  "name": "¡El Tesoro Pirata!",
+  "short_name": "Tesoro Pirata",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#87CEEB",
+  "theme_color": "#87CEEB",
+  "icons": [
+    {
+      "src": "assets/img/nico_quieto.png",
+      "sizes": "512x512 192x192 any",
+      "type": "image/png"
+    }
+  ]
+}
