@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetario Interactivo - Cocina Saludable</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar or Header depending on screen size -->
+        <header class="main-header">
+            <div class="header-logo">
+                <i class="fa-solid fa-fire-burner logo-icon"></i>
+                <div class="logo-text">
+                    <h1>Mis Recetas</h1>
+                    <span>Freidora de Aire & Cocina Saludable</span>
+                </div>
+            </div>
+            
+            <div class="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="search-input" placeholder="Buscar recetas o ingredientes...">
+            </div>
+        </header>
+
+        <!-- Dynamic Active Filters Tag Bar -->
+        <div class="active-filters-bar" id="active-filters-bar" style="display: none;">
+            <span class="filters-label">Filtros activos:</span>
+            <div class="active-filters-container" id="active-filters-container"></div>
+            <button class="clear-all-btn" id="clear-all-btn">Limpiar todo</button>
+        </div>
+
+        <main class="main-content">
+            <!-- Sidebar with Book Filters and Ingredients Glossary -->
+            <aside class="sidebar-section">
+                <!-- Book Filter Card -->
+                <div class="filter-card book-filter-card">
+                    <div class="card-header-toggle" id="toggle-books-header">
+                        <h3><i class="fa-solid fa-book"></i> Libros de Recetas</h3>
+                        <button class="toggle-card-btn" id="toggle-books-btn" title="Mostrar/Ocultar libros">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="book-list-filters" id="book-filters-container">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
+                <!-- Ingredient Glossary Card -->
+                <div class="filter-card ingredient-glossary-card">
+                    <div class="card-header-toggle" id="toggle-glossary-header">
+                        <h3><i class="fa-solid fa-basket-shopping"></i> Índice de Ingredientes</h3>
+                        <button class="toggle-card-btn" id="toggle-glossary-btn" title="Mostrar/Ocultar categorías">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="ingredient-categories-wrapper" id="ingredient-categories-container">
+                        <!-- Populated dynamically by JS -->
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Recipes Browser Section -->
+            <section class="recipes-section">
+                <!-- Moment of the Day Navigation -->
+                <nav class="moments-nav">
+                    <button class="moment-tab active" data-moment="all">
+                        <i class="fa-solid fa-utensils"></i> Todos
+                    </button>
+                    <button class="moment-tab" data-moment="desayuno">
+                        <i class="fa-solid fa-mug-saucer"></i> Desayunos
+                    </button>
+                    <button class="moment-tab" data-moment="almuerzo">
+                        <i class="fa-solid fa-burger"></i> Almuerzos
+                    </button>
+                    <button class="moment-tab" data-moment="merienda">
+                        <i class="fa-solid fa-cookie"></i> Meriendas
+                    </button>
+                    <button class="moment-tab" data-moment="cena">
+                        <i class="fa-solid fa-moon"></i> Cenas
+                    </button>
+                </nav>
+
+                <!-- Grid Header / Counter -->
+                <div class="results-meta">
+                    <span id="results-count">Cargando recetas...</span>
+                </div>
+
+                <!-- Recipe Grid -->
+                <div class="recipe-grid" id="recipe-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Recipe Detail Modal -->
+    <div class="modal-backdrop" id="recipe-modal" style="display: none;">
+        <div class="recipe-modal-content">
+            <button class="close-modal-btn" id="close-modal-btn">&times;</button>
+            
+            <div class="modal-body-layout">
+                <!-- Left Side: Image and info cards -->
+                <div class="modal-visuals">
+                    <div class="modal-img-container">
+                        <img id="modal-recipe-image" src="" alt="Receta">
+                    </div>
+                    
+                    <div class="modal-metadata-pills">
+                        <div class="pill-badge" id="modal-recipe-time">
+                            <i class="fa-regular fa-clock"></i> <span></span>
+                        </div>
+                        <div class="pill-badge" id="modal-recipe-yield">
+                            <i class="fa-solid fa-utensils"></i> <span></span>
+                        </div>
+                        <div class="pill-badge preheat-badge" id="modal-recipe-preheat" style="display: none;">
+                            <i class="fa-solid fa-temperature-three-quarters"></i> <span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-origin">
+                        <i class="fa-solid fa-book-open"></i> Libro: <span id="modal-recipe-book"></span>
+                    </div>
+                </div>
+
+                <!-- Right Side: Details, Ingredients Checklist, Steps -->
+                <div class="modal-info">
+                    <h2 id="modal-recipe-title"></h2>
+                    <div class="moments-pills" id="modal-recipe-moments"></div>
+                    
+                    <div class="recipe-content-tabs">
+                        <div class="content-tab active" data-tab="ingredients">
+                            Ingredientes <span class="badge-count" id="modal-ing-count">0</span>
+                        </div>
+                        <div class="content-tab" data-tab="steps">
+                            Procedimiento <span class="badge-count" id="modal-steps-count">0</span>
+                        </div>
+                    </div>
+
+                    <!-- Ingredients Tab Content -->
+                    <div class="tab-pane active" id="pane-ingredients">
+                        <p class="tab-instruction"><i class="fa-solid fa-info-circle"></i> Podés marcar los ingredientes que ya tenés listos:</p>
+                        <ul class="ingredients-checklist" id="modal-ingredients-list">
+                            <!-- Populated by JS -->
+                        </ul>
+                    </div>
+
+                    <!-- Steps Tab Content -->
+                    <div class="tab-pane" id="pane-steps">
+                        <p class="tab-instruction"><i class="fa-solid fa-info-circle"></i> Seguí los pasos del procedimiento a tu ritmo:</p>
+                        <ol class="steps-checklist" id="modal-steps-list">
+                            <!-- Populated by JS -->
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+</html>
