@@ -1,0 +1,266 @@
+Por favor, escribe el CSS final para los 4 minijuegos y añádelo al final de `css/styles.css`.
+
+Asegúrate de que use las variables del sistema de diseño de Galaxia de Palabras (ej. `var(--glass-bg)`, `var(--glass-border)`, `var(--text-primary)`, `var(--text-secondary)`, `var(--neon-violet)`, `var(--neon-blue)`, `var(--neon-green)`, `var(--neon-gold)`).
+
+Aquí está el CSS refinado y auditado para iPad Mini horizontal:
+
+```css
+/* --- Game Containers & Cards --- */
+.game-container-sp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.illustration-box {
+  background: var(--glass-bg);
+  border: 2px solid var(--glass-border);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word-card-img {
+  max-height: 140px;
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+.options-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* --- Game 1: Meteoritos de Letras --- */
+.word-slots-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.letter-slot {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: var(--glass-bg);
+  border: 2px solid var(--glass-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: var(--transition-smooth);
+}
+
+.meteorite-btn {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #5f27cd, #341f97);
+  border: 2px solid var(--neon-violet);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  box-shadow: 0 0 15px rgba(95, 39, 205, 0.5);
+  transition: var(--transition-smooth);
+}
+
+.meteorite-btn:active {
+  transform: scale(0.9);
+  box-shadow: 0 0 8px rgba(95, 39, 205, 0.3);
+}
+
+/* --- Game 2: Estación de Sílabas --- */
+.syllables-slots-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 10px 0;
+}
+
+.syllable-slot {
+  min-width: 90px;
+  height: 60px;
+  border-radius: 16px;
+  background: var(--glass-bg);
+  border: 2px dashed var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-secondary);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: var(--transition-smooth);
+}
+
+.syllable-btn {
+  min-width: 90px;
+  height: 54px;
+  border-radius: 27px;
+  background: radial-gradient(circle at 30% 30%, #ff9f43, #ee5253);
+  border: 2px solid var(--neon-gold);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  box-shadow: 0 0 15px rgba(255, 159, 67, 0.4);
+  transition: var(--transition-smooth);
+}
+
+.syllable-btn:active {
+  transform: scale(0.9);
+}
+
+/* --- Game 3: Portal Estelar --- */
+.portal-display {
+  width: 100%;
+  max-width: 320px;
+  height: 90px;
+  border-radius: 45px;
+  background: radial-gradient(circle at 50% 50%, rgba(52, 152, 219, 0.2) 20%, rgba(108, 92, 231, 0.4) 100%);
+  border: 2px solid var(--neon-blue);
+  box-shadow: 0 0 20px rgba(52, 152, 219, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  text-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+  letter-spacing: 4px;
+  margin: 10px 0;
+  animation: pulsePortal 3s infinite ease-in-out;
+}
+
+@keyframes pulsePortal {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 20px rgba(52, 152, 219, 0.5); }
+  50% { transform: scale(1.03); box-shadow: 0 0 30px rgba(52, 152, 219, 0.8); }
+}
+
+.missing-portal-slot {
+  color: var(--neon-blue);
+  border-bottom: 4px dashed var(--neon-blue);
+  padding: 0 8px;
+  min-width: 60px;
+  display: inline-block;
+  text-align: center;
+}
+
+.portal-unlocked {
+  color: var(--neon-green) !important;
+  border-bottom-color: var(--neon-green) !important;
+  animation: pop 0.3s ease-out;
+}
+
+.portal-star-btn {
+  min-width: 110px;
+  height: 54px;
+  border-radius: 27px;
+  background: radial-gradient(circle at 30% 30%, #f1c40f, #d35400);
+  border: 2px solid var(--neon-gold);
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  box-shadow: 0 0 15px rgba(241, 196, 15, 0.4);
+  transition: var(--transition-smooth);
+}
+
+.portal-star-btn:active {
+  transform: scale(0.9);
+}
+
+/* --- Game 4: Constelaciones Gemelas --- */
+.constellation-game-wrapper {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.constellation-laser-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.constellation-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  z-index: 2;
+}
+
+.constellation-star {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, var(--glass-bg) 20%, #1e1035 100%);
+  border: 2px solid var(--text-secondary);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  box-shadow: 0 0 15px rgba(177, 159, 251, 0.3);
+  transition: var(--transition-smooth);
+}
+
+.constellation-star.selected {
+  border-color: var(--neon-gold);
+  box-shadow: 0 0 25px var(--neon-gold);
+  transform: scale(1.1);
+  animation: floatMove 2s infinite ease-in-out;
+}
+
+.constellation-star.matched {
+  background: radial-gradient(circle at 30% 30%, #2ecc71, #27ae60);
+  border-color: var(--neon-green);
+  color: var(--text-primary);
+  box-shadow: 0 0 15px rgba(46, 204, 113, 0.4);
+  opacity: 0.8;
+  cursor: default;
+}
+
+/* --- General Animations --- */
+.pop-anim {
+  animation: pop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.6); opacity: 0; }
+  70% { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.shake-anim {
+  animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+```
+Escribe el bloque SEARCH/REPLACE completo para modificar `css/styles.css` agregando este bloque al final del archivo.

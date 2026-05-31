@@ -1,0 +1,18 @@
+Genera el código CSS limpio y premium para la parte 1 de los minijuegos de Galaxia de Palabras:
+1. Contenedores y Estilos Generales:
+   - `.game-container-sp`: ancho 100%, flex centrado vertical y horizontalmente, gap de 20px.
+   - `.illustration-box`: tarjeta glassmorphism con fondo `var(--glass-bg)`, borde `2px solid var(--glass-border)`, blur 12px, border-radius 24px, shadow suave, padding 16px, flex centrado.
+   - `.word-card-img`: alto máximo 140px, object-fit contain, border-radius 16px.
+   - `.options-flex`: flex wrap, justificado al centro, gap 12px, ancho 100%, margen superior 10px.
+2. Meteoritos de Letras (Juego 1):
+   - `.word-slots-container`: flex, centrado, gap 12px, margen vertical 10px.
+   - `.letter-slot`: ancho 64px, alto 64px, border-radius 16px, fondo `var(--glass-bg)`, borde `2px solid var(--glass-border)`, flex centrado, font-size 1.8rem, font-weight 800, color `var(--text-primary)`, text-shadow, shadow, transición suave.
+   - `.meteorite-btn`: ancho 64px, alto 64px, border-radius 50%, fondo degradado radial de `#5f27cd` a `#341f97`, borde `2px solid var(--neon-violet)`, font-size 1.6rem, font-weight 800, color `var(--text-primary)`, shadow `0 0 15px rgba(95, 39, 205, 0.5)`, transición.
+   - `.meteorite-btn:active`: escala 0.9, shadow suave.
+3. Estación de Sílabas (Juego 2):
+   - `.syllables-slots-container`: flex, centrado, gap 16px, margen vertical 10px.
+   - `.syllable-slot`: ancho mínimo 90px, alto 60px, border-radius 16px, fondo `var(--glass-bg)`, borde `2px dashed var(--text-secondary)`, flex centrado, font-size 1.4rem, font-weight 800, color `var(--text-secondary)`, shadow, transición.
+   - `.syllable-btn`: ancho mínimo 90px, alto 54px, border-radius 27px, fondo degradado radial de `#ff9f43` a `#ee5253`, borde `2px solid var(--neon-gold)`, font-size 1.3rem, font-weight 800, color `var(--text-primary)`, shadow `0 0 15px rgba(255, 159, 67, 0.4)`, transición.
+   - `.syllable-btn:active`: escala 0.9.
+
+Genera únicamente el código CSS limpio y estructurado listo para ser añadido al archivo.

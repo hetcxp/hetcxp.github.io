@@ -1,0 +1,32 @@
+Se encontraron dos errores graves en el código javascript de `js/audio.js` generado:
+
+1. **Falta de conexión al destino de audio**: Los osciladores están conectados a `gainNode`, pero `gainNode` **nunca se conecta** a `audioContext.destination` (la salida física de sonido), por lo que no se escuchará ningún efecto. Debe agregarse `gainNode.connect(audioContext.destination)`.
+2. **Crash en sfx_victory**: El sonido `sfx_victory` define la propiedad `notes: [...]`, pero no define `oscillators` ni `frequencies`. Al pasar por el `else` del condicional, intenta acceder a `settings.frequencies[0]`, lo cual es `undefined` y lanzará un error que colgará el juego.
+3. **Volumen excesivo**: Ajusta la ganancia máxima a `0.15` (en lugar de `1.0`) para que no aturda, y utiliza `exponentialRampToValueAtTime` (o `setTargetAtTime`) para evitar chasquidos (clicks) de audio al final de la reproducción.
+
+Por favor, corrige estos errores e implementa el arpegio para `sfx_victory` programando cada nota secuencialmente con un desfase de tiempo.
+
+Aquí tienes la sugerencia de estructura para manejar `sfx_victory`:
+```javascript
+if (settings.notes) {
+  settings.notes.forEach((freq, idx) => {
+    const oscNode = audioContext.createOscillator();
+    oscNode.type = 'sine';
+    oscNode.frequency.setValueAtTime(freq, startTime + (idx * settings.spacing));
+    
+    const noteGain = audioContext.createGain();
+    noteGain.gain.setValueAtTime(0, startTime + (idx * settings.spacing));
+    noteGain.gain.linearRampToValueAtTime(0.15, startTime + (idx * settings.spacing) + 0.01);
+    noteGain.gain.exponentialRampToValueAtTime(0.001, startTime + (idx * settings.spacing) + 0.3);
+    
+    oscNode.connect(noteGain);
+    noteGain.connect(audioContext.destination);
+    
+    oscNode.start(startTime + (idx * settings.spacing));
+    oscNode.stop(startTime + (idx * settings.spacing) + 0.35);
+  });
+  return;
+}
+```
+
+Escribe el código Javascript completo corregido y limpio para `js/audio.js`.

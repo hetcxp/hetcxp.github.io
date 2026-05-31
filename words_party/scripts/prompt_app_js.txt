@@ -1,0 +1,22 @@
+Modifica `js/app.js` para importar `playSFX` desde `./audio.js` e interceptar cualquier reproducción de archivo de sonido que comience con `sfx_` (ej. `sfx_click`, `sfx_correct`, `sfx_incorrect`, `sfx_launch`, `sfx_victory`, `sfx_laser`) y reproducirlo usando el sintetizador de Web Audio.
+
+El bloque inicial de `js/app.js` debería quedar así:
+```javascript
+import { initStorage, getProgress, resetProgress } from './storage.js';
+import { startGame } from './game.js';
+import { playSFX } from './audio.js';
+
+// Global Audio Helper
+const playAudio = (path) => {
+  if (path.includes('sfx_')) {
+    const sfxName = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.'));
+    playSFX(sfxName);
+    return null;
+  }
+  const audio = new Audio(path);
+  audio.play().catch(e => console.log("Audio play blocked by browser:", e));
+  return audio;
+};
+```
+
+Genera únicamente el bloque SEARCH/REPLACE para `js/app.js`.

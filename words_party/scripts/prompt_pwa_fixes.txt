@@ -1,0 +1,50 @@
+Por favor, genera las soluciones para resolver los problemas de carga y compatibilidad con el Service Worker (PWA):
+
+1. **Evitar crash al evaluar módulos JS (js/game.js)**:
+   - Al final de `js/game.js`, se agrega un event listener a `btn-reward-continue` directamente al evaluar el módulo. Si el DOM no está listo en el momento de la carga (especialmente tras refrescos forzados o en WebKit), esto devuelve `null` y arroja un `TypeError` fatal que aborta toda la carga de `app.js`.
+   - Modifica esa sección para que busque el elemento de forma segura y solo le añada el listener si existe (o dentro de un listener de `DOMContentLoaded`):
+     ```javascript
+     document.addEventListener('DOMContentLoaded', () => {
+       const btnContinue = document.getElementById('btn-reward-continue');
+       if (btnContinue) {
+         btnContinue.addEventListener('click', () => {
+           playAudio('assets/audio/system/sfx_click.mp3');
+           document.getElementById('screen-reward').classList.remove('active');
+           document.getElementById('screen-control-panel').classList.add('active');
+           const btnBackMap = document.getElementById('btn-back-map');
+           if (btnBackMap) btnBackMap.click();
+         });
+       }
+     });
+     ```
+
+2. **Autoplay de Audio Seguro (js/app.js y js/game.js)**:
+   - Modifica `playAudio` para que capture cualquier excepción síncrona o asíncrona lanzada por `audio.play()` cuando el navegador bloquea la reproducción automática al cargar el sitio:
+     ```javascript
+     const playAudio = (path) => {
+       if (path.includes('sfx_')) {
+         const sfxName = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.'));
+         playSFX(sfxName);
+         return null;
+       }
+       try {
+         const audio = new Audio(path);
+         const promise = audio.play();
+         if (promise !== undefined && typeof promise.catch === 'function') {
+           promise.catch(e => console.log("Audio play blocked by browser:", e));
+         }
+         return audio;
+       } catch (e) {
+         console.warn("Audio playback failed synchronously:", e);
+         return null;
+       }
+     };
+     ```
+
+3. **Forzar Actualización del Cache del Service Worker (sw.js)**:
+   - Incrementa el identificador de caché a `'galaxia-cache-v2'` en `sw.js` para obligar al navegador a invalidar la caché antigua (que contiene el `styles.css` viejo sin la imagen de fondo) y cargar los nuevos recursos:
+     ```javascript
+     const CACHE_NAME = 'galaxia-cache-v2';
+     ```
+
+Genera los bloques SEARCH/REPLACE correspondientes para modificar estos archivos.

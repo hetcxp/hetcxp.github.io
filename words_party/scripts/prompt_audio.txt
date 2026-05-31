@@ -1,0 +1,36 @@
+Crea un nuevo archivo `js/audio.js` que implemente un sintetizador de efectos de sonido espacial utilizando la API de Web Audio (AudioContext).
+Esto nos permitirá reproducir los efectos de sonido del juego sin depender de archivos de audio externos (evitando errores 404 y permitiendo el funcionamiento offline completo).
+
+El archivo debe exportar una función `playSFX(type)` que acepte los siguientes tipos y reproduzca el sonido correspondiente:
+
+1. `sfx_click` (Sonido de click/burbuja):
+   - Tipo de onda: sine.
+   - Frecuencia inicial: ~200Hz, subiendo rápidamente a ~600Hz en 0.08 segundos.
+   - Ganancia: decaimiento rápido de 0.2 a 0.
+
+2. `sfx_correct` (Sonido de éxito/timbre):
+   - Dos osciladores en paralelo para un efecto armónico y brillante (ej. uno a 523.25Hz [Do5] y otro a 659.25Hz [Mi5]).
+   - Ganancia: ataque rápido, decaimiento suave en 0.4 segundos.
+
+3. `sfx_incorrect` (Sonido de error/rebote de goma):
+   - Tipo de onda: triangle o sawtooth.
+   - Frecuencia: empieza en ~180Hz y cae rápidamente a ~80Hz en 0.25 segundos.
+   - Ganancia: decaimiento en 0.25 segundos.
+
+4. `sfx_laser` (Efecto de rayo láser para conectar constelaciones):
+   - Tipo de onda: sawtooth o triangle.
+   - Frecuencia: empieza en ~880Hz y baja a ~220Hz muy rápidamente (0.15 segundos).
+   - Ganancia: decaimiento rápido.
+
+5. `sfx_launch` (Efecto de propulsor de cohete al despegar):
+   - Usar un oscilador square o una combinación de frecuencias graves que simulen el motor (ej. ~60Hz subiendo a ~150Hz en 0.6 segundos) junto con un decaimiento gradual.
+
+6. `sfx_victory` (Acorde triunfal para final del juego o mapa):
+   - Un arpegio rápido de 3 o 4 notas en acorde mayor (ej. Do, Mi, Sol, Do octava alta: 261.63, 329.63, 392.00, 523.25) espaciadas por 0.08 segundos cada una.
+   - Cada nota decae suavemente.
+
+Asegúrate de:
+- Inicializar el `AudioContext` de manera diferida (lazy initialization) al primer toque de pantalla o llamada a `playSFX` para cumplir con las políticas de reproducción automática del navegador (Chrome, Safari en iPad).
+- Manejar de forma segura si `AudioContext` está bloqueado o no es soportado.
+
+Genera únicamente el código Javascript limpio y completo para `js/audio.js`.

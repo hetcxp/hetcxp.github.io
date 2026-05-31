@@ -1,0 +1,33 @@
+Añade los estilos CSS detallados y premium para los 4 minijuegos de "Galaxia de Palabras" al final del archivo css/styles.css.
+
+Las clases necesarias son:
+1. Contenedores de juego y tarjetas:
+   - `.game-container-sp`: Centra los elementos vertical y horizontalmente con un gap de 20px.
+   - `.illustration-box`: Tarjeta con bordes redondeados (glassmorphism) y un glow suave.
+   - `.word-card-img`: Imagen dentro de la tarjeta, tamaño máximo 180px de alto, objeto adaptado (fit), esquinas redondeadas.
+2. Meteoritos de Letras (Juego 1):
+   - `.word-slots-container`: Contenedor flex con espacio, centrado.
+   - `.letter-slot`: Casillas circulares grandes (mínimo 76px de diámetro para accesibilidad en iPad), borde neon-violet, fondo oscuro, centrado. Al completarse exitosamente con la letra correcta, agrega animación `.pop-anim`.
+   - `.meteorite-btn`: Botón con diseño de meteorito (bordes rugosos o degradado radial violeta/gris, borde brillante, glow violeta, cambio de escala al presionar).
+3. Estación de Sílabas (Juego 2):
+   - `.syllables-slots-container`: Diseño flex centrado para las ranuras de sílabas.
+   - `.syllable-slot`: Casillas ovaladas simulando cabinas de cohete.
+   - `.syllable-btn`: Botones con forma de cápsula/propulsor espacial, de color naranja/amarillo con un glow brillante.
+4. Portal Estelar (Juego 3):
+   - `.portal-display`: Un marco circular o arco de energía con glow de portal espacial (degradado cian/azul, sombra difusa y animación de pulso). Muestra la palabra incompleta con un tamaño de fuente de 2.2rem.
+   - `.missing-portal-slot`: Un espacio vacío parpadeante y subrayado.
+   - `.portal-unlocked`: Borde o texto verde neon con animación de destello.
+   - `.portal-star-btn`: Botones de estrella dorada flotante.
+5. Constelaciones Gemelas (Juego 4):
+   - `.constellation-game-wrapper`: Contenedor relativo que abarca el área del juego.
+   - `.constellation-laser-svg`: Lienzo SVG absoluto que cubre todo el wrapper (width: 100%, height: 100%, top: 0, left: 0, pointer-events: none, z-index: 1).
+   - `.constellation-column`: Dos columnas verticales (una a la izquierda para Mayúsculas, otra a la derecha para Minúsculas) separadas y alineadas en los extremos.
+   - `.constellation-star`: Botones circulares con glow estelar.
+   - `.constellation-star.selected`: Glow amarillo intenso y animación de escala palpitante.
+   - `.constellation-star.matched`: Color verde neon apagado o translúcido, sin interacción.
+6. Animaciones generales:
+   - `.pop-anim`: Animación de escala rápida (0.8 a 1.2 a 1) para cuando entra una letra/sílaba.
+   - `.shake-anim`: Animación de vibración horizontal rápida para indicar error.
+
+Por favor, genera el CSS limpio, moderno y responsivo para iPad Mini en orientación horizontal.
+Escribe solo el código CSS nuevo que debe agregarse al final del archivo.

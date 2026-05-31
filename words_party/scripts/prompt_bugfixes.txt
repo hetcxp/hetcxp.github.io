@@ -1,0 +1,76 @@
+Por favor, genera las soluciones para los siguientes 3 problemas identificados en el juego:
+
+1. **El fondo espacial no se ve**:
+   - En `css/styles.css`, la clase `.starfield` tiene un degradado radial de fondo sólido (`background: radial-gradient(...)`) que tapa el fondo del `body`.
+   - Modifica el `body` en `css/styles.css` para que cargue la imagen de fondo:
+     ```css
+     background-image: url('../assets/images/bg_space.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     ```
+   - Modifica `.starfield` en `css/styles.css` para que su fondo sea transparente (`background-color: transparent` o simplemente quitar el degradado de fondo sólido) de modo que las estrellas animadas floten encima del fondo espacial de nebulosas.
+
+2. **El fondo de la imagen del astronauta choca con el fondo del juego**:
+   - Dado que las imágenes del personaje astronauta tienen un fondo negro/espacial cuadrado propio, esto choca visualmente con el fondo general del juego.
+   - Para resolverlo y darle un acabado premium e integrado, modifica `.astronaut-guide` en `css/styles.css` para recortar la imagen en círculo y añadir un borde de cristal y glow de comunicación espacial:
+     ```css
+     .astronaut-guide {
+       width: 100%;
+       height: 100%;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       border-radius: 50%;
+       border: 3px solid var(--glass-border);
+       box-shadow: 0 0 20px rgba(177, 159, 251, 0.5);
+       overflow: hidden;
+     }
+     ```
+
+3. **El botón de despegar no funciona**:
+   - Este error suele ocurrir si hay un fallo de ejecución de JS que cuelga el script inicial (impidiendo que se registre el click listener de `btnLaunch`).
+   - **Causa A (Safari/iOS Audio Play Crash)**: En Safari y WebKit en iPad, `audio.play()` puede devolver `undefined` en lugar de una Promesa si la reproducción es bloqueada por el navegador. Llamar a `.catch()` sobre `undefined` lanza un error fatal de JS.
+     - Corrige `playAudio` en `js/app.js` y `js/game.js` para validar de forma segura:
+       ```javascript
+       const playAudio = (path) => {
+         if (path.includes('sfx_')) {
+           const sfxName = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.'));
+           playSFX(sfxName);
+           return null;
+         }
+         const audio = new Audio(path);
+         const promise = audio.play();
+         if (promise !== undefined && typeof promise.catch === 'function') {
+           promise.catch(e => console.log("Audio play blocked by browser:", e));
+         }
+         return audio;
+       };
+       ```
+   - **Causa B (localStorage Schema Mismatch)**: Si el navegador tiene almacenada una estructura antigua del progreso de la partida (de ejecuciones previas del modelo donde `games` era booleano o no existía), el método `updateMapUI()` intentará iterar sobre objetos indefinidos y colgará el script.
+     - Corrige `getProgress()` en `js/storage.js` para verificar si el esquema guardado es válido y, de lo contrario, reiniciarlo:
+       ```javascript
+       export function getProgress() {
+         const data = localStorage.getItem(STORAGE_KEY);
+         if (!data) {
+           initStorage();
+           return INITIAL_STATE;
+         }
+         try {
+           const parsed = JSON.parse(data);
+           // Validar esquema básico
+           if (!parsed || typeof parsed.total_stars === 'undefined' || !parsed.stations || !parsed.stations.station1 || !parsed.stations.station1.games) {
+             console.warn("Esquema de almacenamiento antiguo detectado. Reiniciando...");
+             saveProgress(INITIAL_STATE);
+             return INITIAL_STATE;
+           }
+           return parsed;
+         } catch (e) {
+           console.error("Error al leer el progreso, reiniciando:", e);
+           saveProgress(INITIAL_STATE);
+           return INITIAL_STATE;
+         }
+       }
+       ```
+
+Genera los bloques SEARCH/REPLACE correspondientes para modificar estos archivos.

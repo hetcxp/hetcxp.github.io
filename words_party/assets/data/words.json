@@ -1,0 +1,618 @@
+{
+  "words": [
+    {
+      "word": "mamá",
+      "consonant": "M",
+      "syllables": ["ma", "má"],
+      "letters": ["m", "a", "m", "á"],
+      "emoji": "👩",
+      "audios": {
+        "word": "assets/audio/words/mama.mp3",
+        "syllables": [
+          "assets/audio/syllables/ma.mp3",
+          "assets/audio/syllables/ma_accent.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/a_accent.mp3"
+        ]
+      }
+    },
+    {
+      "word": "mano",
+      "consonant": "M",
+      "syllables": ["ma", "no"],
+      "letters": ["m", "a", "n", "o"],
+      "emoji": "✋",
+      "audios": {
+        "word": "assets/audio/words/mano.mp3",
+        "syllables": [
+          "assets/audio/syllables/ma.mp3",
+          "assets/audio/syllables/no.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/n.mp3",
+          "assets/audio/letters/o.mp3"
+        ]
+      }
+    },
+    {
+      "word": "madera",
+      "consonant": "M",
+      "syllables": ["ma", "de", "ra"],
+      "letters": ["m", "a", "d", "e", "r", "a"],
+      "emoji": "🪵",
+      "audios": {
+        "word": "assets/audio/words/madera.mp3",
+        "syllables": [
+          "assets/audio/syllables/ma.mp3",
+          "assets/audio/syllables/de.mp3",
+          "assets/audio/syllables/ra.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/e.mp3",
+          "assets/audio/letters/r.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "mono",
+      "consonant": "M",
+      "syllables": ["mo", "no"],
+      "letters": ["m", "o", "n", "o"],
+      "emoji": "🐒",
+      "audios": {
+        "word": "assets/audio/words/mono.mp3",
+        "syllables": [
+          "assets/audio/syllables/mo.mp3",
+          "assets/audio/syllables/no.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/o.mp3",
+          "assets/audio/letters/n.mp3",
+          "assets/audio/letters/o.mp3"
+        ]
+      }
+    },
+    {
+      "word": "mapa",
+      "consonant": "M",
+      "syllables": ["ma", "pa"],
+      "letters": ["m", "a", "p", "a"],
+      "emoji": "🗺️",
+      "audios": {
+        "word": "assets/audio/words/mapa.mp3",
+        "syllables": [
+          "assets/audio/syllables/ma.mp3",
+          "assets/audio/syllables/pa.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/p.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "masa",
+      "consonant": "M",
+      "syllables": ["ma", "sa"],
+      "letters": ["m", "a", "s", "a"],
+      "emoji": "🥣",
+      "audios": {
+        "word": "assets/audio/words/masa.mp3",
+        "syllables": [
+          "assets/audio/syllables/ma.mp3",
+          "assets/audio/syllables/sa.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/s.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "mula",
+      "consonant": "M",
+      "syllables": ["mu", "la"],
+      "letters": ["m", "u", "l", "a"],
+      "emoji": "🫏",
+      "audios": {
+        "word": "assets/audio/words/mula.mp3",
+        "syllables": [
+          "assets/audio/syllables/mu.mp3",
+          "assets/audio/syllables/la.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/u.mp3",
+          "assets/audio/letters/l.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "papá",
+      "consonant": "P",
+      "syllables": ["pa", "pá"],
+      "letters": ["p", "a", "p", "á"],
+      "emoji": "👨",
+      "audios": {
+        "word": "assets/audio/words/papa.mp3",
+        "syllables": [
+          "assets/audio/syllables/pa.mp3",
+          "assets/audio/syllables/pa_accent.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/p.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/p.mp3",
+          "assets/audio/letters/a_accent.mp3"
+        ]
+      }
+    },
+    {
+      "word": "pato",
+      "consonant": "P",
+      "syllables": ["pa", "to"],
+      "letters": ["p", "a", "t", "o"],
+      "emoji": "🦆",
+      "audios": {
+        "word": "assets/audio/words/pato.mp3",
+        "syllables": [
+          "assets/audio/syllables/pa.mp3",
+          "assets/audio/syllables/to.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/p.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/t.mp3",
+          "assets/audio/letters/o.mp3"
+        ]
+      }
+    },
+    {
+      "word": "perro",
+      "consonant": "P",
+      "syllables": ["pe", "rro"],
+      "letters": ["p", "e", "r", "r", "o"],
+      "emoji": "🐶",
+      "audios": {
+        "word": "assets/audio/words/perro.mp3",
+        "syllables": [
+          "assets/audio/syllables/pe.mp3",
+          "assets/audio/syllables/rro.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/p.mp3",
+          "assets/audio/letters/e.mp3",
+          "assets/audio/letters/r.mp3",
+          "assets/audio/letters/r.mp3",
+          "assets/audio/letters/o.mp3"
+        ]
+      }
+    },
+    {
+      "word": "pelota",
+      "consonant": "P",
+      "syllables": ["pe", "lo", "ta"],
+      "letters": ["p", "e", "l", "o", "t", "a"],
+      "emoji": "⚽",
+      "audios": {
+        "word": "assets/audio/words/pelota.mp3",
+        "syllables": [
+          "assets/audio/syllables/pe.mp3",
+          "assets/audio/syllables/lo.mp3",
+          "assets/audio/syllables/ta.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/p.mp3",
+          "assets/audio/letters/e.mp3",
+          "assets/audio/letters/l.mp3",
+          "assets/audio/letters/o.mp3",
+          "assets/audio/letters/t.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "piña",
+      "consonant": "P",
+      "syllables": ["pi", "ña"],
+      "letters": ["p", "i", "ñ", "a"],
+      "emoji": "🍍",
+      "audios": {
+        "word": "assets/audio/words/pinia.mp3",
+        "syllables": [
+          "assets/audio/syllables/pi.mp3",
+          "assets/audio/syllables/nia.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/p.mp3",
+          "assets/audio/letters/i.mp3",
+          "assets/audio/letters/nia_char.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "pelo",
+      "consonant": "P",
+      "syllables": ["pe", "lo"],
+      "letters": ["p", "e", "l", "o"],
+      "emoji": "🦱",
+      "audios": {
+        "word": "assets/audio/words/pelo.mp3",
+        "syllables": [
+          "assets/audio/syllables/pe.mp3",
+          "assets/audio/syllables/lo.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/p.mp3",
+          "assets/audio/letters/e.mp3",
+          "assets/audio/letters/l.mp3",
+          "assets/audio/letters/o.mp3"
+        ]
+      }
+    },
+    {
+      "word": "puma",
+      "consonant": "P",
+      "syllables": ["pu", "ma"],
+      "letters": ["p", "u", "m", "a"],
+      "emoji": "🐆",
+      "audios": {
+        "word": "assets/audio/words/puma.mp3",
+        "syllables": [
+          "assets/audio/syllables/pu.mp3",
+          "assets/audio/syllables/ma.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/p.mp3",
+          "assets/audio/letters/u.mp3",
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "pozo",
+      "consonant": "P",
+      "syllables": ["po", "zo"],
+      "letters": ["p", "o", "z", "o"],
+      "emoji": "🕳️",
+      "audios": {
+        "word": "assets/audio/words/pozo.mp3",
+        "syllables": [
+          "assets/audio/syllables/po.mp3",
+          "assets/audio/syllables/zo.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/p.mp3",
+          "assets/audio/letters/o.mp3",
+          "assets/audio/letters/z.mp3",
+          "assets/audio/letters/o.mp3"
+        ]
+      }
+    },
+    {
+      "word": "bebé",
+      "consonant": "B",
+      "syllables": ["be", "bé"],
+      "letters": ["b", "e", "b", "é"],
+      "emoji": "👶",
+      "audios": {
+        "word": "assets/audio/words/bebe.mp3",
+        "syllables": [
+          "assets/audio/syllables/be.mp3",
+          "assets/audio/syllables/be_accent.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/b.mp3",
+          "assets/audio/letters/e.mp3",
+          "assets/audio/letters/b.mp3",
+          "assets/audio/letters/e_accent.mp3"
+        ]
+      }
+    },
+    {
+      "word": "barco",
+      "consonant": "B",
+      "syllables": ["bar", "co"],
+      "letters": ["b", "a", "r", "c", "o"],
+      "emoji": "⛵",
+      "audios": {
+        "word": "assets/audio/words/barco.mp3",
+        "syllables": [
+          "assets/audio/syllables/bar.mp3",
+          "assets/audio/syllables/co.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/b.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/r.mp3",
+          "assets/audio/letters/c.mp3",
+          "assets/audio/letters/o.mp3"
+        ]
+      }
+    },
+    {
+      "word": "bota",
+      "consonant": "B",
+      "syllables": ["bo", "ta"],
+      "letters": ["b", "o", "t", "a"],
+      "emoji": "🥾",
+      "audios": {
+        "word": "assets/audio/words/bota.mp3",
+        "syllables": [
+          "assets/audio/syllables/bo.mp3",
+          "assets/audio/syllables/ta.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/b.mp3",
+          "assets/audio/letters/o.mp3",
+          "assets/audio/letters/t.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "boca",
+      "consonant": "B",
+      "syllables": ["bo", "ca"],
+      "letters": ["b", "o", "c", "a"],
+      "emoji": "👄",
+      "audios": {
+        "word": "assets/audio/words/boca.mp3",
+        "syllables": [
+          "assets/audio/syllables/bo.mp3",
+          "assets/audio/syllables/ca.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/b.mp3",
+          "assets/audio/letters/o.mp3",
+          "assets/audio/letters/c.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "bola",
+      "consonant": "B",
+      "syllables": ["bo", "la"],
+      "letters": ["b", "o", "l", "a"],
+      "emoji": "🔴",
+      "audios": {
+        "word": "assets/audio/words/bola.mp3",
+        "syllables": [
+          "assets/audio/syllables/bo.mp3",
+          "assets/audio/syllables/la.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/b.mp3",
+          "assets/audio/letters/o.mp3",
+          "assets/audio/letters/l.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "bata",
+      "consonant": "B",
+      "syllables": ["ba", "ta"],
+      "letters": ["b", "a", "t", "a"],
+      "emoji": "👘",
+      "audios": {
+        "word": "assets/audio/words/bata.mp3",
+        "syllables": [
+          "assets/audio/syllables/ba.mp3",
+          "assets/audio/syllables/ta.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/b.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/t.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "beso",
+      "consonant": "B",
+      "syllables": ["be", "so"],
+      "letters": ["b", "e", "s", "o"],
+      "emoji": "💋",
+      "audios": {
+        "word": "assets/audio/words/beso.mp3",
+        "syllables": [
+          "assets/audio/syllables/be.mp3",
+          "assets/audio/syllables/so.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/b.mp3",
+          "assets/audio/letters/e.mp3",
+          "assets/audio/letters/s.mp3",
+          "assets/audio/letters/o.mp3"
+        ]
+      }
+    },
+    {
+      "word": "dedo",
+      "consonant": "D",
+      "syllables": ["de", "do"],
+      "letters": ["d", "e", "d", "o"],
+      "emoji": "☝️",
+      "audios": {
+        "word": "assets/audio/words/dedo.mp3",
+        "syllables": [
+          "assets/audio/syllables/de.mp3",
+          "assets/audio/syllables/do.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/e.mp3",
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/o.mp3"
+        ]
+      }
+    },
+    {
+      "word": "dado",
+      "consonant": "D",
+      "syllables": ["da", "do"],
+      "letters": ["d", "a", "d", "o"],
+      "emoji": "🎲",
+      "audios": {
+        "word": "assets/audio/words/dado.mp3",
+        "syllables": [
+          "assets/audio/syllables/da.mp3",
+          "assets/audio/syllables/do.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/o.mp3"
+        ]
+      }
+    },
+    {
+      "word": "diente",
+      "consonant": "D",
+      "syllables": ["dien", "te"],
+      "letters": ["d", "i", "e", "n", "t", "e"],
+      "emoji": "🦷",
+      "audios": {
+        "word": "assets/audio/words/diente.mp3",
+        "syllables": [
+          "assets/audio/syllables/diente_syllable.mp3",
+          "assets/audio/syllables/te.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/i.mp3",
+          "assets/audio/letters/e.mp3",
+          "assets/audio/letters/n.mp3",
+          "assets/audio/letters/t.mp3",
+          "assets/audio/letters/e.mp3"
+        ]
+      }
+    },
+    {
+      "word": "ducha",
+      "consonant": "D",
+      "syllables": ["du", "cha"],
+      "letters": ["d", "u", "c", "h", "a"],
+      "emoji": "🚿",
+      "audios": {
+        "word": "assets/audio/words/ducha.mp3",
+        "syllables": [
+          "assets/audio/syllables/du.mp3",
+          "assets/audio/syllables/cha.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/u.mp3",
+          "assets/audio/letters/c.mp3",
+          "assets/audio/letters/h.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "dulce",
+      "consonant": "D",
+      "syllables": ["dul", "ce"],
+      "letters": ["d", "u", "l", "c", "e"],
+      "emoji": "🍬",
+      "audios": {
+        "word": "assets/audio/words/dulce.mp3",
+        "syllables": [
+          "assets/audio/syllables/dul.mp3",
+          "assets/audio/syllables/ce.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/u.mp3",
+          "assets/audio/letters/l.mp3",
+          "assets/audio/letters/c.mp3",
+          "assets/audio/letters/e.mp3"
+        ]
+      }
+    },
+    {
+      "word": "dominó",
+      "consonant": "D",
+      "syllables": ["do", "mi", "nó"],
+      "letters": ["d", "o", "m", "i", "n", "ó"],
+      "emoji": "🀰",
+      "audios": {
+        "word": "assets/audio/words/domino.mp3",
+        "syllables": [
+          "assets/audio/syllables/do.mp3",
+          "assets/audio/syllables/mi.mp3",
+          "assets/audio/syllables/no_accent.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/o.mp3",
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/i.mp3",
+          "assets/audio/letters/n.mp3",
+          "assets/audio/letters/o_accent.mp3"
+        ]
+      }
+    },
+    {
+      "word": "dama",
+      "consonant": "D",
+      "syllables": ["da", "ma"],
+      "letters": ["d", "a", "m", "a"],
+      "emoji": "👸",
+      "audios": {
+        "word": "assets/audio/words/dama.mp3",
+        "syllables": [
+          "assets/audio/syllables/da.mp3",
+          "assets/audio/syllables/ma.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/a.mp3",
+          "assets/audio/letters/m.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    },
+    {
+      "word": "día",
+      "consonant": "D",
+      "syllables": ["dí", "a"],
+      "letters": ["d", "í", "a"],
+      "emoji": "☀️",
+      "audios": {
+        "word": "assets/audio/words/dia.mp3",
+        "syllables": [
+          "assets/audio/syllables/di_accent.mp3",
+          "assets/audio/syllables/a.mp3"
+        ],
+        "letters": [
+          "assets/audio/letters/d.mp3",
+          "assets/audio/letters/i_accent.mp3",
+          "assets/audio/letters/a.mp3"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+Por favor, fusiona los dos diseños anteriores de `js/audio.js` en un único archivo Javascript completo.
+
+El archivo debe exportar la función `playSFX(type)` y contener toda la configuración para cada sonido (`sfx_click`, `sfx_correct`, `sfx_incorrect`, `sfx_laser`, `sfx_launch`, `sfx_victory`).
+
+Aquí está la estructura final deseada:
+
+```javascript
+// js/audio.js
+
+let audioContext = null;
+
+function initAudioContext() {
+  if (!audioContext) {
+    audioContext = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  if (audioContext.state === 'suspended') {
+    audioContext.resume().catch(() => {});
+  }
+}
+
+export function playSFX(type) {
+  try {
+    initAudioContext();
+  } catch (e) {
+    console.warn("Web Audio API is not supported or blocked:", e);
+    return;
+  }
+
+  const startTime = audioContext.currentTime;
+
+  const config = {
+    sfx_click: {
+      type: 'click',
+      oscillator: 'sine',
+      frequencies: [200, 600],
+      duration: 0.08,
+      decay: 0.08
+    },
+    sfx_correct: {
+      type: 'correct',
+      oscillators: [
+        { frequency: 523.25, type: 'sine' }, // Do5
+        { frequency: 659.25, type: 'sine' }  // Mi5
+      ],
+      duration: 0.4,
+      decay: 0.4
+    },
+    sfx_incorrect: {
+      type: 'incorrect',
+      oscillator: 'triangle',
+      frequencies: [180, 80],
+      duration: 0.25,
+      decay: 0.25
+    },
+    sfx_laser: {
+      type: 'laser',
+      oscillator: 'sawtooth',
+      frequencies: [880, 220],
+      duration: 0.15,
+      decay: 0.15
+    },
+    sfx_launch: {
+      type: 'launch',
+      oscillator: 'square',
+      frequencies: [60, 150],
+      duration: 0.6,
+      decay: 0.6
+    },
+    sfx_victory: {
+      type: 'victory',
+      notes: [261.63, 329.63, 392.00, 523.25], // Do4, Mi4, Sol4, Do5
+      spacing: 0.08,
+      decay: 0.35
+    }
+  };
+
+  const settings = config[type];
+  if (!settings) {
+    console.warn(`Sound type "${type}" is not supported`);
+    return;
+  }
+
+  // 1. Victory Arpeggio Sound
+  if (settings.type === 'victory') {
+    settings.notes.forEach((freq, idx) => {
+      const oscNode = audioContext.createOscillator();
+      oscNode.type = 'sine';
+      oscNode.frequency.setValueAtTime(freq, startTime + (idx * settings.spacing));
+      
+      const noteGain = audioContext.createGain();
+      noteGain.gain.setValueAtTime(0, startTime + (idx * settings.spacing));
+      noteGain.gain.linearRampToValueAtTime(0.15, startTime + (idx * settings.spacing) + 0.01);
+      noteGain.gain.exponentialRampToValueAtTime(0.001, startTime + (idx * settings.spacing) + settings.decay);
+      
+      oscNode.connect(noteGain);
+      noteGain.connect(audioContext.destination);
+      
+      oscNode.start(startTime + (idx * settings.spacing));
+      oscNode.stop(startTime + (idx * settings.spacing) + settings.decay + 0.05);
+    });
+    return;
+  }
+
+  // 2. Dual Oscillator Sounds (sfx_correct)
+  if (settings.oscillators) {
+    settings.oscillators.forEach(osc => {
+      const oscNode = audioContext.createOscillator();
+      oscNode.type = osc.type || 'sine';
+      oscNode.frequency.setValueAtTime(osc.frequency, startTime);
+      
+      const noteGain = audioContext.createGain();
+      noteGain.gain.setValueAtTime(0, startTime);
+      noteGain.gain.linearRampToValueAtTime(0.15, startTime + 0.01);
+      noteGain.gain.exponentialRampToValueAtTime(0.001, startTime + settings.decay);
+      
+      oscNode.connect(noteGain);
+      noteGain.connect(audioContext.destination);
+      
+      oscNode.start(startTime);
+      oscNode.stop(startTime + settings.duration + 0.05);
+    });
+    return;
+  }
+
+  // 3. Frequency Sweep Sounds (click, incorrect, laser, launch)
+  if (settings.frequencies) {
+    const oscNode = audioContext.createOscillator();
+    oscNode.type = settings.oscillator || 'sine';
+    oscNode.frequency.setValueAtTime(settings.frequencies[0], startTime);
+    oscNode.frequency.linearRampToValueAtTime(settings.frequencies[1], startTime + settings.duration);
+    
+    const gainNode = audioContext.createGain();
+    gainNode.gain.setValueAtTime(0, startTime);
+    gainNode.gain.linearRampToValueAtTime(0.15, startTime + 0.01);
+    gainNode.gain.exponentialRampToValueAtTime(0.001, startTime + settings.decay);
+    
+    oscNode.connect(gainNode);
+    gainNode.connect(audioContext.destination);
+    
+    oscNode.start(startTime);
+    oscNode.stop(startTime + settings.duration + 0.05);
+  }
+}
+```
+
+Escribe este archivo Javascript final en `js/audio.js`.

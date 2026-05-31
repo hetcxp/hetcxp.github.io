@@ -1,0 +1,22 @@
+Genera el código CSS limpio y premium para la parte 2 de los minijuegos de Galaxia de Palabras:
+1. Portal Estelar (Juego 3):
+   - `.portal-display`: ancho 100%, max-width 320px, alto 90px, border-radius 45px, fondo degradado radial de `rgba(52, 152, 219, 0.2)` a `rgba(108, 92, 231, 0.4)`, borde `2px solid var(--neon-blue)`, shadow `0 0 20px rgba(52, 152, 219, 0.5)`, flex centrado, font-size 2.2rem, font-weight 800, color `var(--text-primary)`, text-shadow, espaciado de letras 4px, margen vertical 10px, animación `pulsePortal` de 3 segundos infinita.
+   - Definición del keyframes `@keyframes pulsePortal`: escala 1 a 1.03 a 1, shadow de 20px a 30px a 20px.
+   - `.missing-portal-slot`: color `var(--neon-blue)`, borde inferior de 4px punteado `var(--neon-blue)`, relleno horizontal 8px, ancho mínimo 60px, display inline-block, texto centrado.
+   - `.portal-unlocked`: color `var(--neon-green)` !important, borde inferior color `var(--neon-green)` !important, animación pop de 0.3s.
+   - `.portal-star-btn`: ancho mínimo 110px, alto 54px, border-radius 27px, fondo degradado de `#f1c40f` a `#d35400`, borde `2px solid var(--neon-gold)`, font-size 1.2rem, font-weight 800, color `var(--text-primary)`, shadow `0 0 15px rgba(241, 196, 15, 0.4)`, transición.
+   - `.portal-star-btn:active`: escala 0.9.
+2. Constelaciones Gemelas (Juego 4):
+   - `.constellation-game-wrapper`: posición relativa, ancho 100%, alto 320px, flex con espacio entre columnas, alineación centrada, relleno horizontal 40px.
+   - `.constellation-laser-svg`: posición absoluta, ancho 100%, alto 100%, top 0, left 0, pointer-events none, z-index 1.
+   - `.constellation-column`: flex dirección columna, distribución alrededor (space-around), alto 100%, z-index 2.
+   - `.constellation-star`: ancho 70px, alto 70px, border-radius 50%, fondo degradado radial de `var(--glass-bg)` a `#1e1035`, borde `2px solid var(--text-secondary)`, font-size 1.6rem, font-weight 800, color `var(--text-primary)`, shadow `0 0 15px rgba(177, 159, 251, 0.3)`, transición.
+   - `.constellation-star.selected`: borde color `var(--neon-gold)`, shadow `0 0 25px var(--neon-gold)`, escala 1.1, animación floatMove de 2s.
+   - `.constellation-star.matched`: fondo degradado radial de `#2ecc71` a `#27ae60`, borde `var(--neon-green)`, color `var(--text-primary)`, shadow, opacidad 0.8, cursor default.
+3. Animaciones Generales:
+   - `.pop-anim`: animación `pop` de 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) both.
+   - Definición del keyframes `@keyframes pop`: 0% escala 0.6 opacidad 0, 70% escala 1.1, 100% escala 1 opacidad 1.
+   - `.shake-anim`: animación `shake` de 0.4s.
+   - Definición del keyframes `@keyframes shake`: 0%, 100% transladarX 0, 20%, 60% transladarX -8px, 40%, 80% transladarX 8px.
+
+Genera únicamente el código CSS limpio y estructurado listo para ser añadido al archivo.

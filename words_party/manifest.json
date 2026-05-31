@@ -1,0 +1,23 @@
+{
+  "name": "Galaxia de Palabras",
+  "short_name": "Galaxia",
+  "description": "Juego espacial educativo para aprender letras, sílabas y palabras.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0B0114",
+  "theme_color": "#0B0114",
+  "icons": [
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

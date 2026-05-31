@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Galaxia de Palabras</title>
+  <link rel="stylesheet" href="css/styles.css?v=8">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0B0114">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <script>
+    // Control de versión para invalidar cachés del Service Worker y limpiar almacenamiento viejo
+    (function() {
+      const CURRENT_VERSION = 'v8';
+      let storedVersion = null;
+      try {
+        storedVersion = localStorage.getItem('app_version');
+      } catch (e) {}
+
+      if (storedVersion !== CURRENT_VERSION) {
+        try {
+          localStorage.setItem('app_version', CURRENT_VERSION);
+        } catch (e) {}
+
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistrations().then(registrations => {
+            let promises = registrations.map(reg => reg.unregister());
+            if (window.caches) {
+              promises.push(caches.keys().then(names => {
+                return Promise.all(names.map(name => caches.delete(name)));
+              }));
+            }
+            Promise.all(promises).then(() => {
+              window.location.reload();
+            });
+          }).catch(() => {
+            window.location.reload();
+          });
+        } else {
+          window.location.reload();
+        }
+      }
+    })();
+  </script>
+</head>
+<body>
+  <!-- Starfield background animation layer -->
+  <div class="starfield"></div>
+
+  <!-- Main Container -->
+  <div id="app-container">
+    
+    <!-- 1. Home Screen -->
+    <div id="screen-home" class="screen active">
+      <div class="galaxy-title">
+        <h1>GALAXIA DE PALABRAS</h1>
+      </div>
+      <div class="astronaut-guide-container animate-float">
+        <div class="astronaut-guide idle" id="guide-home"></div>
+      </div>
+      <button id="btn-launch" class="btn-primary">DESPEGAR</button>
+    </div>
+
+    <!-- 2. Galactic Map Screen -->
+    <div id="screen-map" class="screen">
+      <div class="hud">
+        <button id="btn-reset-game" class="btn-icon" aria-label="Reiniciar juego">🗑️</button>
+        <div class="stars-counter">
+          <span class="star-icon">⭐</span>
+          <span id="star-count">0</span>
+        </div>
+      </div>
+      <div class="map-container">
+        <!-- Galaxy Spiral Background Effect -->
+        <div class="galaxy-spiral-bg"></div>
+        
+        <!-- Orbit lines -->
+        <svg class="orbits-svg"></svg>
+        
+        <!-- Stations -->
+        <div class="station-node" id="station1" data-station="1">
+          <div class="station-avatar nebula"></div>
+          <span class="station-name">Nebulosa M</span>
+          <div class="station-completion-stars">☆☆☆☆</div>
+        </div>
+        <div class="station-node" id="station2" data-station="2">
+          <div class="station-avatar asteroids"></div>
+          <span class="station-name">Asteroides P</span>
+          <div class="station-completion-stars">☆☆☆☆</div>
+        </div>
+        <div class="station-node" id="station3" data-station="3">
+          <div class="station-avatar saturn"></div>
+          <span class="station-name">Saturno B</span>
+          <div class="station-completion-stars">☆☆☆☆</div>
+        </div>
+        <div class="station-node" id="station4" data-station="4">
+          <div class="station-avatar dragon"></div>
+          <span class="station-name">Constelación D</span>
+          <div class="station-completion-stars">☆☆☆☆</div>
+        </div>
+        <div class="station-node" id="station5" data-station="5">
+          <div class="station-avatar blackhole"></div>
+          <span class="station-name">Agujero Sílabas</span>
+          <div class="station-completion-stars">☆☆☆☆</div>
+        </div>
+        <div class="station-node" id="station6" data-station="6">
+          <div class="station-avatar supernova"></div>
+          <span class="station-name">Supernova Letras</span>
+          <div class="station-completion-stars">☆☆☆☆</div>
+        </div>
+
+        <!-- Solar Core (Center of Galaxy) -->
+        <div class="station-node core locked" id="galaxy-core">
+          <div class="station-avatar sun"></div>
+          <span class="station-name">Núcleo Solar</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Station Panel Screen (Minigame selector) -->
+    <div id="screen-control-panel" class="screen">
+      <div class="hud">
+        <button id="btn-back-map" class="btn-icon">⬅️</button>
+        <h2 id="station-title">Panel de Control</h2>
+      </div>
+      <div class="control-panel-grid">
+        <button class="game-card" data-game="1">
+          <div class="game-icon">☄️</div>
+          <h3>Meteoritos</h3>
+          <span class="game-desc">Armar letras</span>
+          <div class="game-status-stars">☆☆☆</div>
+        </button>
+        <button class="game-card" data-game="2">
+          <div class="game-icon">🚀</div>
+          <h3>Estación Sílabas</h3>
+          <span class="game-desc">Ensamblar cohete</span>
+          <div class="game-status-stars">☆☆☆</div>
+        </button>
+        <button class="game-card" data-game="3">
+          <div class="game-icon">🌀</div>
+          <h3>Portal Estelar</h3>
+          <span class="game-desc">Completar palabra</span>
+          <div class="game-status-stars">☆☆☆</div>
+        </button>
+        <button class="game-card" data-game="4">
+          <div class="game-icon">✨</div>
+          <h3>Constelaciones</h3>
+          <span class="game-desc">A = a</span>
+          <div class="game-status-stars">☆☆☆</div>
+        </button>
+      </div>
+    </div>
+
+    <!-- 4. Active Game Screen -->
+    <div id="screen-game-play" class="screen">
+      <div class="hud">
+        <button id="btn-exit-game" class="btn-icon">⬅️</button>
+        <div class="game-hud-info">
+          <span id="game-title-hud">Meteoritos</span>
+          <div class="rounds-indicator">Ronda: <span id="current-round">1</span>/3</div>
+        </div>
+      </div>
+      <div class="game-play-layout">
+        <div class="game-main-area">
+          <div class="game-guide-box">
+            <div class="astronaut-guide pointing animate-float" id="guide-game"></div>
+          </div>
+          <div id="game-board-container">
+            <!-- Dynamic game contents injected by game.js -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Reward/Completion Screen -->
+    <div id="screen-reward" class="screen">
+      <div class="reward-content glass-card">
+        <h2 id="reward-header">¡Misión Cumplida!</h2>
+        <div class="astronaut-guide success" id="guide-reward"></div>
+        <div class="reward-stars-display" id="reward-stars">⭐⭐⭐</div>
+        <button id="btn-reward-continue" class="btn-primary">CONTINUAR</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Parental Safety Lock Modal (Confirmation for Reset) -->
+  <div id="modal-parental-gate" class="modal-overlay">
+    <div class="modal-card glass-card">
+      <h2>🔒 Control de Adultos</h2>
+      <p class="modal-instructions">Para reiniciar el juego, supera el reto espacial:</p>
+      <p class="modal-challenge-text">Toca el <strong>planeta rojo</strong></p>
+      
+      <div class="parental-options">
+        <button class="parental-planet blue" data-color="blue" aria-label="Planeta azul"></button>
+        <button class="parental-planet green" data-color="green" aria-label="Planeta verde"></button>
+        <button class="parental-planet red" data-color="red" aria-label="Planeta rojo"></button>
+      </div>
+      
+      <button id="btn-cancel-reset" class="btn-secondary">Volver al Espacio</button>
+    </div>
+  </div>
+
+  <!-- Main App Script (ES6 Module) -->
+  <script type="module" src="js/app.js?v=8"></script>
+
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').then((reg) => {
+          console.log('Service Worker registrado correctamente.', reg.scope);
+        }).catch((err) => {
+          console.log('Error de registro de Service Worker:', err);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

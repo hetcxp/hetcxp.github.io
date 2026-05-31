@@ -1,0 +1,89 @@
+# PSEUDOCODE for audio generation script using edge-tts
+# This file will be implemented by the developer LLM (Qwen3) as generate_audio.py.
+
+"""
+PSEUDOCODE:
+
+1. Import required modules:
+   - json
+   - os
+   - asyncio
+   - edge_tts (External dependency)
+
+2. Define CONSTANTS:
+   - VOICE_NAME = "es-MX-JorgeNeural" (or "es-ES-AlvaroNeural" based on user configuration)
+   - WORDS_JSON_PATH = "assets/data/words.json"
+   - OUTPUT_DIR_WORDS = "assets/audio/words"
+   - OUTPUT_DIR_SYLLABLES = "assets/audio/syllables"
+   - OUTPUT_DIR_LETTERS = "assets/audio/letters"
+
+3. Define helper functions:
+   - async function speak_and_save(text, output_file_path):
+       communicate = edge_tts.Communicate(text, VOICE_NAME)
+       await communicate.save(output_file_path)
+
+4. Main async function:
+   - Load words JSON from WORDS_JSON_PATH
+   - Create directories if they do not exist (OUTPUT_DIR_WORDS, OUTPUT_DIR_SYLLABLES, OUTPUT_DIR_LETTERS)
+
+   - Read JSON and build deduplicated maps for words, syllables, and letters to avoid duplicate requests:
+     
+     words_map = {
+        "mamá": "assets/audio/words/mama.mp3",
+        "mano": "assets/audio/words/mano.mp3",
+        ...
+     }
+
+     syllables_map = {
+        "ma": "assets/audio/syllables/ma.mp3",
+        "má": "assets/audio/syllables/ma_accent.mp3",
+        ...
+     }
+
+     letters_map = {
+        "m": "assets/audio/letters/m.mp3",
+        "a": "assets/audio/letters/a.mp3",
+        "á": "assets/audio/letters/a_accent.mp3",
+        ...
+     }
+
+   - Generate word audios:
+     For word, filepath in words_map:
+       If filepath does not exist:
+         Print "Generating word: {word}"
+         Call speak_and_save(word, filepath)
+
+   - Generate syllable audios:
+     For syllable, filepath in syllables_map:
+       If filepath does not exist:
+         Print "Generating syllable: {syllable}"
+         Call speak_and_save(syllable, filepath)
+
+   - Generate letter audios:
+     For letter, filepath in letters_map:
+       If filepath does not exist:
+         # Note: letters should be spoken slowly or spelled.
+         # For vowels we can just say "a", "e". For consonants, we may want to say the name of the letter "eme", "pe", "be", "de".
+         # Or say the sound "m", "p", "b", "d".
+         # Let's map letter characters to their spoken representation:
+         text_to_speak = letter
+         if letter == "m": text_to_speak = "eme"
+         elif letter == "p": text_to_speak = "pe"
+         elif letter == "b": text_to_speak = "be"
+         elif letter == "d": text_to_speak = "de"
+         elif letter == "r": text_to_speak = "ere"
+         elif letter == "l": text_to_speak = "ele"
+         elif letter == "s": text_to_speak = "ese"
+         elif letter == "t": text_to_speak = "te"
+         elif letter == "n": text_to_speak = "ene"
+         elif letter == "ñ": text_to_speak = "eñe"
+         elif letter == "c": text_to_speak = "ce"
+         elif letter == "h": text_to_speak = "hache"
+         elif letter == "z": text_to_speak = "zeta"
+         elif letter == "g": text_to_speak = "ge"
+         
+         Print "Generating letter sound: {text_to_speak} (for letter {letter})"
+         Call speak_and_save(text_to_speak, filepath)
+
+5. Run main async function using asyncio.run()
+"""
