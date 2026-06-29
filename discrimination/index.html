@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso: Casos de Discriminación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Modal de Idioma -->
+    <div id="lang-modal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-body, #f8fafc); z-index: 9999; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <h2 style="color: var(--primary); margin-bottom: 2rem; text-align: center; font-size: 2rem;">Selecciona tu idioma / Select your language</h2>
+        <div style="display: flex; gap: 2rem;">
+            <button class="btn-primary" onclick="setLanguage('es')" style="font-size: 1.2rem; padding: 1rem 3rem;">Español</button>
+            <button class="btn-primary" onclick="setLanguage('en')" style="font-size: 1.2rem; padding: 1rem 3rem;">English</button>
+        </div>
+    </div>
+
+    <div id="app">
+        <header class="portada" id="hero">
+            <div class="container portada-content">
+                <h1 data-i18n="hero_title">Casos de Discriminación</h1>
+                <p class="subtitle" data-i18n="hero_subtitle">Identificando lo invisible para construir equidad</p>
+                <button id="btn-iniciar" class="btn-light" style="margin-top: 2rem;" data-i18n="btn_start">Iniciar</button>
+            </div>
+        </header>
+
+        <section class="intro container hidden" id="intro">
+            <h2 data-i18n="intro_title">Introducción</h2>
+            <div class="intro-content">
+                <p class="lead-text" data-i18n="intro_p1">Imagina llegar a tu oficina cada mañana sabiendo que tus ideas, tu talento y tu
+                    identidad son valorados exactamente por lo que son.</p>
+                <p class="lead-text" data-i18n="intro_p2">Lamentablemente, esa no es la realidad para muchos profesionales.</p>
+                <p class="lead-text" data-i18n="intro_p3">A menudo, decisiones críticas que definen la trayectoria de las personas y de la
+                    organización se toman basándose en hilos invisibles: sesgos, suposiciones no cuestionadas y
+                    prejuicios ocultos.</p>
+
+                <p data-i18n="intro_p4">Este curso te invita a ponerte en los zapatos de quienes viven estas realidades.</p>
+                <p data-i18n="intro_p5">A través de cuatro historias inmersivas —desde contrataciones viciadas hasta microagresiones
+                    normalizadas y fallos garrafales en el liderazgo—, desentrañaremos cómo opera la discriminación en
+                    el día a día corporativo.</p>
+
+                <div class="callout-box">
+                    <strong data-i18n="intro_obj_title">Objetivo General:</strong><br>
+                    <span data-i18n="intro_obj_p1">Emprenderemos un viaje para destapar estos puntos ciegos.</span><br><br>
+                    <span data-i18n="intro_obj_p2">Aprenderás a identificar, analizar y mitigar los sesgos inconscientes, armándote con herramientas tácticas para convertirte en un agente de cambio y construir, en la práctica, un ecosistema laboral genuinamente inclusivo y equitativo.</span>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <button id="btn-continuar" class="btn-primary" data-i18n="btn_continue">Continuar al Contenido</button>
+            </div>
+        </section>
+
+        <!-- Navegación de Casos -->
+        <section class="casos-panel hidden" id="casos-panel">
+            <div class="casos-container">
+                <h2 class="casos-title" data-i18n="cases_title">Contenido: Casos de Estudio</h2>
+                <div class="casos-grid">
+                    <button class="caso-card" data-caso="1" style="background-image: url('img/caso1.png');">
+                        <span class="caso-number" data-i18n="case_1_num">Caso 1</span>
+                        <h3 data-i18n="case_1_title">El Proceso de Contratación Seguro</h3>
+                        <div class="card-progress"><div class="card-progress-fill" id="card-progress-1"></div></div>
+                        <div class="status-indicator"></div>
+                    </button>
+                    <button class="caso-card" data-caso="2" style="background-image: url('img/caso2.png');">
+                        <span class="caso-number" data-i18n="case_2_num">Caso 2</span>
+                        <h3 data-i18n="case_2_title">Dinámicas de Equipo y el Cumplido Incomprendido</h3>
+                        <div class="card-progress"><div class="card-progress-fill" id="card-progress-2"></div></div>
+                        <div class="status-indicator"></div>
+                    </button>
+                    <button class="caso-card" data-caso="3" style="background-image: url('img/caso3.png');">
+                        <span class="caso-number" data-i18n="case_3_num">Caso 3</span>
+                        <h3 data-i18n="case_3_title">La Decisión Rápida de Liderazgo</h3>
+                        <div class="card-progress"><div class="card-progress-fill" id="card-progress-3"></div></div>
+                        <div class="status-indicator"></div>
+                    </button>
+                    <button class="caso-card" data-caso="4" style="background-image: url('img/caso4.png');">
+                        <span class="caso-number" data-i18n="case_4_num">Caso 4</span>
+                        <h3 data-i18n="case_4_title">Construyendo el Futuro</h3>
+                        <div class="card-progress"><div class="card-progress-fill" id="card-progress-4"></div></div>
+                        <div class="status-indicator"></div>
+                    </button>
+                </div>
+                
+                <!-- Botón a Conclusión -->
+                <div class="conclusion-nav">
+                    <button id="btn-conclusion" class="btn-primary" disabled data-i18n="btn_conclusion">Ir a la Conclusión</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusión (Oculta hasta el final) -->
+        <section class="conclusion-portada hidden" id="conclusion-section">
+            <div class="container conclusion-content">
+                <h2 data-i18n="concl_title">El verdadero trabajo apenas comienza</h2>
+                <p class="lead-text" data-i18n="concl_p1">Nuestra travesía termina aquí, pero estas no son solo historias aisladas; son un
+                    reflejo de las grietas que rompen la confianza en las organizaciones.</p>
+
+                <ul class="conclusion-list">
+                    <li data-i18n="concl_li1">Hemos caminado junto a <strong>Javier</strong>, presenciando la injusticia de un comité cerrado.</li>
+                    <li data-i18n="concl_li2">Hemos sentido el desconcierto de <strong>Carlos</strong> ante un cumplido que escondía un prejuicio.</li>
+                    <li data-i18n="concl_li3">Compartimos la frustración de <strong>Elena</strong> al ver ignorada su experiencia.</li>
+                    <li data-i18n="concl_li4">Observamos con impotencia cómo el talento de <strong>Luis</strong> se escapaba por la puerta de atrás.</li>
+                </ul>
+
+                <p class="conclusion-summary" data-i18n="concl_summary">A lo largo de este viaje aprendimos que el destino de estas historias se puede reescribir. Nos equipamos con metodologías probadas como los <strong>5 pasos positivos</strong>, el <strong>método CPR</strong> y <strong>estrategias de retención</strong> abrazando la diversidad.</p>
+
+                <div class="final-message">
+                    <p data-i18n="concl_final">Hemos logrado nuestro <strong>objetivo general</strong>: ahora posees la capacidad de ver lo invisible y el coraje de actuar. En tus manos queda el poder de transformar estas lecciones en acción, asegurando que el próximo capítulo en tu entorno laboral sea una historia de genuina inclusión y respeto mutuo.</p>
+                </div>
+                
+                <div style="text-align: center; margin-top: 3rem;">
+                    <button id="btn-finalizar-curso" class="btn-light" style="padding: 1rem 2rem; font-size: 1.1rem;" data-i18n="btn_finish">Finalizar y Guardar Progreso</button>
+                    <p id="msg-finalizar" style="margin-top: 1rem; color: #4ade80; display: none; font-weight: bold; font-size: 1.1rem; text-shadow: 0 1px 2px rgba(0,0,0,0.5);" data-i18n="msg_finish">¡Progreso guardado correctamente! Ya puedes cerrar esta ventana.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="modal-caso" class="hidden caso-detalle-section" style="padding: 2rem; background-color: var(--bg-body, #ffffff);">
+        <div class="modal-content" style="width: 100%; max-width: 1200px; margin: 0 auto; border: none; box-shadow: none; position: relative; padding: 0;">
+            <button class="btn-close" id="btn-close-modal" style="position: absolute; right: 1rem; top: 1rem; z-index: 10;">&times;</button>
+            <div id="modal-body">
+                <!-- El contenido se inyecta por JS -->
+            </div>
+            <div class="modal-footer" style="text-align: center;">
+                <button class="btn-primary" id="btn-accept-modal" data-i18n="btn_understood">Comprendido</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Presentación Interactiva -->
+    <section id="modal-presentacion" class="hidden presentacion-section" style="padding: 2rem; background-color: var(--bg-body, #ffffff);">
+        <div class="modal-content presentacion-content" style="width: 100%; max-width: 1200px; margin: 0 auto; border: none; box-shadow: none; position: relative; padding: 0;">
+
+            <div class="presentacion-header" style="position: sticky; top: 0; background: var(--bg-main, #ffffff); z-index: 20; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color, #eee); display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                <div class="progress-bar" style="flex-grow: 1;">
+                    <div class="progress-fill" id="slide-progress"></div>
+                </div>
+                <button class="btn-close" id="btn-close-presentacion" style="position: relative; right: auto; top: auto; font-size: 2rem; line-height: 1; padding: 0;">&times;</button>
+            </div>
+
+            <div id="slides-container" class="slides-container">
+                <!-- Los slides se inyectan por JS -->
+            </div>
+
+            <div class="modal-footer presentacion-footer" style="display: flex; justify-content: center; gap: 1rem;">
+                <button class="btn-secondary hidden" id="btn-prev-slide" data-i18n="btn_prev">Anterior</button>
+                <button class="btn-primary" id="btn-next-slide" data-i18n="btn_next">Siguiente</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/scorm_wrapper.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
