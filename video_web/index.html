@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial Web Video</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="start-overlay">
+    <button id="btn-start-video">
+      <svg viewBox="0 0 24 24" fill="white" width="48" height="48">
+        <path d="M8 5v14l11-7z"/>
+      </svg>
+      <span>Iniciar Video</span>
+    </button>
+  </div>
+  
+  <div id="player-container">
+    <div id="slide-container">
+      <img id="slide-image" src="" alt="Slide">
+      <img id="cursor" src="cursor.svg" alt="Cursor">
+      <div id="subtitle-bar" style="display: none;"></div>
+    </div>
+    
+    <div id="controls">
+      <button id="btn-play-pause" aria-label="Play/Pause">
+        <svg id="icon-play" viewBox="0 0 24 24" fill="white" width="24" height="24">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+        <svg id="icon-pause" viewBox="0 0 24 24" fill="white" width="24" height="24" style="display:none;">
+          <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+        </svg>
+      </button>
+      
+      <input type="range" id="progress" min="0" max="100" value="0" step="1">
+      
+      <span id="slide-indicator">0 / 0</span>
+      
+      <button id="btn-subtitles" aria-label="Toggle Subtitles" title="Subtítulos (On/Off)">
+        <svg viewBox="0 0 24 24" fill="white" width="24" height="24">
+          <path d="M19 4H5c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8 7H9.5v-.5h-2v3h2V13H11v1c0 .55-.45 1-1 1H7c-.55 0-1-.45-1-1v-4c0-.55.45-1 1-1h3c.55 0 1 .45 1 1v1zm7 0h-1.5v-.5h-2v3h2V13H18v1c0 .55-.45 1-1 1h-3c-.55 0-1-.45-1-1v-4c0-.55.45-1 1-1h3c.55 0 1 .45 1 1v1z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="player.js"></script>
+</body>
+</html>

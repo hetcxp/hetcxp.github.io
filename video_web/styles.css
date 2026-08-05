@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+body { 
+  background: #0a0a0a; 
+  font-family: 'Inter', sans-serif; 
+  overflow: hidden; 
+}
+
+#player-container { 
+  width: 100vw; 
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+}
+
+#slide-container { 
+  flex: 1; 
+  position: relative; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slide-image { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
+}
+
+#cursor { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px; 
+  height: 28px; 
+  pointer-events: none;
+  z-index: 100; 
+  display: block; 
+}
+
+.ripple { 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4); 
+  pointer-events: none; 
+  z-index: 99;
+  transform: translate(-50%, -50%);
+  animation: ripple-expand 400ms ease-out forwards; 
+}
+
+@keyframes ripple-expand {
+  0% { 
+    width: 0; 
+    height: 0; 
+    opacity: 1; 
+  }
+  100% { 
+    width: 50px; 
+    height: 50px; 
+    opacity: 0; 
+  }
+}
+
+#subtitle-bar { 
+  position: absolute; 
+  bottom: 20px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  max-width: 80%; 
+  background: rgba(0, 0, 0, 0.75); 
+  color: #fff;
+  padding: 12px 24px; 
+  border-radius: 8px; 
+  font-size: 1.1rem;
+  text-align: center; 
+  z-index: 50; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+#controls { 
+  height: 50px; 
+  background: rgba(20, 20, 20, 0.85); 
+  backdrop-filter: blur(10px);
+  display: flex; 
+  align-items: center; 
+  gap: 16px; 
+  padding: 0 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); 
+  flex-shrink: 0;
+}
+
+#controls button { 
+  background: none; 
+  border: none; 
+  color: #fff; 
+  cursor: pointer;
+  width: 36px; 
+  height: 36px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+#controls button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#btn-subtitles.disabled svg {
+  opacity: 0.5;
+}
+
+#progress { 
+  flex: 1; 
+  accent-color: #4a9eff; 
+  cursor: pointer;
+}
+
+#slide-indicator { 
+  color: rgba(255, 255, 255, 0.6); 
+  font-size: 14px; 
+  min-width: 60px; 
+  text-align: right; 
+  font-variant-numeric: tabular-nums;
+}
+
+#start-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn-start-video {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  backdrop-filter: blur(5px);
+  transition: all 0.2s ease;
+}
+#btn-start-video:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}

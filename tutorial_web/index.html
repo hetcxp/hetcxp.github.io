@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Interactivo - Insertar Cliente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="player-container">
+        <!-- Contenedor principal de la lámina -->
+        <div id="slide-container">
+            <img id="slide-image" src="" alt="Slide">
+            
+            <!-- Hotspots (se inyectan por JS) -->
+            <div id="hotspot-click" class="hotspot hidden"></div>
+            <input type="text" id="hotspot-text" class="hotspot hidden" autocomplete="off" spellcheck="false">
+            
+            <!-- Caja de instrucción -->
+            <div id="instruction-box" class="instruction-box"></div>
+        </div>
+
+        <!-- Controles -->
+        <div id="controls">
+            <button id="btn-prev" class="control-btn" title="Anterior">◀ Atrás</button>
+            <div id="progress-indicator">Lámina 1 de 32</div>
+            <button id="btn-next" class="control-btn" title="Siguiente (Completa la acción para avanzar)" disabled>Siguiente ▶</button>
+        </div>
+    </div>
+
+    <!-- Pop-up Error -->
+    <div id="error-modal" class="modal hidden">
+        <div class="modal-content">
+            <p>Texto incorrecto. Revisa bien la instrucción para poder avanzar.</p>
+            <button id="btn-close-modal">Entendido</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
