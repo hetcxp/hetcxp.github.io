@@ -9,7 +9,7 @@ function renderBlock(block) {
             container.innerHTML = `<div class="intro-block">${block.content}</div>`;
             break;
         case 'start-course-btn':
-            container.innerHTML = `<div style="text-align: center; margin-top: 40px;"><button class="btn btn-primary" onclick="document.getElementById('next-module-btn').click();" style="font-size: 1.2rem; padding: 15px 30px;">${window.uiStrings ? window.uiStrings.startCourse : 'Start Course'}</button></div>`;
+            container.innerHTML = `<div style="text-align: center; margin-top: 40px;"><button class="btn btn-primary" onclick="state.modulesVisited.add(0); updateGlobalProgress(); document.getElementById('next-module-btn').click();" style="font-size: 1.2rem; padding: 15px 30px;">${window.uiStrings ? window.uiStrings.startCourse : 'Start Course'}</button></div>`;
             break;
         case 'text':
             container.innerHTML = `<div>${block.content}</div>`;

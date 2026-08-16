@@ -78,12 +78,12 @@ const courseDataEN = {
                 {
                     type: "flashcards",
                     data: [
-                        { front: "MSP Adoption", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>58%</strong><div>of companies with more than 1,000 employees already use an external MSP (vs. ~40% in 2009).</div></div>", color: "#2C4154" },
-                        { front: "SOW as a growth engine", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>39%</strong><div>Spend on SOW (Statement of Work) projects represents 39% of all managed MSP spend — the highest percentage recorded to date. For many suppliers, growth in SOW has offset the decline in temporary placements.</div></div>", color: "#0A9396" },
-                        { front: "Dominant pricing model", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>78%</strong><div>of clients pay the MSP a fee calculated as a percentage of the spend managed through the program (fee as a % of spend).</div></div>", color: "#F1AD0E" },
-                        { front: "Predominant vendor-neutral model", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>55%</strong><div>of the market by spend continues to operate under vendor-neutral models, meaning MSPs depend on a robust and motivated ecosystem of staffing firms.</div></div>", color: "#9F0D10" },
-                        { front: "Skills Mismatch", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>50%</strong><div>Almost 50% of employers report dissatisfaction with their hires due to a lack of adequate skills.</div></div>", color: "#2C4154" },
-                        { front: "Total Talent (MSP+RPO)", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>9%</strong><div>Only 9% of clients have both MSP and RPO services under a single agreement — but the pipeline is growing rapidly.</div></div>", color: "#0A9396" }
+                        { front: "MSP Adoption", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>58%</strong><div>of companies with more than 1,000 employees already use an external MSP (vs. ~40% in 2009).</div></div>", color: "#60A5FA" },
+                        { front: "SOW as a growth engine", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>39%</strong><div>Spend on SOW (Statement of Work) projects represents 39% of all managed MSP spend — the highest percentage recorded to date. For many suppliers, growth in SOW has offset the decline in temporary placements.</div></div>", color: "#2DD4BF" },
+                        { front: "Dominant pricing model", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>78%</strong><div>of clients pay the MSP a fee calculated as a percentage of the spend managed through the program (fee as a % of spend).</div></div>", color: "#FBBF24" },
+                        { front: "Predominant vendor-neutral model", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>55%</strong><div>of the market by spend continues to operate under vendor-neutral models, meaning MSPs depend on a robust and motivated ecosystem of staffing firms.</div></div>", color: "#F87171" },
+                        { front: "Skills Mismatch", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>50%</strong><div>Almost 50% of employers report dissatisfaction with their hires due to a lack of adequate skills.</div></div>", color: "#60A5FA" },
+                        { front: "Total Talent (MSP+RPO)", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>9%</strong><div>Only 9% of clients have both MSP and RPO services under a single agreement — but the pipeline is growing rapidly.</div></div>", color: "#2DD4BF" }
                     ]
                 },
                 {
@@ -235,23 +235,23 @@ const courseDataEN = {
                     data: [
                         {
                             front: "<div style='font-size: 4rem; font-weight: 800;'>Q</div>",
-                            back: "<div style='width: 100%; text-align: left;'><h4 style='color: #2C4154; margin-bottom: 8px;'>Quality</h4><ul style='padding-left: 18px; font-size: 0.88rem; line-height: 1.4;'><li>Quality of the <strong>delivered talent</strong></li><li>Quality of the <strong>suppliers\' service</strong></li><li><strong>Operational efficiency</strong> of the program</li></ul></div>",
-                            color: "#2C4154"
+                            back: "<div style='width: 100%; text-align: left;'><h4 style='color: #60A5FA; margin-bottom: 8px;'>Quality</h4><ul style='padding-left: 18px; font-size: 0.88rem; line-height: 1.4;'><li>Quality of the <strong>delivered talent</strong></li><li>Quality of the <strong>suppliers\' service</strong></li><li><strong>Operational efficiency</strong> of the program</li></ul></div>",
+                            color: "#60A5FA"
                         },
                         {
                             front: "<div style='font-size: 4rem; font-weight: 800;'>E</div>",
-                            back: "<div style='width: 100%; text-align: left;'><h4 style='color: #0A9396; margin-bottom: 8px;'>Efficiency</h4><ul style='padding-left: 18px; font-size: 0.88rem; line-height: 1.4;'><li>Speed in <strong>submission times</strong></li><li>Speed in <strong>onboarding/offboarding</strong></li><li>Speed in <strong>financial processes</strong></li><li>Speed in <strong>billing</strong></li></ul></div>",
-                            color: "#0A9396"
+                            back: "<div style='width: 100%; text-align: left;'><h4 style='color: #2DD4BF; margin-bottom: 8px;'>Efficiency</h4><ul style='padding-left: 18px; font-size: 0.88rem; line-height: 1.4;'><li>Speed in <strong>submission times</strong></li><li>Speed in <strong>onboarding/offboarding</strong></li><li>Speed in <strong>financial processes</strong></li><li>Speed in <strong>billing</strong></li></ul></div>",
+                            color: "#2DD4BF"
                         },
                         {
                             front: "<div style='font-size: 4rem; font-weight: 800;'>C</div>",
-                            back: "<div style='width: 100%; text-align: left;'><h4 style='color: #d99b00; margin-bottom: 8px;'>Cost</h4><p style='font-size: 0.84rem; margin-bottom: 6px;'><strong>Total savings</strong>, not just hourly rates:</p><ul style='padding-left: 18px; font-size: 0.84rem; line-height: 1.35;'><li>Optimizing <strong>tools and software</strong></li><li>Optimizing <strong>program marketing</strong></li><li>Optimizing <strong>data management</strong></li><li><strong>Uncontained risk reduction</strong></li></ul></div>",
-                            color: "#F1AD0E"
+                            back: "<div style='width: 100%; text-align: left;'><h4 style='color: #FBBF24; margin-bottom: 8px;'>Cost</h4><p style='font-size: 0.84rem; margin-bottom: 6px;'><strong>Total savings</strong>, not just hourly rates:</p><ul style='padding-left: 18px; font-size: 0.84rem; line-height: 1.35;'><li>Optimizing <strong>tools and software</strong></li><li>Optimizing <strong>program marketing</strong></li><li>Optimizing <strong>data management</strong></li><li><strong>Uncontained risk reduction</strong></li></ul></div>",
+                            color: "#FBBF24"
                         },
                         {
                             front: "<div style='font-size: 4rem; font-weight: 800;'>R</div>",
-                            back: "<div style='width: 100%; text-align: left;'><h4 style='color: #9F0D10; margin-bottom: 8px;'>Risk</h4><p style='font-size: 0.84rem; margin-bottom: 6px;'><strong>Active prevention of contingencies:</strong></p><ul style='padding-left: 18px; font-size: 0.84rem; line-height: 1.35;'><li>Avoiding <strong>labor reclassification</strong></li><li>Preventing <strong>system failures</strong></li><li>Protecting <strong>data/IP vulnerability</strong></li><li>Avoiding <strong>non-compliance fines</strong></li></ul></div>",
-                            color: "#9F0D10"
+                            back: "<div style='width: 100%; text-align: left;'><h4 style='color: #F87171; margin-bottom: 8px;'>Risk</h4><p style='font-size: 0.84rem; margin-bottom: 6px;'><strong>Active prevention of contingencies:</strong></p><ul style='padding-left: 18px; font-size: 0.84rem; line-height: 1.35;'><li>Avoiding <strong>labor reclassification</strong></li><li>Preventing <strong>system failures</strong></li><li>Protecting <strong>data/IP vulnerability</strong></li><li>Avoiding <strong>non-compliance fines</strong></li></ul></div>",
+                            color: "#F87171"
                         }
                     ]
                 },
@@ -452,17 +452,17 @@ const courseDataEN = {
                         {
                             front: "Governance Chain",
                             back: "<div><strong style='color: var(--color-primary); font-size: 1.1em;'>[Client] ➔ [MSP] ➔ [VMS] ➔ [Staffing Agencies]</strong><p style='margin-top: 10px; font-size: 0.95em;'>Centralizes operational and requisition flow through standardized governance and technology infrastructure.</p></div>",
-                            color: "#2C4154"
+                            color: "#60A5FA"
                         },
                         {
                             front: "Supplier Agreement",
                             back: "<div><p style='font-size: 0.95em;'>A comprehensive framework often as complex as the master MSA. It establishes program rules, SLA metrics, supplier tiering, and commercial allocation potential.</p></div>",
-                            color: "#0A9396"
+                            color: "#2DD4BF"
                         },
                         {
                             front: "Regional Legal Dynamics",
                             back: "<div><p style='font-size: 0.92em; margin-bottom: 8px;'><strong>US/UK:</strong> MSP typically acts as <em>Principal</em> (direct payer).</p><p style='font-size: 0.92em;'><strong>Europe (e.g., Germany):</strong> MSP acts as <em>Agent</em>, requiring direct contracts between client and agency to prevent co-employment risks.</p></div>",
-                            color: "#F1AD0E"
+                            color: "#FBBF24"
                         }
                     ]
                 },
@@ -624,8 +624,8 @@ const courseDataEN = {
                 },
                 {
                     type: "inline-image",
-                    src: "img/placeholder_playbook.jpg",
-                    alt: "Prompt: An abstract diagram showing a 3-phase operational playbook for staffing agencies, representing Entry, Elevation, and Profitability, modern corporate style",
+                    src: "img/playbook_infographic.jpg",
+                    alt: "A sleek, modern corporate infographic showing a 3-phase playbook labeled 'Phase 1: Getting on the Approved Supplier List (ASL)', 'Phase 2: Staying on the List, Elevating Tiers & Expanding', and 'Phase 3: Protecting Margins & Ensuring Long-Term Profitability'.",
                     caption: "Visual overview of the 3-phase operational lifecycle",
                     position: "center"
                 },
@@ -639,7 +639,7 @@ const courseDataEN = {
                                 name: "Phase 1: Getting on the Approved Supplier List (ASL)",
                                 shortName: "Entry & ASL",
                                 badge: "Phase 1: ASL Entry",
-                                color: "#0284c7",
+                                color: "#38BDF8",
                                 items: [
                                     { title: "Look Before You Leap", content: "Find out if the program is client or supplier funded, the tier model, and especially what candidate profiles the current suppliers are struggling to fill." },
                                     { title: "Proper Timing", content: "In the initial phase of an MSP program, administrators are swamped with implementation. Wait for the program to mature, unless you have absolute certainty that you can resolve a critical unmet need." },
@@ -657,7 +657,7 @@ const courseDataEN = {
                                 name: "Phase 2: Staying on the List, Elevating Tiers & Expanding",
                                 shortName: "Retention & Tiers",
                                 badge: "Phase 2: Elevation",
-                                color: "#0d9488",
+                                color: "#2DD4BF",
                                 items: [
                                     { title: "Deeply Analyze the SA", content: "Don't read it just as a legal document. The SA details the program's structure, metrics, and your true business potential." },
                                     { title: "Who Really Decides?", content: "Remember that although you operate under the MSP's rules, the client (engagement manager) makes the final hiring decision. The MSP pre-filters candidates based on the best fit (not by supplier), which democratizes opportunities for small agencies." },
@@ -676,7 +676,7 @@ const courseDataEN = {
                                 name: "Phase 3: Protecting Margins & Ensuring Long-Term Profitability",
                                 shortName: "Margins & Tech",
                                 badge: "Phase 3: Profitability",
-                                color: "#d97706",
+                                color: "#FBBF24",
                                 items: [
                                     { title: "Isolate Profitability per Account", content: "Do not use your global corporate margin. Calculate the specific direct and indirect cost of serving that MSP client to define your minimum viable margin." },
                                     { title: "Define Strategic Roles per Account", content: "Decide the real value of each account: profit generation, overhead coverage, entry into new markets, or high-impact reference account?" },

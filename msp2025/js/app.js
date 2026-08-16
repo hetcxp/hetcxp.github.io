@@ -1,6 +1,6 @@
 const state = {
     currentModuleIndex: 0,
-    modulesVisited: new Set([0]),
+    modulesVisited: new Set(),
     examCompleted: false
 };
 
@@ -170,7 +170,7 @@ function loadModule(index) {
 
     if (mod.blocks.length > 0 && mod.blocks[0].type === 'hero-image') {
         const heroSrc = mod.blocks[0].src;
-        header.style.backgroundImage = `linear-gradient(to bottom, rgba(10, 25, 47, 0.2) 0%, rgba(10, 25, 47, 0.9) 100%), url('${heroSrc}')`;
+        header.style.backgroundImage = `linear-gradient(to bottom, rgba(11, 17, 32, 0.3) 0%, rgba(11, 17, 32, 0.95) 100%), url('${heroSrc}')`;
         blocksToRender = mod.blocks.slice(1);
     } else {
         header.style.backgroundImage = 'none';
@@ -186,6 +186,7 @@ function loadModule(index) {
     // Setup interactions for loaded content
     setupAccordions();
     animateProgressBars();
+    setupScrollReveal();
 
     // Setup Footer
     const nextBtn = document.getElementById('next-module-btn');
@@ -236,6 +237,21 @@ function animateProgressBars() {
             bar.style.width = bar.getAttribute('data-width');
         });
     }, 500);
+}
+
+function setupScrollReveal() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -20px 0px' });
+
+    document.querySelectorAll('.content-block').forEach(block => {
+        observer.observe(block);
+    });
 }
 
 // Glossary Logic

@@ -161,22 +161,22 @@ window.renderRadialHub = function(data) {
                     <svg viewBox="0 0 520 520" width="100%" height="100%">
                         <defs>
                             <radialGradient id="grad-core-${hubId}" cx="50%" cy="50%" r="50%">
-                                <stop offset="0%" stop-color="#ffffff" />
-                                <stop offset="100%" stop-color="#f8fafc" />
+                                <stop offset="0%" stop-color="#1E293B" />
+                                <stop offset="100%" stop-color="#111827" />
                             </radialGradient>
                         </defs>
                         <!-- Outer track rings -->
-                        <circle cx="260" cy="260" r="225" fill="none" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4 4" />
-                        <circle cx="260" cy="260" r="205" fill="none" stroke="#cbd5e1" stroke-width="1.5" />
-                        <circle cx="260" cy="260" r="145" fill="none" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3 3" />
+                        <circle cx="260" cy="260" r="225" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" stroke-dasharray="4 4" />
+                        <circle cx="260" cy="260" r="205" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+                        <circle cx="260" cy="260" r="145" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="3 3" />
 
                         <!-- Phase Colored Arcs -->
                         ${arcsSvg}
 
                         <!-- Center Core Hub -->
                         <g class="radial-center-hub-interactive" onclick="window.openRadialModal('${hubId}', 0)" role="button" tabindex="0">
-                            <circle cx="260" cy="260" r="120" fill="url(#grad-core-${hubId})" stroke="#cbd5e1" stroke-width="2" class="center-hub-bg" />
-                            <circle cx="260" cy="260" r="112" fill="none" stroke="#2C4154" stroke-width="1.5" opacity="0.25" />
+                            <circle cx="260" cy="260" r="120" fill="url(#grad-core-${hubId})" stroke="rgba(255,255,255,0.1)" stroke-width="2" class="center-hub-bg" />
+                            <circle cx="260" cy="260" r="112" fill="none" stroke="rgba(96,165,250,0.2)" stroke-width="1.5" opacity="0.5" />
                             
                             <text x="260" y="215" class="center-hub-kicker" text-anchor="middle">${window.uiStrings ? window.uiStrings.playbookUpper : 'OPERATIONAL PLAYBOOK'}</text>
                             <text x="260" y="250" class="center-hub-main" text-anchor="middle">26 ${window.uiStrings ? window.uiStrings.tactics : 'Tactics'}</text>
