@@ -655,8 +655,7 @@ h1, h2, h3, h4 {
     position: relative;
     color: var(--color-text-dark);
 }
-.scenario-situation::before {
-    content: "Cliente Potencial";
+.scenario-situation-label {
     display: block;
     font-size: 0.75rem;
     font-weight: 700;

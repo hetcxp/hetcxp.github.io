@@ -255,6 +255,7 @@ function renderScenario(data) {
     const idPrefix = Math.random().toString(36).substr(2, 9);
     let html = `
         <div class="scenario-box">
+            <div class="scenario-situation-label">${window.uiStrings.potentialClient}</div>
             <div class="scenario-situation">👤 ${data.situation}</div>
             <div class="scenario-options">
     `;
