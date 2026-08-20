@@ -13,6 +13,7 @@ const dict = {
         nextModule: "Next Module",
         glossaryTitle: "Glossary & Key Terms",
         searchTerms: "Search terms...",
+        glossaryTooltip: "💡 Don't forget to check the glossary!",
         potentialClient: "Potential Client",
         playbookUpper: "OPERATIONAL PLAYBOOK",
         tactics: "Tactics",
@@ -41,6 +42,7 @@ const dict = {
         nextModule: "Siguiente Módulo",
         glossaryTitle: "Glosario y Términos Clave",
         searchTerms: "Buscar términos...",
+        glossaryTooltip: "💡 ¡No olvides consultar el glosario!",
         potentialClient: "Cliente Potencial",
         playbookUpper: "PLAYBOOK OPERATIVO",
         tactics: "Tácticas",
@@ -70,10 +72,33 @@ window.courseData = window.currentLang === 'es' ? courseDataES : courseDataEN;
 
 // Initialize application
 document.addEventListener('DOMContentLoaded', () => {
+    // SCORM Init & Restore
+    if (window.scormWrapper) {
+        window.scormWrapper.init();
+        
+        const suspendData = window.scormWrapper.get("cmi.suspend_data");
+        if (suspendData) {
+            try {
+                const visitedArr = JSON.parse(suspendData);
+                if (Array.isArray(visitedArr)) {
+                    state.modulesVisited = new Set(visitedArr);
+                }
+            } catch(e) {}
+        }
+        
+        const location = window.scormWrapper.get("cmi.core.lesson_location");
+        if (location && !isNaN(parseInt(location))) {
+            state.currentModuleIndex = parseInt(location);
+        } else {
+            window.scormWrapper.set("cmi.core.lesson_status", "incomplete");
+            window.scormWrapper.commit();
+        }
+    }
+
     initLangToggle();
     initNavigation();
     initGlossary();
-    loadModule(0);
+    loadModule(state.currentModuleIndex);
 });
 
 function initLangToggle() {
@@ -136,6 +161,13 @@ function initNavigation() {
 function loadModule(index) {
     state.currentModuleIndex = index;
     // Removed automatic addition to modulesVisited
+    
+    // SCORM Update Location
+    if (window.scormWrapper && window.scormWrapper.isActive) {
+        window.scormWrapper.set("cmi.core.lesson_location", index.toString());
+        window.scormWrapper.commit();
+    }
+    
     const mod = courseData.modules[index];
     
     // Update Sidebar UI
@@ -217,6 +249,17 @@ function updateGlobalProgress() {
             item.classList.add('completed');
         }
     });
+
+    // SCORM Update Progress & Status
+    if (window.scormWrapper && window.scormWrapper.isActive) {
+        window.scormWrapper.set("cmi.suspend_data", JSON.stringify(Array.from(state.modulesVisited)));
+        
+        if (progress >= 100) {
+            window.scormWrapper.set("cmi.core.score.raw", "100");
+            window.scormWrapper.set("cmi.core.lesson_status", "completed");
+        }
+        window.scormWrapper.commit();
+    }
 }
 
 function setupAccordions() {
@@ -264,7 +307,33 @@ function initGlossary() {
     const search = document.getElementById('glossary-search');
     const list = document.getElementById('glossary-list');
 
+    // Tooltip logic
+    const tooltip = document.getElementById('glossary-tooltip');
+    const tooltipText = document.getElementById('glossary-tooltip-text');
+    const tooltipClose = document.getElementById('close-glossary-tooltip');
+
+    if (tooltip && tooltipText) {
+        tooltipText.textContent = window.uiStrings.glossaryTooltip;
+        if (!localStorage.getItem('glossaryTooltipShown')) {
+            setTimeout(() => {
+                tooltip.classList.add('show');
+                setTimeout(() => {
+                    tooltip.classList.remove('show');
+                    localStorage.setItem('glossaryTooltipShown', 'true');
+                }, 8000);
+            }, 1500);
+        }
+        tooltipClose.onclick = () => {
+            tooltip.classList.remove('show');
+            localStorage.setItem('glossaryTooltipShown', 'true');
+        };
+    }
+
     fab.onclick = () => {
+        if (tooltip) {
+            tooltip.classList.remove('show');
+            localStorage.setItem('glossaryTooltipShown', 'true');
+        }
         modal.classList.add('open');
         renderGlossaryTerms(courseData.glossary);
     };
@@ -294,7 +363,13 @@ function initGlossary() {
                 <div class="glossary-acronym">${term.acronym} - ${term.full}</div>
                 <div class="glossary-def">${term.definition}</div>
             `;
-            item.onclick = () => item.classList.toggle('open');
+            item.onclick = () => {
+                const isOpen = item.classList.contains('open');
+                document.querySelectorAll('.glossary-item').forEach(el => el.classList.remove('open'));
+                if (!isOpen) {
+                    item.classList.add('open');
+                }
+            };
             list.appendChild(item);
         });
     }

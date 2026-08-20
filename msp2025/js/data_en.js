@@ -1,22 +1,22 @@
 // Data structure containing the course content
 const courseDataEN = {
     glossary: [
-        { acronym: "MSP", full: "Managed Service Program/Provider", definition: "A program that manages a company's contingent (non-permanent) workforce — including sourcing, onboarding, compliance, and billing — typically through a third-party provider." },
-        { acronym: "VMS", full: "Vendor Management System", definition: "The core technology platform (e.g., SAP Fieldglass, Beeline) that centralizes supplier management, requisitions, billing, and compliance tracking for the MSP program." },
-        { acronym: "SOW", full: "Statement of Work", definition: "A project-based contract model where deliverables, milestones, and budgets are managed (not just hours worked). SOW spend represents 39% of all managed MSP spend in 2025." },
-        { acronym: "MSA", full: "Master Services Agreement", definition: "The framework contract between the client company and the MSP that governs the overall relationship." },
-        { acronym: "SA", full: "Supplier Agreement", definition: "The contract between the MSP (or client) and individual staffing agencies. Usually as complex as the MSA itself." },
         { acronym: "ASL", full: "Approved Supplier List", definition: "The curated list of staffing agencies authorized to submit candidates within an MSP program." },
-        { acronym: "SWP", full: "Strategic Workforce Planning", definition: "Proactive planning of workforce needs (e.g., anticipating 50 developers needed in 6 months and deciding to hire, rent freelancers, or train internal staff)." },
-        { acronym: "QECR", full: "Quality, Efficiency, Cost, Risk", definition: "The four-pillar framework clients use to measure the success of an MSP program." },
         { acronym: "CVP", full: "Contractor Value Proposition", definition: "A dedicated value proposition for the non-permanent workforce, offering them communication, training, and engagement comparable to permanent employees." },
-        { acronym: "RTD", full: "Recruit, Train, Deploy", definition: "A model where talent is recruited, custom-trained, and then deployed to the client. Training cost falls on staffing agencies." },
-        { acronym: "RPO", full: "Recruitment Process Outsourcing", definition: "Outsourcing of the permanent (direct-hire) recruitment process. Combined with MSP = Total Talent." },
-        { acronym: "TTA/TTM", full: "Total Talent Acquisition / Management", definition: "Holistic management of both temporary and permanent talent under a single integrated solution (MSP + RPO)." },
         { acronym: "DE&I", full: "Diversity, Equity & Inclusion", definition: "Strategies ensuring diverse representation and equitable treatment in talent sourcing." },
         { acronym: "ESG", full: "Environmental, Social & Governance", definition: "Metrics integrating sustainability, social responsibility, and governance standards into business practices." },
         { acronym: "KPI", full: "Key Performance Indicator", definition: "Quantifiable metrics used in quarterly reviews to determine a supplier's tier position within the MSP program." },
-        { acronym: "SPOC", full: "Single Point of Contact", definition: "The designated contact person from the staffing agency who interfaces with the MSP program." }
+        { acronym: "MSA", full: "Master Services Agreement", definition: "The framework contract between the client company and the MSP that governs the overall relationship." },
+        { acronym: "MSP", full: "Managed Service Program/Provider", definition: "A program that manages a company's contingent (non-permanent) workforce — including sourcing, onboarding, compliance, and billing — typically through a third-party provider." },
+        { acronym: "QECR", full: "Quality, Efficiency, Cost, Risk", definition: "The four-pillar framework clients use to measure the success of an MSP program." },
+        { acronym: "RPO", full: "Recruitment Process Outsourcing", definition: "Outsourcing of the permanent (direct-hire) recruitment process. Combined with MSP = Total Talent." },
+        { acronym: "RTD", full: "Recruit, Train, Deploy", definition: "A model where talent is recruited, custom-trained, and then deployed to the client. Training cost falls on staffing agencies." },
+        { acronym: "SA", full: "Supplier Agreement", definition: "The contract between the MSP (or client) and individual staffing agencies. Usually as complex as the MSA itself." },
+        { acronym: "SOW", full: "Statement of Work", definition: "A project-based contract model where deliverables, milestones, and budgets are managed (not just hours worked). SOW spend represents a substantial and growing portion of all managed MSP spend in 2025." },
+        { acronym: "SPOC", full: "Single Point of Contact", definition: "The designated contact person from the staffing agency who interfaces with the MSP program." },
+        { acronym: "SWP", full: "Strategic Workforce Planning", definition: "Proactive planning of workforce needs (e.g., anticipating 50 developers needed in 6 months and deciding to hire, rent freelancers, or train internal staff)." },
+        { acronym: "TTA/TTM", full: "Total Talent Acquisition / Management", definition: "Holistic management of both temporary and permanent talent under a single integrated solution (MSP + RPO)." },
+        { acronym: "VMS", full: "Vendor Management System", definition: "The core technology platform (e.g., SAP Fieldglass, Beeline) that centralizes supplier management, requisitions, billing, and compliance tracking for the MSP program." }
     ],
 
     modules: [
@@ -33,7 +33,9 @@ const courseDataEN = {
                 },
                 {
                     type: "text-intro",
-                    content: `<p><strong>Audience:</strong> This course is designed for account executives of a staffing company that operates both as a supplier within third-party MSP ecosystems and as an MSP provider. It aims to provide them with a comprehensive understanding of the global market, enabling them to position their services effectively and hold knowledgeable and consultative conversations with clients by answering the following key questions, based on the following fundamental documents:</p>
+                    content: `<p><strong>Audience:</strong> This course is designed for account executives of a staffing company that operates both as a supplier within third-party MSP ecosystems and as an MSP provider.</p>
+                              <p><strong>Main Aim:</strong> It aims to provide them with a comprehensive understanding of the global market, enabling them to position their services effectively and hold knowledgeable and consultative conversations with clients by answering the following key questions.</p>
+                              <p><strong>Fundamental Documents:</strong> Based on the following sources (all documents by Staffing Industry Analysts - SIA):</p>
                               <ul>
                                 <li><em>SIA MSP Global Landscape 2025</em></li>
                                 <li><em>Global MSP Structures & Legal Restrictions</em></li>
@@ -78,26 +80,26 @@ const courseDataEN = {
                 {
                     type: "flashcards",
                     data: [
-                        { front: "MSP Adoption", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>58%</strong><div>of companies with more than 1,000 employees already use an external MSP (vs. ~40% in 2009).</div></div>", color: "#60A5FA" },
-                        { front: "SOW as a growth engine", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>39%</strong><div>Spend on SOW (Statement of Work) projects represents 39% of all managed MSP spend — the highest percentage recorded to date. For many suppliers, growth in SOW has offset the decline in temporary placements.</div></div>", color: "#2DD4BF" },
-                        { front: "Dominant pricing model", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>78%</strong><div>of clients pay the MSP a fee calculated as a percentage of the spend managed through the program (fee as a % of spend).</div></div>", color: "#FBBF24" },
-                        { front: "Predominant vendor-neutral model", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>55%</strong><div>of the market by spend continues to operate under vendor-neutral models, meaning MSPs depend on a robust and motivated ecosystem of staffing firms.</div></div>", color: "#F87171" },
-                        { front: "Skills Mismatch", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>50%</strong><div>Almost 50% of employers report dissatisfaction with their hires due to a lack of adequate skills.</div></div>", color: "#60A5FA" },
-                        { front: "Total Talent (MSP+RPO)", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>9%</strong><div>Only 9% of clients have both MSP and RPO services under a single agreement — but the pipeline is growing rapidly.</div></div>", color: "#2DD4BF" }
+                        { front: "MSP Adoption", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>Majority</strong><div>Large corporations have already standardized the use of an external MSP.</div></div>", color: "#60A5FA" },
+                        { front: "SOW as a growth engine", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>Boom</strong><div>SOW spend is the fastest-growing segment, offsetting the decline in classic temporary work.</div></div>", color: "#2DD4BF" },
+                        { front: "Dominant pricing model", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>Standard</strong><div>The vast majority of clients pay a fee calculated as a percentage of managed spend (fee as a % of spend).</div></div>", color: "#FBBF24" },
+                        { front: "Predominant vendor-neutral model", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>Predominant</strong><div>Most of the spend continues to operate under vendor-neutral schemes, relying on robust agency ecosystems.</div></div>", color: "#F87171" },
+                        { front: "Skills Mismatch", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>Critical Challenge</strong><div>A high proportion of employers report negative ROE due to a lack of adequate skills in their new hires.</div></div>", color: "#60A5FA" },
+                        { front: "Total Talent (MSP+RPO)", back: "<div style='display: flex; flex-direction: column; text-align: center; gap: 10px;'><strong style='font-size: 1.5em;'>Opportunity</strong><div>Although currently a minority, interest in unifying MSP and RPO is growing rapidly in the market.</div></div>", color: "#2DD4BF" }
                     ]
                 },
                 {
                     type: "text",
-                    content: "<h3>2. Connecting Data to Strategy: Retention via Skills-Based Hiring</h3><p>When analyzing these figures, the <strong>50% skills mismatch</strong> emerges as the most disruptive metric. Faced with persistent turnover and candidate dissatisfaction, MSPs are integrating skills-based hiring strategies and delegating targeted training to staffing agencies to secure job-ready talent from day one, without inflating operational costs.</p>"
+                    content: "<h3>2. Connecting Data to Strategy: Retention via Skills-Based Hiring</h3><p>When analyzing these figures, the <strong>acute skills mismatch</strong> emerges as the most disruptive trend. Faced with persistent turnover and candidate dissatisfaction, MSPs are integrating skills-based hiring strategies and delegating targeted training to staffing agencies to secure job-ready talent from day one, without inflating operational costs.</p>"
                 },
                 {
                     type: "knowledge-check",
                     data: [
                         {
-                            question: "What percentage of all managed MSP spend is represented by SOW projects?",
-                            options: ["22%", "39%", "55%", "78%"],
+                            question: "What impact have SOW projects had on the recent MSP market?",
+                            options: ["They have lost relevance", "They have offset the decline in temporary placements", "They have replaced RPO", "They are only relevant for local companies"],
                             correctIndex: 1,
-                            feedback: "Correct! SOW spend at 39% is the highest ever recorded and has offset the decline in temporary placements for many suppliers."
+                            feedback: "Correct! The exponential growth in SOW projects has offset the decline in classic temporary work for many suppliers."
                         }
                     ]
                 }
@@ -127,7 +129,7 @@ const courseDataEN = {
                     data: [
                         { year: "2009", title: "Local Consolidation Era", description: "Just over 40% adoption. MSPs were mainly used locally to consolidate suppliers, reduce risks, and leverage purchasing power." },
                         { year: "~2015", title: "Multi-Country Expansion", description: "Programs begin scaling across borders. VMS platforms like SAP Fieldglass and Beeline emerge as global leaders, enabling centralized management of distributed workforces." },
-                        { year: "2025", title: "Strategic Global Talent Managers", description: "58% adoption. MSPs have evolved to offer advanced talent sourcing strategies and solutions on a global scale. SOW spend reaches 39% of all managed spend." }
+                        { year: "2025", title: "Strategic Global Talent Managers", description: "Majority adoption. MSPs have evolved to offer advanced talent sourcing strategies and solutions on a global scale, strongly driven by SOW services spend." }
                     ]
                 },
                 {
@@ -137,7 +139,7 @@ const courseDataEN = {
                 {
                     type: "two-cols",
                     left: "<p>The gap between talent demand and supply is growing, so relying on traditional avenues (resumes and credentials) is no longer enough, as they filter out adaptable talent and generate short-term hires. Adopting a <em>skills-first</em> approach is vital to finding 'job-ready' profiles in non-traditional avenues.</p>",
-                    right: "<p>The mismatch of skills (in professional, niche, and operational roles) is the biggest challenge going forward. <strong>Almost 50% of employers report dissatisfaction with their hires due to a lack of adequate skills.</strong></p>"
+                    right: "<p>The mismatch of skills (in professional, niche, and operational roles) is the biggest challenge going forward. <strong>A critical proportion of employers report dissatisfaction affecting their Return on Expectations (ROE) due to a lack of adequate skills.</strong></p>"
                 },
                 {
                     type: "text",
@@ -273,12 +275,12 @@ const courseDataEN = {
                             number: 1,
                             title: "ESG and DE&I Initiatives",
                             content: "Integrating environmental, social, and governance metrics, as well as diversity, equity, and inclusion strategies in the hiring of external talent.",
-                            example: "Requiring talent suppliers to demonstrate sustainable practices and ensuring that at least 30% of presented candidates come from underrepresented groups."
+                            example: "Requiring talent suppliers to demonstrate sustainable practices and ensuring that a significant proportion of presented candidates come from underrepresented groups."
                         },
                         {
                             number: 2,
                             title: "Talent Advisory and Consulting",
-                            content: "Expert advice aimed at hiring based on real capabilities (<em>skills-first</em>) rather than traditional roles or credentials, reducing attrition. <strong>Statistically, 75% of companies use role assessments this year. More importantly, employer satisfaction rises from 73% (with traditional hiring) to 82% under the skills-first model.</strong>",
+                            content: "Expert advice aimed at hiring based on real capabilities (<em>skills-first</em>) rather than traditional roles or credentials, reducing attrition. <strong>The use of assessments is already a widespread practice. More importantly, Return on Expectations (ROE) and hiring manager satisfaction improve substantially under the skills-first model.</strong>",
                             example: "Instead of looking for a 'senior Project Manager', advising the client to hire someone who has the specific skills of 'cloud migration and agile methodology', regardless of their previous title."
                         },
                         {
@@ -311,10 +313,10 @@ const courseDataEN = {
                     type: "knowledge-check",
                     data: [
                         {
-                            question: "Under the skills-first hiring model, employer satisfaction rises to what percentage (compared to 73% with traditional hiring)?",
-                            options: ["78%", "82%", "88%", "91%"],
+                            question: "Under the skills-first hiring model, what is the most important direct impact for the client?",
+                            options: ["The need for agencies is reduced to zero", "The hiring manager's Return on Expectations (ROE) improves substantially", "Bill rates increase twofold", "All interviews are automated with AI"],
                             correctIndex: 1,
-                            feedback: "Correct! Satisfaction rises from 73% to 82%. Additionally, 75% of companies already use role assessments this year."
+                            feedback: "Correct! The skills-first approach directly impacts ROE, delivering staff ready to operate and much more satisfied with their role."
                         }
                     ]
                 }
@@ -387,7 +389,7 @@ const courseDataEN = {
                         },
                         {
                             title: "Selection Models & Flexibility",
-                            content: "<p>In <strong>79%</strong> of cases the MSP chooses and provides the technology. A significant <strong>21%</strong> of clients prefer to impose their own tool. This forces MSPs to maintain solid tech partnerships to ensure clean integrations.</p>"
+                            content: "<p>In the <strong>majority</strong> of cases the MSP chooses and provides the technology, but a <strong>significant minority</strong> of clients prefer to impose their own tool. This forces MSPs to maintain solid tech partnerships to ensure clean integrations.</p>"
                         },
                         {
                             title: "Proprietary Systems & Scalable Alternatives",
@@ -518,11 +520,11 @@ const courseDataEN = {
                     type: "statement",
                     bgColor: "var(--color-primary)",
                     textColor: "white",
-                    content: "<strong>55%</strong> of global MSP spend operates under vendor-neutral models — proving that MSP sustainability relies entirely on maintaining a viable, motivated supplier ecosystem."
+                    content: "More than <strong>half</strong> of global MSP spend operates under vendor-neutral models — proving that MSP sustainability relies entirely on maintaining a viable, motivated supplier ecosystem."
                 },
                 {
                     type: "text",
-                    content: "<h3>4. Strategic Value Delivery: Skills-Based Hiring & Total Talent</h3><p>With governance, sourcing rules, and funding aligned, the MSP can solve the client's biggest operational bottleneck: <strong>accelerated turnover and acute skill shortages</strong>.</p><p>By transitioning from reactive seat-filling to <strong>Skills-Based Hiring</strong>, the MSP orchestrates value creation without absorbing operational overhead:</p><ul><li><strong>Delegated Capability Building:</strong> The execution and cost of candidate upskilling are assumed directly by staffing firms in exchange for committed volume.</li><li><strong>Tangible Client ROI:</strong> Up-skilled talent pools lead to faster time-to-fill, superior placement fit, higher contractor-to-FTE conversion rates, and reduced churn.</li><li><strong>The Total Talent Horizon:</strong> While only <strong>9%</strong> of clients currently unify MSP and RPO under one contract, mature skills-based delivery serves as the primary gateway toward full <strong>Total Talent Management</strong>.</li></ul>"
+                    content: "<h3>4. Strategic Value Delivery: Skills-Based Hiring & Total Talent</h3><p>With governance, sourcing rules, and funding aligned, the MSP can solve the client's biggest operational bottleneck: <strong>accelerated turnover and acute skill shortages</strong>.</p><p>By transitioning from reactive seat-filling to <strong>Skills-Based Hiring</strong>, the MSP orchestrates value creation without absorbing operational overhead:</p><ul><li><strong>Delegated Capability Building:</strong> The execution and cost of candidate upskilling are assumed directly by staffing firms in exchange for committed volume.</li><li><strong>Tangible Client ROE:</strong> Up-skilled talent pools lead to faster time-to-fill, superior placement fit, higher contractor-to-FTE conversion rates, and reduced churn.</li><li><strong>The Total Talent Horizon:</strong> While <strong>only a small minority</strong> of clients currently unify MSP and RPO under one contract, mature skills-based delivery serves as the primary gateway toward full <strong>Total Talent Management</strong>.</li></ul>"
                 },
                 {
                     type: "knowledge-check",
@@ -559,7 +561,7 @@ const courseDataEN = {
                 },
                 {
                     type: "text",
-                    content: "<h3>1. Strategic Positioning Levers</h3><p>Master these seven core strategic principles to build long-term client retention, protect commercial margins, and defend against in-housing:</p>"
+                    content: "<h3>1. Strategic Positioning Levers</h3><p>Master these seven core strategic principles to build long-term client retention, protect commercial margins, and defend against in-sourcing:</p>"
                 },
                 {
                     type: "gallery",
@@ -567,28 +569,28 @@ const courseDataEN = {
                         { iconSvg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2a7 7 0 0 1 4 12.7V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.3A7 7 0 0 1 12 2z"/><line x1="9" y1="21" x2="15" y2="21"/><line x1="10" y1="24" x2="14" y2="24"/></svg>', title: "Trusted Advisor: No Longer Optional", description: "Clients expect strategic advice, not just supplier management. The path involves building capabilities in SWP, advanced analytics, and talent advisory." },
                         { iconSvg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10"/><path d="M20.49 15a9 9 0 0 1-14.85 3.36L1 14"/></svg>', title: "Breaking the Churn Cycle", description: "Client urgency often forces reactive hiring, which generates frustration and high turnover, restarting the cycle. Positioning skills-based hiring not just as a trend, but as the cure for this vicious cycle, is a strong sales argument." },
                         { iconSvg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>', title: "Skills-First Opens New Doors", description: "The market is migrating from 'I'm looking for a Project Manager' to 'I'm looking for someone with these specific skills'. Account executives who master this language will speak the same language as today's decision-makers, proving that this approach is key to offering sustainable ROI and drastically reducing turnover costs." },
-                        { iconSvg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>', title: "Standard Pricing as Starting Point", description: "The standard pricing model (78% fee-as-%-of-spend) is the expected starting point. Proposals that include alternative models (gainshare, outcome-based) can be differentiators for more sophisticated clients." },
+                        { iconSvg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>', title: "Standard Pricing as Starting Point", description: "The standard pricing model (fee-as-%-of-spend) is the widely expected starting point. Proposals that include alternative models (gainshare, outcome-based) can be differentiators for more sophisticated clients." },
                         { iconSvg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>', title: "Proprietary Technology as Differentiator", description: "22 of the 33 alternative technologies to the standard VMS are owned by the MSPs themselves. Having or being able to integrate a proprietary tech solution positions you better in front of clients who do not want to depend on expensive commercial licenses." },
-                        { iconSvg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>', title: "Risk of In-housing", description: "Organizations with mature programs constantly evaluate internalizing their workforce management. Continuous innovation is the only real defense against this risk." },
+                        { iconSvg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>', title: "Risk of In-sourcing", description: "Organizations with mature programs constantly evaluate in-sourcing their workforce management. Continuous innovation is the only real defense against this risk." },
                         { iconSvg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>', title: "Total Talent Acquisition/Management", description: "Positioning oneself to comprehensively manage both temporary and direct talent (MSP + RPO) will give a massive competitive advantage as the market matures towards holistic solutions." }
                     ]
                 },
                 {
                     type: "text",
-                    content: "<h3>2. Applied Strategy: Defending Value Against In-Housing</h3><p>Put strategic positioning into practice when faced with client budget reviews or commoditization threats:</p>"
+                    content: "<h3>2. Applied Strategy: Defending Value Against In-Sourcing</h3><p>Put strategic positioning into practice when faced with client budget reviews or commoditization threats:</p>"
                 },
                 {
                     type: "scenario",
                     data: {
-                        situation: "A potential client tells you: 'Our current MSP just handles invoices and compliance — nothing strategic. We're thinking about bringing it all in-house.' How do you respond?",
+                        situation: "A potential client tells you: 'Honestly, our current MSP is just pushing paper—invoices, compliance, you name it, but nothing strategic. We're actually thinking about bringing it all in-source. What do you think?'",
                         options: [
-                            "Agree with the in-housing plan and offer transition help.",
-                            "Present Trusted Advisor capabilities to show strategic value.",
-                            "Offer a discount on current services to retain the account."
+                            "Makes total sense. If you do go in-source, we can definitely help you with the transition.",
+                            "I hear you, but before you pull the plug, let us show you how a true Trusted Advisor can add real strategic value.",
+                            "I completely understand your frustration. Would a discount on your current services help change your mind?"
                         ],
                         correctIndex: 1,
                         feedbacks: [
-                            "Not ideal. You've just validated their decision to leave the MSP model. The document emphasizes that continuous innovation is the only defense against in-housing risk.",
+                            "Not ideal. You've just validated their decision to leave the MSP model. The document emphasizes that continuous innovation is the only defense against in-sourcing risk.",
                             "Excellent! This is exactly the Trusted Advisor positioning the market demands. You're demonstrating that your MSP delivers strategic value that's impossible to replicate internally.",
                             "Risky. Competing on price alone is a race to the bottom. The document emphasizes value-added services, not lower costs."
                         ]
@@ -598,10 +600,10 @@ const courseDataEN = {
                     type: "knowledge-check",
                     data: [
                         {
-                            question: "What is the only real defense against the risk of clients in-housing their MSP programs?",
+                            question: "What is the only real defense against the risk of clients in-sourcing their MSP programs?",
                             options: ["Lower operational pricing", "Longer service contracts", "Continuous program innovation", "Stricter compliance reporting"],
                             correctIndex: 2,
-                            feedback: "Correct! Organizations with mature programs constantly evaluate internalizing. Only continuous innovation prevents this."
+                            feedback: "Correct! Organizations with mature programs constantly evaluate in-sourcing. Only continuous innovation prevents this."
                         }
                     ]
                 }
@@ -620,7 +622,7 @@ const courseDataEN = {
                 },
                 {
                     type: "text",
-                    content: "<p>With <strong>55%</strong> of the market operating under vendor-neutral models, MSP success depends on maintaining a thriving agency ecosystem. When our company acts as a staffing supplier within a third-party MSP, following this structured lifecycle playbook is critical to ensure high performance, tier elevation, and sustainable account profitability.</p>"
+                    content: "<p>With <strong>majority</strong> of the market operating under vendor-neutral models, MSP success depends on maintaining a thriving agency ecosystem. When our company acts as a staffing supplier within a third-party MSP, following this structured lifecycle playbook is critical to ensure high performance, tier elevation, and sustainable account profitability.</p>"
                 },
                 {
                     type: "inline-image",
@@ -646,7 +648,7 @@ const courseDataEN = {
                                     { title: "Know Your Limits", content: "Do not offer more than you can deliver; it is preferable to say 'no' to a requisition than to damage your reputation by failing to deliver." },
                                     { title: "Quality & Specialization (Niche)", content: "Worker Quality is the primary criterion. Position yourself as a specialist in hard-to-fill roles; this attracts MSPs struggling to close complex positions." },
                                     { title: "Start Elsewhere If Necessary", content: "If it's hard to get directly into a specific program, try qualifying as a supplier in another program managed by the same MSP/VMS to build history and trust." },
-                                    { title: "Preventive Audit", content: "MSPs look for 100% compliant agencies. Having licenses, insurance, and staff trained to interact with VMS systems ready before applying accelerates inclusion." },
+                                    { title: "Preventive Audit", content: "MSPs look for strictly compliant agencies. Having licenses, insurance, and staff trained to interact with VMS systems ready before applying accelerates inclusion." },
                                     { title: "Respect Program Policies (Contact)", content: "Always contact the MSP/VMS to apply. Bypassing the MSP and attempting to contact the engagement manager (end client) directly is harmful and severely reduces your future opportunities." },
                                     { title: "Growth Through Performance", content: "Understand that MSPs do not guarantee incoming volumes. Be prepared to earn positions by demonstrating solid results." },
                                     { title: "Prepare Net Rates", content: "Do not count on volume rebate schemes. Negotiate a competitive starting rate with pre-agreed reductions upon reaching certain volumes. Avoid pushing for future 'price hikes'; adjustments operate via fixed rate card schemes." }
@@ -693,11 +695,11 @@ const courseDataEN = {
                 {
                     type: "scenario",
                     data: {
-                        situation: "You've been invited to join a brand-new MSP program that just launched last month. The MSP admin seems overwhelmed. What do you do?",
+                        situation: "Hey! We just launched our new MSP program last month and things have been a bit crazy! So much going on... Anyway, I'd love for you to participate. What do you think?",
                         options: [
-                            "Accept immediately to gain a first-mover supplier advantage.",
-                            "Wait for program maturity unless solving a critical unmet need.",
-                            "Contact the client's hiring manager to accelerate the process."
+                            "Absolutely! Count us in, we're ready to jump in.",
+                            "Thanks for the invite, but we'd prefer to wait until the program is a bit more established.",
+                            "Sounds good! Let me sync up with the hiring manager first to ensure everything runs smoothly."
                         ],
                         correctIndex: 1,
                         feedbacks: [
@@ -747,7 +749,7 @@ const courseDataEN = {
                 {
                     type: "accordion",
                     data: [
-                        { title: "📈 Market figures and evolution?", content: "58% adoption in large companies, driven by SOW spending (39%). They evolved from simple local consolidators to strategic global talent managers." },
+                        { title: "📈 Market figures and evolution?", content: "High adoption in large companies, strongly driven by SOW spending. They evolved from simple local consolidators to strategic global talent managers." },
                         { title: "⚖️ Tech ecosystems, funding, and legal frameworks?", content: "The VMS centralizes the operation. The model (Client vs. Supplier funded) defines margins, while the legal framework requires strict compliance to avoid co-employment risks and penalties." },
                         { title: "🤖 AI and skills-based hiring?", content: "AI speeds up massive candidate filtering and the skills focus guarantees productive talent from day one. Together they break the turnover cycle and lower operational costs." },
                         { title: "🚀 Best practices for supplier success?", content: "Compliance is your entry pass. To grow you need speed, pre-qualified talent communities, to assume the onboarding process, and to leverage the VMS to ensure your profitability." },
@@ -758,10 +760,10 @@ const courseDataEN = {
                     type: "exam",
                     data: [
                         {
-                            question: "1. What percentage of all managed MSP spend comes from SOW projects?",
-                            options: ["22%", "39%", "55%", "78%"],
+                            question: "1. What growth engine has substantially driven all managed MSP spend in recent years?",
+                            options: ["Traditional temporary placements", "SOW (Statement of Work) projects", "Executive recruitment", "Internal training programs"],
                             correctIndex: 1,
-                            feedback: "SOW at 39% is the highest ever recorded."
+                            feedback: "The boom in SOW projects is the most relevant growth engine in current MSP programs."
                         },
                         {
                             question: "2. Who is legally responsible under the EU AI Act if an MSP uses unaudited AI?",
@@ -788,10 +790,10 @@ const courseDataEN = {
                             feedback: "Supplier-funded predominates in North America. Client-funded is stronger in Europe/APAC."
                         },
                         {
-                            question: "6. How many alternative technologies to standard VMS are proprietary (MSP-owned)?",
-                            options: ["8 of 33", "15 of 33", "22 of 33", "33 of 33"],
-                            correctIndex: 2,
-                            feedback: "22 of 33 are proprietary — a clear differentiation trend."
+                            question: "6. What trend do we observe regarding alternative technologies to standard VMS?",
+                            options: ["They are always third-party solutions", "Most are owned by the MSPs themselves", "They are disappearing from the market", "They are free and open-source"],
+                            correctIndex: 1,
+                            feedback: "Most alternative technologies are proprietary (MSP-owned) — a clear differentiation trend."
                         },
                         {
                             question: "7. What does the 'R' in the QECR framework stand for?",
@@ -800,22 +802,22 @@ const courseDataEN = {
                             feedback: "Risk: Active prevention of contingencies including co-employment, system failures, data/IP vulnerability, and non-compliance."
                         },
                         {
-                            question: "8. What percentage of the market by spend operates under vendor-neutral models?",
-                            options: ["39%", "55%", "78%", "93%"],
+                            question: "8. Regarding dependence on an agency ecosystem, which model dominates most of the global MSP market?",
+                            options: ["The Sole Supplier model", "The Vendor-Neutral model", "The strict Open Bidding model", "Total Talent Outsourcing (RPO)"],
                             correctIndex: 1,
-                            feedback: "55% — confirming that MSP success depends on a well-managed staffing firm ecosystem."
+                            feedback: "The Vendor-Neutral model continues to dominate more than half of the market, confirming that MSP success depends on a well-managed firm ecosystem."
                         },
                         {
-                            question: "9. What is the only real defense against the risk of clients in-housing their MSP?",
+                            question: "9. What is the only real defense against the risk of clients in-sourcing their MSP?",
                             options: ["Lower operational pricing", "Longer service contracts", "Continuous program innovation", "More approved suppliers"],
                             correctIndex: 2,
-                            feedback: "Organizations with mature programs constantly evaluate internalizing. Only continuous innovation prevents this."
+                            feedback: "Organizations with mature programs constantly evaluate in-sourcing. Only continuous innovation prevents this."
                         },
                         {
-                            question: "10. Under the skills-first model, employer satisfaction rises from 73% to what?",
-                            options: ["78%", "82%", "88%", "95%"],
+                            question: "10. In the context of the skills-first model, what is the expected qualitative operational outcome?",
+                            options: ["Higher turnover but at a lower cost", "A significant increase in hiring manager satisfaction (ROE)", "Total reliance on VMS for interviews", "An increase in candidate bill rates"],
                             correctIndex: 1,
-                            feedback: "From 73% (traditional hiring) to 82% under the skills-first model. Additionally, 75% of companies already use role assessments."
+                            feedback: "Improved ROE: Clients perceive better adaptability and day-one results by focusing on real competencies."
                         }
                     ]
                 }

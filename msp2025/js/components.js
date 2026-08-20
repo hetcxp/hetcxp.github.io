@@ -127,23 +127,24 @@ function renderTimeline(events) {
 }
 
 function renderLabeledGraphic(data) {
-    let html = `<div class="labeled-graphic">
-        <div style="background:#DEE6EE; padding:40px; text-align:center; border-radius:12px; margin-bottom: 20px;">
-            <h3>Buy, Borrow, or Build</h3>
-            <p>Interactive Concept Map</p>
+    let html = `<div class="labeled-graphic" style="position: relative;">
+        <div style="background:#DEE6EE; color: #333; padding:40px; text-align:center; border-radius:12px; margin-bottom: 20px;">
+            <h3 style="color: #333; margin-bottom: 5px;">Buy, Borrow, or Build</h3>
+            <p style="color: #555; margin: 0;">Interactive Concept Map</p>
         </div>
     `;
     data.markers.forEach((marker, index) => {
         html += `
             <div class="lg-marker" style="left: ${marker.x}%; top: ${marker.y}%;" 
                  onclick="toggleTooltip(${index}, this)">+</div>
-            <div class="lg-tooltip" id="tooltip-${index}" style="left: ${marker.x}%; top: ${marker.y + 10}%;">
+            <div class="lg-tooltip-content" id="tooltip-content-${index}" style="display: none;">
                 <strong>${marker.label}</strong><br>
                 ${marker.detail}
             </div>
         `;
     });
-    html += '</div>';
+    html += `</div>
+    <div id="lg-display-box" style="display: none; background: #fff; color: #333; border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; text-align: left;"></div>`;
     return html;
 }
 
@@ -260,7 +261,7 @@ function renderScenario(data) {
             <div class="scenario-options">
     `;
     data.options.forEach((opt, index) => {
-        html += `<button class="scenario-option" onclick="handleScenario('${idPrefix}', ${index}, ${data.correctIndex})">${opt}</button>`;
+        html += `<button class="scenario-option" onclick="handleScenario('${idPrefix}', ${index}, ${data.correctIndex}, this)">${opt}</button>`;
     });
     html += `
             </div>
@@ -315,19 +316,36 @@ window.switchTab = function(prefix, index) {
 };
 
 window.toggleTooltip = function(index, markerElement) {
-    document.querySelectorAll('.lg-tooltip').forEach(el => {
-        if(el.id !== `tooltip-${index}`) el.classList.remove('open');
-    });
-    document.getElementById(`tooltip-${index}`).classList.toggle('open');
-    if (markerElement) {
-        markerElement.classList.add('visited');
-        markerElement.innerHTML = '✓';
+    const displayBox = document.getElementById('lg-display-box');
+    const content = document.getElementById(`tooltip-content-${index}`).innerHTML;
+    
+    if (markerElement.classList.contains('active')) {
+        markerElement.classList.remove('active');
+        displayBox.style.display = 'none';
+        return;
     }
+
+    document.querySelectorAll('.lg-marker').forEach(el => {
+        el.classList.remove('active');
+    });
+    
+    markerElement.classList.add('active');
+    markerElement.classList.add('visited');
+    markerElement.innerHTML = '✓';
+
+    displayBox.innerHTML = content;
+    displayBox.style.display = 'block';
 };
 
-window.handleScenario = function(prefix, selectedIndex, correctIndex) {
+window.handleScenario = function(prefix, selectedIndex, correctIndex, btnElement) {
     const feedbackBox = document.getElementById(`scenario-feedback-${prefix}`);
     const feedbacks = window[`feedbacks_${prefix}`];
+    
+    if (btnElement) {
+        const allBtns = btnElement.parentElement.querySelectorAll('.scenario-option');
+        allBtns.forEach(b => b.classList.remove('correct', 'incorrect'));
+        btnElement.classList.add(selectedIndex === correctIndex ? 'correct' : 'incorrect');
+    }
     
     feedbackBox.style.display = 'block';
     feedbackBox.className = 'scenario-feedback ' + (selectedIndex === correctIndex ? 'correct' : 'incorrect');
@@ -364,19 +382,30 @@ window.handleKCOption = function(prefix, qIndex, selectedIndex, correctIndex) {
     
     feedbackEl.style.display = 'block';
     
-    // Store in global state if exists
-    if(window.recordKnowledgeCheck) {
+    // Check if all questions in this block are answered
+    let allAnswered = true;
+    const totalQs = document.querySelectorAll(`[id^="kc-feedback-${prefix}-"]`).length;
+    for(let i=0; i<totalQs; i++) {
+        const fb = document.getElementById(`kc-feedback-${prefix}-${i}`);
+        if(!fb || fb.style.display !== 'block') {
+            allAnswered = false;
+            break;
+        }
+    }
+    
+    // Store in global state if exists, only if all questions answered
+    if(window.recordKnowledgeCheck && allAnswered) {
         window.recordKnowledgeCheck(selectedIndex === correctIndex);
     }
 };
 
 window.submitExam = function(prefix, totalQs) {
     let score = 0;
-    // Just a simple calculation based on DOM state for demo purposes
+    // Calculate based on DOM state: correct if it has a correct selection and NO incorrect selection
     for(let i=0; i<totalQs; i++) {
-        const block = document.getElementById(`kc-feedback-${prefix}-${i}`);
-        const selectedCorrect = document.querySelector(`[id^="opt-${prefix}-${i}"].selected.correct`);
-        if (selectedCorrect) score++;
+        const hasCorrect = document.querySelector(`[id^="opt-${prefix}-${i}"].selected.correct`);
+        const hasIncorrect = document.querySelector(`[id^="opt-${prefix}-${i}"].selected.incorrect`);
+        if (hasCorrect && !hasIncorrect) score++;
     }
     
     const resultDiv = document.getElementById(`exam-result-${prefix}`);

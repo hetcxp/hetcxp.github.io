@@ -342,7 +342,7 @@ h1, h2, h3, h4 {
     background-color: var(--color-bg-elevated);
     color: var(--color-text-dark);
     transform: rotateY(180deg);
-    font-size: 1rem;
+    font-size: 0.95rem;
     border: 1px solid var(--glass-border);
     overflow-y: auto;
     max-height: 100%;
@@ -681,6 +681,15 @@ h1, h2, h3, h4 {
     transform: translateY(-2px);
     box-shadow: 0 0 12px rgba(96,165,250,0.1);
 }
+.scenario-option.correct {
+    background-color: rgba(45,212,191,0.15);
+    border-color: var(--color-accent-teal);
+    box-shadow: 0 0 12px rgba(45,212,191,0.15);
+}
+.scenario-option.incorrect {
+    background-color: rgba(248,113,113,0.12);
+    border-color: var(--color-accent-red);
+}
 .scenario-feedback {
     margin-top: 20px;
     padding: 15px;
@@ -803,10 +812,53 @@ h1, h2, h3, h4 {
     margin-bottom: 10px;
     color: var(--color-primary);
 }
+.gallery-card p {
+    font-size: 0.95rem;
+}
 
 /* ═══════════════════════════════════════════════
    Glossary FAB & Modal — Glassmorphism
    ═══════════════════════════════════════════════ */
+.glossary-tooltip {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    background: var(--color-bg-elevated);
+    color: var(--color-text-dark);
+    padding: 12px 18px;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-card);
+    border: 1px solid var(--glass-border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    pointer-events: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+.glossary-tooltip.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.close-tooltip {
+    background: none;
+    border: none;
+    color: var(--color-text-dark);
+    font-size: 1.2rem;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+}
+.close-tooltip:hover {
+    color: var(--color-accent-teal);
+}
+
+
 .fab {
     position: fixed;
     bottom: 30px;
@@ -1565,7 +1617,7 @@ h1, h2, h3, h4 {
 }
 
 .modal-tactic-content {
-    font-size: 1.05rem;
+    font-size: 1rem;
     line-height: 1.75;
     color: var(--color-text-dark);
     margin-bottom: 2rem;
